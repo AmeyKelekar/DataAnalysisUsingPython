@@ -21,8 +21,11 @@
  		v) For each search term, who is the most engaged user on twitter that day
 
 2) Run the python code as:
-	python Assignment2_SearchAndSave.py #Cricket 2
+	python Assignment2_SearchAndSave.py "#Cricket" 2
 	where #Cricket: search term
 	and 2: Analysis you want to perform. In this case, top 5 languages 
+	Note: If you want to use #hashtag, include it in quotes like above
+	In case you don't want to pass hashtag, you can write command as below:
+	python Assignment2_SearchAndSave.py Cricket 2
 
 
