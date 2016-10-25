@@ -8,7 +8,6 @@ from collections import Counter
 
 def Analysis_Average_Number_Of_Friends():
     path = date_path
-    #print(path)
     os.chdir(path)
     dict1 = {}
     for file in glob.glob(path+'/**/*.csv', recursive=True):
@@ -28,7 +27,6 @@ def Analysis_Average_Number_Of_Friends():
 
 def Analysis_Top_5_Languages():
     path = date_path
-    #print(path)
     os.chdir(path)
     dict2 = {}
     for file in glob.glob(path+'/**/*.csv', recursive=True):
@@ -48,7 +46,6 @@ def Analysis_Top_5_Languages():
 
 def Analysis_Top_10_Retweeted_Tweets():
     path = search_dir
-    #print(path)
     os.chdir(path)
     dict3 = {}
     for file in glob.glob(path+'/**/*.csv', recursive=True):
@@ -68,15 +65,11 @@ def Analysis_Top_10_Retweeted_Tweets():
 
 def Analysis_Influential_Tweet_Per_Topic():
     path = date_path
-    #print(path)
     os.chdir(path)
     subdirs = filter(None,[x[1] for x in os.walk(path)])
     for subdir in subdirs: 
-        #print(subdir)
         for dirValue in subdir:
             dict4 = {}
-            #print(dirValue)
-            #print(path+"/"+dirValue)
             for file in glob.glob(path+"/"+dirValue+'/**/*.csv', recursive=True):
                 with open(file, newline='') as f:
                     reader = csv.reader(f)
@@ -99,15 +92,11 @@ def Analysis_Influential_Tweet_Per_Topic():
 
 def Analysis_Most_Engaged_User_On_Topic():
     path = date_path
-    #print(path)
     os.chdir(path)
     subdirs = filter(None,[x[1] for x in os.walk(path)])
     for subdir in subdirs: 
-        #print(subdir)
         for dirValue in subdir:
             dict4 = {}
-            #print(dirValue)
-            #print(path+"/"+dirValue)
             for file in glob.glob(path+"/"+dirValue+'/**/*.csv', recursive=True):
                 with open(file, newline='') as f:
                     reader = csv.reader(f)
@@ -129,7 +118,6 @@ def Analysis_Most_Engaged_User_On_Topic():
                 print('---->\t {}'.format(key))
 
 number = int(args.search[1])
-#print(number)
 
 def numbers_to_strings(arguement):
     if arguement == 1:

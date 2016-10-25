@@ -18,10 +18,8 @@ parser = argparse.ArgumentParser(description='Take the search string and value f
 parser.add_argument('search',metavar='N', nargs=2, help='Search term and analysis value')
 
 args = parser.parse_args()
-#print(args.search)
 payload = {'q': args.search[0], 'result_type': 'recent'}
 r = requests.get('https://api.twitter.com/1.1/search/tweets.json',auth=auth, params=payload)
-#print(r.url)
 
 #We will use the variables day, month, year, hour, minute and second for our output file name#
 now = datetime.datetime.now()
@@ -33,9 +31,8 @@ minute = int(now.minute)
 second = int(now.second)
 
 dir_path = os.getcwd()
-#print(dir_path)
 new_path = dir_path + "/Twitter_Search"
-#print(new_path)
+
 def ensure_dir(f):
     if not os.path.exists(f):
         os.makedirs(f)
@@ -65,6 +62,5 @@ for entry in tweets['statuses']:
 f.close()
 
 os.chdir(dir_path)
-#os.system('python Assignment2_Analysis.py')
 if __name__ == '__main__':
 	exec(open('Assignment2_Analysis.py').read())
