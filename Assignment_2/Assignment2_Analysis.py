@@ -117,7 +117,7 @@ def Analysis_Most_Engaged_User_On_Topic():
             for key in newDict3.keys():
                 print('---->\t {}'.format(key))
 
-number = int(args.search[1])
+number = int(args.analysis)
 
 def numbers_to_strings(arguement):
     if arguement == 1:

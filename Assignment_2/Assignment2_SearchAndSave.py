@@ -15,10 +15,12 @@ auth = OAuth1('wsa9XC1P3lfM0IihoICjgJUjw', 'fa7RwF9HoeGChYTIcpgignp2WqgsKPWGpegC
 requests.get(url, auth=auth)
 
 parser = argparse.ArgumentParser(description='Take the search string and value from 1 to 5 for Analysis you want to perform as input')
-parser.add_argument('search',metavar='N', nargs=2, help='Search term and analysis value')
+#parser.add_argument('search',metavar='N', nargs=2, help='Search term and analysis value')
+parser.add_argument("-s", "--search", type=str, required=True)
+parser.add_argument("-a", "--analysis", type=int, default=5)
 
 args = parser.parse_args()
-payload = {'q': args.search[0], 'result_type': 'recent'}
+payload = {'q': args.search, 'result_type': 'recent'}
 r = requests.get('https://api.twitter.com/1.1/search/tweets.json',auth=auth, params=payload)
 
 #We will use the variables day, month, year, hour, minute and second for our output file name#
@@ -39,14 +41,14 @@ def ensure_dir(f):
 ensure_dir(new_path)
 date_path = new_path + "/%i_%i_%i" % (now.month, now.day, now.year)
 ensure_dir(date_path)
-search_dir = date_path + "/" + args.search[0]
+search_dir = date_path + "/" + args.search
 ensure_dir(search_dir)
 os.chdir(search_dir)
 
 tweets = r.json()
 
 #name our output file - %i will be replaced by current month, day, year, hour, minute and second
-outfn = args.search[0] + "_%i_%i_%i_%i_%i_%i.csv" % (now.month, now.day, now.year, now.hour, now.minute, now.second)
+outfn = args.search + "_%i_%i_%i_%i_%i_%i.csv" % (now.month, now.day, now.year, now.hour, now.minute, now.second)
 
 f=open(outfn,"w")
 csv_file=csv.writer(f)

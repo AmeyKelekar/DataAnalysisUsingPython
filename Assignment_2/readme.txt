@@ -21,11 +21,40 @@
  		v) For each search term, who is the most engaged user on twitter that day
 
 2) Run the python code as:
-	python Assignment2_SearchAndSave.py "#Cricket" 2
+	Some cases:
+	a)python Assignment2_SearchAndSave.py -s "#Cricket"
 	where #Cricket: search term
-	and 2: Analysis you want to perform. In this case, top 5 languages 
-	Note: If you want to use #hashtag, include it in quotes like above
-	In case you don't want to pass hashtag, you can write command as below:
-	python Assignment2_SearchAndSave.py Cricket 2
+	If you don't provide any value for analysis to be performed, by default, it will perform 'analysis 5' i.e.find out for each search term, who is the most engaged user on twitter that day
+	
+	Note: If you want to use #hashtag, include it in quotes like above. Otherwise it gets treated as two seperate strings and will give you an error "Assignment2_SearchAndSave.py: error: argument -s/--search: expected one argument"
+
+	b) python Assignment2_SearchAndSave.py -s Cricket -a 3
+	where Cricket: search term
+	3: Analysis you want to perform. In this case, across all search term, show the top 10 retweeted tweets for every day
+
+	c) python Assignment2_SearchAndSave.py -s Cricket -a 6 
+	where Cricket: search term
+	6: Analysis you want to perform. 
+
+	Note: We don't have any analysis to be performed for 6. So it will display a message on the screen:" Nothing to analyze, please give numbers between 1 to 5!!!"
+
+
+3) Some of the error cases:
+	a) python Assignment2_SearchAndSave.py -s Cricket -a c
+		Output:
+		usage: Assignment2_SearchAndSave.py [-h] -s SEARCH [-a ANALYSIS]
+		Assignment2_SearchAndSave.py: error: argument -a/--analysis: invalid int value: 'c'
+
+	b) python Assignment2_SearchAndSave.py -s #Cricket 
+		Output:
+		usage: Assignment2_SearchAndSave.py [-h] -s SEARCH [-a ANALYSIS]
+		Assignment2_SearchAndSave.py: error: argument -s/--search: expected one argument
+
+	c) python Assignment2_SearchAndSave.py   
+		Output:             
+		usage: Assignment2_SearchAndSave.py [-h] -s SEARCH [-a ANALYSIS]
+		Assignment2_SearchAndSave.py: error: the following arguments are required: -s/--search
+
+
 
 
