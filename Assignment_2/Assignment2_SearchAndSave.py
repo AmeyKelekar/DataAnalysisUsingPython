@@ -66,4 +66,5 @@ f.close()
 
 os.chdir(dir_path)
 #os.system('python Assignment2_Analysis.py')
-exec(open('Assignment2_Analysis.py').read())
+if __name__ == '__main__':
+	exec(open('Assignment2_Analysis.py').read())
