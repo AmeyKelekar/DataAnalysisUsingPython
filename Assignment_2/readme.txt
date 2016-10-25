@@ -8,7 +8,7 @@
 		You want: recent tweets that contain the hashtag #superbowl
 		Your search URL is: https://api.twitter.com/1.1/search/tweets.json?q=%23superbowl&result_type=recent
 
-		The file takes 2 arguements: 
+		The script takes 2 arguements as input: 
 		i) Search term and 
 		ii) Analysis you want to perform: Numeric value from 1 to 5
 
