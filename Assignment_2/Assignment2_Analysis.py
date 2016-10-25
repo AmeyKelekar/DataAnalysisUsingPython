@@ -1,14 +1,14 @@
 import argparse
 import csv
 import glob
-import Assignment2_SearchAndSave
+from Assignment2_SearchAndSave import date_path,search_dir,args
 import os
 import operator
 from collections import Counter
 
 def Analysis_Average_Number_Of_Friends():
-    path = Assignment2_SearchAndSave.date_path
-    print(path)
+    path = date_path
+    #print(path)
     os.chdir(path)
     dict1 = {}
     for file in glob.glob(path+'/**/*.csv', recursive=True):
@@ -22,13 +22,13 @@ def Analysis_Average_Number_Of_Friends():
                 else:
                     dict1[row[1]]['count'] += 1
                     dict1[row[1]]['friends_count'] += int(row[6])
-    print("Screen_Name Average_Friends")
+    print("Screen_Name \t\t----->\t\t Average_Friends")
     for key, value in dict1.items():
-        print(key,int(value['friends_count']/value['count']))
+        print('{} \t\t----->\t\t {}'.format(key,int(value['friends_count']/value['count'])))
 
 def Analysis_Top_5_Languages():
-    path = Assignment2_SearchAndSave.date_path
-    print(path)
+    path = date_path
+    #print(path)
     os.chdir(path)
     dict2 = {}
     for file in glob.glob(path+'/**/*.csv', recursive=True):
@@ -42,11 +42,13 @@ def Analysis_Top_5_Languages():
                     dict2[row[-2]] += 1
     print(dict2)
     newDict = dict(sorted(dict2.items(), key=operator.itemgetter(1), reverse=True)[:5])
-    print("Top Five Languages are: ",newDict)
+    print("Top Five Languages are: ")
+    for key, value in newDict.items():
+        print('{} \t----->\t\t {}'.format(key,value))
 
 def Analysis_Top_10_Retweeted_Tweets():
-    path = Assignment2_SearchAndSave.search_dir
-    print(path)
+    path = search_dir
+    #print(path)
     os.chdir(path)
     dict3 = {}
     for file in glob.glob(path+'/**/*.csv', recursive=True):
@@ -59,20 +61,22 @@ def Analysis_Top_10_Retweeted_Tweets():
     filtered_dic = {k:v for k,v in dict3.items() if v != 0}
     newDict2 = dict(sorted(filtered_dic.items(), key=operator.itemgetter(1), reverse=True)[:10])
     print("Top 10 retweeeted tweets are: ")
-    for key in newDict2.items():
-        print(key)
+    flag = 1
+    for key in newDict2.keys():
+        print("%i) \t\t" % flag,key)
+        flag += 1
 
 def Analysis_Influential_Tweet_Per_Topic():
-    path = Assignment2_SearchAndSave.date_path
-    print(path)
+    path = date_path
+    #print(path)
     os.chdir(path)
     subdirs = filter(None,[x[1] for x in os.walk(path)])
     for subdir in subdirs: 
-        print(subdir)
+        #print(subdir)
         for dirValue in subdir:
             dict4 = {}
-            print(dirValue)
-            print(path+"/"+dirValue)
+            #print(dirValue)
+            #print(path+"/"+dirValue)
             for file in glob.glob(path+"/"+dirValue+'/**/*.csv', recursive=True):
                 with open(file, newline='') as f:
                     reader = csv.reader(f)
@@ -90,20 +94,20 @@ def Analysis_Influential_Tweet_Per_Topic():
                 combined_dict[key] = int(value['followers_count']/value['count'])
             newDict3 = dict(sorted(combined_dict.items(), key=operator.itemgetter(1), reverse=True)[:1])
             print("Top influential tweet for topic %s is: " % dirValue)
-            for key in newDict3.items():
-                print(key)
+            for key in newDict3.keys():
+                print('----->\t\t {}'.format(key))
 
 def Analysis_Most_Engaged_User_On_Topic():
-    path = Assignment2_SearchAndSave.date_path
-    print(path)
+    path = date_path
+    #print(path)
     os.chdir(path)
     subdirs = filter(None,[x[1] for x in os.walk(path)])
     for subdir in subdirs: 
-        print(subdir)
+        #print(subdir)
         for dirValue in subdir:
             dict4 = {}
-            print(dirValue)
-            print(path+"/"+dirValue)
+            #print(dirValue)
+            #print(path+"/"+dirValue)
             for file in glob.glob(path+"/"+dirValue+'/**/*.csv', recursive=True):
                 with open(file, newline='') as f:
                     reader = csv.reader(f)
@@ -121,11 +125,11 @@ def Analysis_Most_Engaged_User_On_Topic():
                 combined_dict[key] = int(value['statuses_count']/value['count'])
             newDict3 = dict(sorted(combined_dict.items(), key=operator.itemgetter(1), reverse=True)[:1])
             print("Most engaged user for topic %s is: " % dirValue)
-            for key in newDict3.items():
-                print(key)
+            for key in newDict3.keys():
+                print('---->\t {}'.format(key))
 
-number = int(Assignment2_SearchAndSave.args.search[1])
-print(number)
+number = int(args.search[1])
+#print(number)
 
 def numbers_to_strings(arguement):
     if arguement == 1:
