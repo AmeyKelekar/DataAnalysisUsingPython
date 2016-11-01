@@ -13,8 +13,8 @@ I have designed 2 scripts, namely:
 		[**/users/{ids}/tags**][/users/{ids}/tags]: Get the tags that the users (identified by a set of ids) have been active in.
 		[**/users/{ids}/badges**][/users/{ids}/badges]: Get the badges earned by the users identified by a set of ids.
 
-		[/questions]: https://api.stackexchange.com/docs/questions
-		[/users/{ids}]: https://api.stackexchange.com/docs/users-by-ids
-		[/users/{ids}/tags]: https://api.stackexchange.com/docs/tags-on-users
-		[/users/{ids}/badges]: https://api.stackexchange.com/docs/badges-on-users
+[/questions]: https://api.stackexchange.com/docs/questions
+[/users/{ids}]: https://api.stackexchange.com/docs/users-by-ids
+[/users/{ids}/tags]: https://api.stackexchange.com/docs/tags-on-users
+[/users/{ids}/badges]: https://api.stackexchange.com/docs/badges-on-users
 
