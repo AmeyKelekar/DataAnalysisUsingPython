@@ -31,7 +31,9 @@ This script performs 5 analysis:
 * python Midterm_StackOver_DataCollection.py
 
 ##Dependencies:
-* [python] https://www.python.org/downloads/release : 3.5 or higher (prefered: Latest)
+* [**python**] [python]: 3.5 or higher (prefered: Latest)
+
+[python]: https://www.python.org/downloads/release 
 
 ##Some important points:
 * Keep both the files: **Midterm_StackOver_DataCollection.py** and **Midterm_Analysis.py** in the same directory.
