@@ -48,8 +48,11 @@ Please refer the following link for [**The Python Standard Library**][The Python
 [The Python Standard Library]: https://docs.python.org/3/library/
 
 ##External Libraries used:
-* [**requests**][requests]: http://docs.python-requests.org/en/master/
-* [**simplejson**][simplejson]: https://simplejson.readthedocs.io/en/latest/
+* [**requests**][requests]
+* [**simplejson**][simplejson]
+
+[requests]: http://docs.python-requests.org/en/master/
+[simplejson]: https://simplejson.readthedocs.io/en/latest/
 
 ##Some important points:
 * Keep both the files: **Midterm_StackOver_DataCollection.py** and **Midterm_Analysis.py** in the same directory.
