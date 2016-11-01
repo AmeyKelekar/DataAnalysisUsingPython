@@ -13,7 +13,7 @@ Following are the per-site methods used:
 * [**/users/{ids}/tags**] [/users/{ids}/tags]: Get the tags that the users (identified by a set of ids) have been active in.
 * [**/users/{ids}/badges**] [/users/{ids}/badges]: Get the badges earned by the users identified by a set of ids.
 
-**2) Midterm_Analysis/py:**
+**2) Midterm_Analysis.py:**
 This script performs 5 analysis:
 - **Analysis 1:** Parse the body for the responses to collect a list of questions and user_id for the questions. Use the user_id obtained to send a request again to get user profile. Obtain the badges count to determine weightage. Show top questions according to the weightage.
 - **Analysis 2:** For each of the User ID that you have collected, ping the API to get all the tags that user has identified with. Create a file for each topic, containing user_id,user_name and link to their profile sorted by reputation. For a given topic, what are the top users who have reputation in that topic.
@@ -26,4 +26,7 @@ This script performs 5 analysis:
 [/users/{ids}]: https://api.stackexchange.com/docs/users-by-ids
 [/users/{ids}/tags]: https://api.stackexchange.com/docs/tags-on-users
 [/users/{ids}/badges]: https://api.stackexchange.com/docs/badges-on-users
+
+##Run the script:
+* python Midterm_StackOver_DataCollection.py
 
