@@ -54,6 +54,22 @@ Please refer the following link for [**The Python Standard Library**][The Python
 [requests]: http://docs.python-requests.org/en/master/
 [simplejson]: https://simplejson.readthedocs.io/en/latest/
 
+## How to install External Libraries:
+
+**simplejson**
+Binary installers for the latest released version are available at the [Python
+package index](http://pypi.python.org/pypi/simplejson/) and on conda.
+
+```sh
+# conda
+conda install simplejson
+```
+
+```sh
+# or PyPI
+pip install simplejson
+```
+
 ##Some important points:
 * Keep both the files: **Midterm_StackOver_DataCollection.py** and **Midterm_Analysis.py** in the same directory.
 * Run the script in the path where you store the files
