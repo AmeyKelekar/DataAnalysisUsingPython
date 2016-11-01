@@ -55,9 +55,22 @@ Please refer the following link for [**The Python Standard Library**][The Python
 [simplejson]: https://simplejson.readthedocs.io/en/latest/
 
 ## How to install External Libraries:
+**requests**
+- Binary installers for the latest released version are available at the [Python
+package index](http://pypi.python.org/pypi/requests/) and on conda.
+
+```sh
+# conda
+conda install requests
+```
+
+```sh
+# or PyPI
+pip install requests
+```
 
 **simplejson**
-Binary installers for the latest released version are available at the [Python
+- Binary installers for the latest released version are available at the [Python
 package index](http://pypi.python.org/pypi/simplejson/) and on conda.
 
 ```sh
