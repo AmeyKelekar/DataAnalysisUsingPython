@@ -33,7 +33,7 @@ python Midterm_StackOver_DataCollection.py
 ```
 
 ##Dependencies:
-* [**python**] [python]: 3.5 or higher (prefered: Latest version)
+* [**python**] [python]: 3.5 or higher (prefered: Python 3.5.2 **Latest version**)
 
 [python]: https://www.python.org/downloads/release 
 
