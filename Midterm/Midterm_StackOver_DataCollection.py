@@ -30,10 +30,8 @@ def ensure_dir(f):
 ensure_dir(new_path)
 date_path = new_path + "/%i_%i_%i" % (now.month, now.day, now.year)
 ensure_dir(date_path)
-
-if __name__ == '__main__':
-    time_path = date_path + "/%i_%i_%i" % (now.hour, now.minute, now.second)
-    ensure_dir(time_path)
+time_path = date_path + "/%i_%i_%i" % (now.hour, now.minute, now.second)
+ensure_dir(time_path)
 
 os.chdir(time_path)
 questions = r.json()
