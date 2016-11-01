@@ -89,9 +89,10 @@ pip install simplejson
 * Keep both the files: **Midterm_StackOver_DataCollection.py** and **Midterm_Analysis.py** in the same directory.
 * Run the script in the path where you store the files
 * The path containing the scripts will be selected as your current working directory.
-* A folder with name "Stackoverflow_Search" will be created in the current working directory, if not present. If exists, then it will use it without creating a new one.
+* A new folder with name "Stackoverflow_Search" will be created in the current working directory, if not present. If folder already exists, then it will use it without creating a new one.
 * A new folder with today's date will be created inside the folder "Stackoverflow_Search" (../Stackoverflow_Search/<today's date>), if not present. If exists, then it will use it without creating a new one. For example: ../Stackoverflow_Search/11_1_2016
 * Everytime a new folder will be created with the current time inside today's date (../Stackoverflow_Search/today's date>/time). For example: ../Stackoverflow_Search/11_1_2016/1_10_55
+*All the data and output csv files will be written to time folder
 
 
 
