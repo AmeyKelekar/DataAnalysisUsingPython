@@ -28,14 +28,16 @@ This script performs 5 analysis:
 [/users/{ids}/badges]: https://api.stackexchange.com/docs/badges-on-users
 
 ##Run the script:
-* python Midterm_StackOver_DataCollection.py
+```sh
+python Midterm_StackOver_DataCollection.py
+```
 
 ##Dependencies:
 * [**python**] [python]: 3.5 or higher (prefered: Latest version)
 
 [python]: https://www.python.org/downloads/release 
 
-##Inbuilt Libraries used:
+##Standard Libraries used:
 * datetime
 * os
 * csv
@@ -43,7 +45,7 @@ This script performs 5 analysis:
 * json
 * collections
 
-Please refer the following link for [**The Python Standard Library**][The Python Standard Library]
+Please refer the following documenation [**The Python Standard Library**][The Python Standard Library] to learn more about python inbuilt/standard librarries
 
 [The Python Standard Library]: https://docs.python.org/3/library/
 
