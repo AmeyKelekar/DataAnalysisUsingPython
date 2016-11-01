@@ -31,10 +31,11 @@ ensure_dir(new_path)
 date_path = new_path + "/%i_%i_%i" % (now.month, now.day, now.year)
 ensure_dir(date_path)
 
-#time_path = date_path + "/%i_%i_%i" % (now.hour, now.minute, now.second)
-#ensure_dir(time_path)
+if __name__ == '__main__':
+    time_path = date_path + "/%i_%i_%i" % (now.hour, now.minute, now.second)
+    ensure_dir(time_path)
 
-os.chdir(date_path)
+os.chdir(time_path)
 questions = r.json()
 
 if __name__ == '__main__':
@@ -55,7 +56,7 @@ if __name__ == '__main__':
     user_file = csv.writer(userFile)
     user_file.writerow(["user_id","user_type","display_name","link","reputation","account_id","bronze_badge","silver_badge","gold_badge"])
     
-    for file in glob.glob(date_path+"/"+outfn, recursive=True):
+    for file in glob.glob(time_path+"/"+outfn, recursive=True):
         with open(file, newline='') as f:
             reader = csv.reader(f)
             next(reader, None)  # skip the headers
@@ -76,7 +77,7 @@ if __name__ == '__main__':
     tag_file = csv.writer(tagsFile)
     tag_file.writerow(["user_id","count","name"])
     
-    for file in glob.glob(date_path+"/"+outfn, recursive=True):
+    for file in glob.glob(time_path+"/"+outfn, recursive=True):
         with open(file, newline='') as f:
             reader = csv.reader(f)
             next(reader, None)  # skip the headers
@@ -96,7 +97,7 @@ if __name__ == '__main__':
     badge_file = csv.writer(badgeFile)
     badge_file.writerow(["user_id","user_type","display_name","reputation","user_link","badge_id","link","name","rank"])
     
-    for file in glob.glob(date_path+"/"+outfn, recursive=True):
+    for file in glob.glob(time_path+"/"+outfn, recursive=True):
         with open(file, newline='') as f:
             reader = csv.reader(f)
             next(reader, None)  # skip the headers
@@ -132,6 +133,4 @@ if __name__ == '__main__':
         for key, value in result.items():
             w.writerow([key] + value)
 
-os.chdir(dir_path)
-if __name__ == '__main__':
-    exec(open('Midterm_Analysis.py').read())
+    exec(open(dir_path+'/Midterm_Analysis.py').read())

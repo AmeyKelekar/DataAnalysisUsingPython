@@ -3,11 +3,9 @@ import glob
 import os
 from collections import OrderedDict
 import operator
-from Midterm_StackOver_DataCollection import date_path
 
-path = date_path
+path = os.getcwd()
 os.chdir(path)
-print(path)
 
 def Analysis_Top_Questions_Weightage():
     dict1 = {}
@@ -50,8 +48,6 @@ def Analysis_Top_User_Per_Topic():
             for row in reader:
                 if row[2] not in Tags:
                     Tags.append(row[2])
-
-    print(Tags)
 
     for data in Tags:
         userIds =[]
@@ -215,9 +211,7 @@ def Analysis_Tagwise_NoOfQuestion_And_Answer():
     result =[]
     for tag in Tags:
         result.append((tag.replace(",", "")).split())
-    print(result)
     result1 = set(value for tag in result for value in tag)
-    print(result1)
 
     countfn = "output_answerCounts_tags/question_answer_count.csv"
     countFile = open(countfn,"w")
