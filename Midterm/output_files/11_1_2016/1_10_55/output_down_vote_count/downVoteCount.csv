@@ -1,0 +1,31 @@
+user_id,display_name,question_id,title,down_vote_count
+983191,zach,12096252,use a list of values to select rows from a pandas dataframe,2
+1504276,user1504276,11346283,Renaming columns in pandas,1
+390388,John,13411544,Delete column from pandas DataFrame,1
+2428549,natsuki_1996,19482970,Get list from pandas DataFrame column headers,1
+245549,Roman,16476924,How to iterate over rows in a DataFrame?,1
+213216,user7289,16923281,Pandas writing dataframe to CSV file,1
+345660,Zach,8991709,Why are pandas merges in python faster than data.table merges in R?,1
+1733061,George Thompson,13295735,How can I replace all the NaN values with Zero&#39;s in a column of a pandas dataframe,1
+1072888,bigbug,20625582,How to deal with SettingWithCopyWarning in Pandas?,1
+919872,Zelazny7,14262433,&quot;Large data&quot; work flows using pandas,0
+1661173,tomasz74,12555323,Adding new column to existing DataFrame in Python pandas,0
+31335,PhE,10715965,add one row in a pandas.DataFrame,0
+458429,szli,17071871,Select rows from a DataFrame based on values in a column in pandas,0
+1772165,Timmie,13148429,How to change the order of DataFrame columns?,0
+1642513,ezbentley,15891038,Pandas: change data type of columns,0
+1072888,bigbug,13413590,How to drop rows of Pandas dataframe whose value of certain column is NaN,0
+1560517,appleLover,20638006,Convert list of dictionaries to Dataframe,0
+1072888,bigbug,12065885,How to filter the DataFrame rows of pandas by &quot;within&quot;/&quot;in&quot;?,0
+2006977,yemu,15943769,how to get row count of pandas dataframe?,0
+1005409,Muppet,7837722,What is the most efficient way to loop through dataframes with pandas?,0
+867549,TravisVOX,18172851,Deleting DataFrame row in Pandas based on column value,0
+1505259,marillion,19798153,"Difference between map, applymap and apply methods in Pandas",0
+1413778,peoplesparkresident,10729210,iterating row by row through a pandas dataframe,0
+1240268,Andy Hayden,13703720,"Converting between datetime, Timestamp and datetime64",0
+468604,saveenr,10373660,Converting a Pandas GroupBy object to DataFrame,0
+1560238,beets,11707586,"Python pandas, how to widen output display to see more columns?",0
+1072888,bigbug,14661701,How to drop a list of rows from Pandas dataframe?,0
+1072888,bigbug,13331698,How to apply a function to two columns of Pandas dataframe,0
+1170342,euforia,11350770,pandas + dataframe - select by partial string,0
+1090629,msakya,20461165,How to convert pandas index in a dataframe to a column?,0

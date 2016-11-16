@@ -1,0 +1,606 @@
+user_id,user_type,display_name,reputation,user_link,badge_id,link,name,rank
+1504276,registered,user1504276,2338,http://stackoverflow.com/users/1504276/user1504276,13,http://stackoverflow.com/users/1090629/msakya,Yearling,silver
+1504276,registered,user1504276,2338,http://stackoverflow.com/users/1504276/user1504276,2,http://stackoverflow.com/users/1090629/msakya,Student,bronze
+1504276,registered,user1504276,2338,http://stackoverflow.com/users/1504276/user1504276,36,http://stackoverflow.com/users/1090629/msakya,Stellar Question,gold
+1504276,registered,user1504276,2338,http://stackoverflow.com/users/1504276/user1504276,10,http://stackoverflow.com/users/1090629/msakya,Scholar,bronze
+1504276,registered,user1504276,2338,http://stackoverflow.com/users/1504276/user1504276,26,http://stackoverflow.com/users/1090629/msakya,Popular Question,bronze
+1504276,registered,user1504276,2338,http://stackoverflow.com/users/1504276/user1504276,27,http://stackoverflow.com/users/1090629/msakya,Notable Question,silver
+1504276,registered,user1504276,2338,http://stackoverflow.com/users/1504276/user1504276,20,http://stackoverflow.com/users/1090629/msakya,Nice Question,bronze
+1504276,registered,user1504276,2338,http://stackoverflow.com/users/1504276/user1504276,22,http://stackoverflow.com/users/1090629/msakya,Great Question,gold
+1504276,registered,user1504276,2338,http://stackoverflow.com/users/1504276/user1504276,21,http://stackoverflow.com/users/1090629/msakya,Good Question,silver
+1504276,registered,user1504276,2338,http://stackoverflow.com/users/1504276/user1504276,33,http://stackoverflow.com/users/1090629/msakya,Favorite Question,silver
+1504276,registered,user1504276,2338,http://stackoverflow.com/users/1504276/user1504276,28,http://stackoverflow.com/users/1090629/msakya,Famous Question,gold
+1504276,registered,user1504276,2338,http://stackoverflow.com/users/1504276/user1504276,3,http://stackoverflow.com/users/1090629/msakya,Editor,bronze
+1504276,registered,user1504276,2338,http://stackoverflow.com/users/1504276/user1504276,2278,http://stackoverflow.com/users/1090629/msakya,Custodian,bronze
+919872,registered,Zelazny7,11287,http://stackoverflow.com/users/919872/zelazny7,13,http://stackoverflow.com/users/1090629/msakya,Yearling,silver
+919872,registered,Zelazny7,11287,http://stackoverflow.com/users/919872/zelazny7,1108,http://stackoverflow.com/users/1090629/msakya,Vox Populi,bronze
+919872,registered,Zelazny7,11287,http://stackoverflow.com/users/919872/zelazny7,63,http://stackoverflow.com/users/1090629/msakya,Tumbleweed,bronze
+919872,registered,Zelazny7,11287,http://stackoverflow.com/users/919872/zelazny7,1,http://stackoverflow.com/users/1090629/msakya,Teacher,bronze
+919872,registered,Zelazny7,11287,http://stackoverflow.com/users/919872/zelazny7,11,http://stackoverflow.com/users/1090629/msakya,Taxonomist,silver
+919872,registered,Zelazny7,11287,http://stackoverflow.com/users/919872/zelazny7,6,http://stackoverflow.com/users/1090629/msakya,Supporter,bronze
+919872,registered,Zelazny7,11287,http://stackoverflow.com/users/919872/zelazny7,804,http://stackoverflow.com/users/1090629/msakya,Suffrage,bronze
+919872,registered,Zelazny7,11287,http://stackoverflow.com/users/919872/zelazny7,2,http://stackoverflow.com/users/1090629/msakya,Student,bronze
+919872,registered,Zelazny7,11287,http://stackoverflow.com/users/919872/zelazny7,36,http://stackoverflow.com/users/1090629/msakya,Stellar Question,gold
+919872,registered,Zelazny7,11287,http://stackoverflow.com/users/919872/zelazny7,14,http://stackoverflow.com/users/1090629/msakya,Self-Learner,bronze
+919872,registered,Zelazny7,11287,http://stackoverflow.com/users/919872/zelazny7,10,http://stackoverflow.com/users/1090629/msakya,Scholar,bronze
+919872,registered,Zelazny7,11287,http://stackoverflow.com/users/919872/zelazny7,414,http://stackoverflow.com/users/1090629/msakya,r,bronze
+919872,registered,Zelazny7,11287,http://stackoverflow.com/users/919872/zelazny7,267,http://stackoverflow.com/users/1090629/msakya,python,bronze
+919872,registered,Zelazny7,11287,http://stackoverflow.com/users/919872/zelazny7,220,http://stackoverflow.com/users/1090629/msakya,Promoter,bronze
+919872,registered,Zelazny7,11287,http://stackoverflow.com/users/919872/zelazny7,62,http://stackoverflow.com/users/1090629/msakya,Populist,gold
+919872,registered,Zelazny7,11287,http://stackoverflow.com/users/919872/zelazny7,26,http://stackoverflow.com/users/1090629/msakya,Popular Question,bronze
+919872,registered,Zelazny7,11287,http://stackoverflow.com/users/919872/zelazny7,1914,http://stackoverflow.com/users/1090629/msakya,pandas,bronze
+919872,registered,Zelazny7,11287,http://stackoverflow.com/users/919872/zelazny7,5,http://stackoverflow.com/users/1090629/msakya,Organizer,bronze
+919872,registered,Zelazny7,11287,http://stackoverflow.com/users/919872/zelazny7,27,http://stackoverflow.com/users/1090629/msakya,Notable Question,silver
+919872,registered,Zelazny7,11287,http://stackoverflow.com/users/919872/zelazny7,20,http://stackoverflow.com/users/1090629/msakya,Nice Question,bronze
+919872,registered,Zelazny7,11287,http://stackoverflow.com/users/919872/zelazny7,23,http://stackoverflow.com/users/1090629/msakya,Nice Answer,bronze
+919872,registered,Zelazny7,11287,http://stackoverflow.com/users/919872/zelazny7,17,http://stackoverflow.com/users/1090629/msakya,Necromancer,silver
+919872,registered,Zelazny7,11287,http://stackoverflow.com/users/919872/zelazny7,18,http://stackoverflow.com/users/1090629/msakya,Guru,silver
+919872,registered,Zelazny7,11287,http://stackoverflow.com/users/919872/zelazny7,22,http://stackoverflow.com/users/1090629/msakya,Great Question,gold
+919872,registered,Zelazny7,11287,http://stackoverflow.com/users/919872/zelazny7,25,http://stackoverflow.com/users/1090629/msakya,Great Answer,gold
+919872,registered,Zelazny7,11287,http://stackoverflow.com/users/919872/zelazny7,21,http://stackoverflow.com/users/1090629/msakya,Good Question,silver
+919872,registered,Zelazny7,11287,http://stackoverflow.com/users/919872/zelazny7,24,http://stackoverflow.com/users/1090629/msakya,Good Answer,silver
+919872,registered,Zelazny7,11287,http://stackoverflow.com/users/919872/zelazny7,33,http://stackoverflow.com/users/1090629/msakya,Favorite Question,silver
+919872,registered,Zelazny7,11287,http://stackoverflow.com/users/919872/zelazny7,83,http://stackoverflow.com/users/1090629/msakya,Fanatic,gold
+919872,registered,Zelazny7,11287,http://stackoverflow.com/users/919872/zelazny7,28,http://stackoverflow.com/users/1090629/msakya,Famous Question,gold
+390388,registered,John,5877,http://stackoverflow.com/users/390388/john,13,http://stackoverflow.com/users/1090629/msakya,Yearling,silver
+390388,registered,John,5877,http://stackoverflow.com/users/390388/john,1108,http://stackoverflow.com/users/1090629/msakya,Vox Populi,bronze
+390388,registered,John,5877,http://stackoverflow.com/users/390388/john,63,http://stackoverflow.com/users/1090629/msakya,Tumbleweed,bronze
+390388,registered,John,5877,http://stackoverflow.com/users/390388/john,1,http://stackoverflow.com/users/1090629/msakya,Teacher,bronze
+390388,registered,John,5877,http://stackoverflow.com/users/390388/john,6,http://stackoverflow.com/users/1090629/msakya,Supporter,bronze
+390388,registered,John,5877,http://stackoverflow.com/users/390388/john,804,http://stackoverflow.com/users/1090629/msakya,Suffrage,bronze
+390388,registered,John,5877,http://stackoverflow.com/users/390388/john,2,http://stackoverflow.com/users/1090629/msakya,Student,bronze
+390388,registered,John,5877,http://stackoverflow.com/users/390388/john,14,http://stackoverflow.com/users/1090629/msakya,Self-Learner,bronze
+390388,registered,John,5877,http://stackoverflow.com/users/390388/john,10,http://stackoverflow.com/users/1090629/msakya,Scholar,bronze
+390388,registered,John,5877,http://stackoverflow.com/users/390388/john,1478,http://stackoverflow.com/users/1090629/msakya,Reviewer,silver
+390388,registered,John,5877,http://stackoverflow.com/users/390388/john,1276,http://stackoverflow.com/users/1090629/msakya,Proofreader,bronze
+390388,registered,John,5877,http://stackoverflow.com/users/390388/john,26,http://stackoverflow.com/users/1090629/msakya,Popular Question,bronze
+390388,registered,John,5877,http://stackoverflow.com/users/390388/john,5,http://stackoverflow.com/users/1090629/msakya,Organizer,bronze
+390388,registered,John,5877,http://stackoverflow.com/users/390388/john,27,http://stackoverflow.com/users/1090629/msakya,Notable Question,silver
+390388,registered,John,5877,http://stackoverflow.com/users/390388/john,20,http://stackoverflow.com/users/1090629/msakya,Nice Question,bronze
+390388,registered,John,5877,http://stackoverflow.com/users/390388/john,23,http://stackoverflow.com/users/1090629/msakya,Nice Answer,bronze
+390388,registered,John,5877,http://stackoverflow.com/users/390388/john,17,http://stackoverflow.com/users/1090629/msakya,Necromancer,silver
+390388,registered,John,5877,http://stackoverflow.com/users/390388/john,219,http://stackoverflow.com/users/1090629/msakya,Investor,bronze
+390388,registered,John,5877,http://stackoverflow.com/users/390388/john,4128,http://stackoverflow.com/users/1090629/msakya,Inquisitive,silver
+390388,registered,John,5877,http://stackoverflow.com/users/390388/john,2600,http://stackoverflow.com/users/1090629/msakya,Informed,bronze
+390388,registered,John,5877,http://stackoverflow.com/users/390388/john,18,http://stackoverflow.com/users/1090629/msakya,Guru,silver
+390388,registered,John,5877,http://stackoverflow.com/users/390388/john,22,http://stackoverflow.com/users/1090629/msakya,Great Question,gold
+390388,registered,John,5877,http://stackoverflow.com/users/390388/john,21,http://stackoverflow.com/users/1090629/msakya,Good Question,silver
+390388,registered,John,5877,http://stackoverflow.com/users/390388/john,24,http://stackoverflow.com/users/1090629/msakya,Good Answer,silver
+390388,registered,John,5877,http://stackoverflow.com/users/390388/john,33,http://stackoverflow.com/users/1090629/msakya,Favorite Question,silver
+390388,registered,John,5877,http://stackoverflow.com/users/390388/john,83,http://stackoverflow.com/users/1090629/msakya,Fanatic,gold
+390388,registered,John,5877,http://stackoverflow.com/users/390388/john,28,http://stackoverflow.com/users/1090629/msakya,Famous Question,gold
+390388,registered,John,5877,http://stackoverflow.com/users/390388/john,1287,http://stackoverflow.com/users/1090629/msakya,Excavator,bronze
+390388,registered,John,5877,http://stackoverflow.com/users/390388/john,71,http://stackoverflow.com/users/1090629/msakya,Enthusiast,silver
+390388,registered,John,5877,http://stackoverflow.com/users/390388/john,19,http://stackoverflow.com/users/1090629/msakya,Enlightened,silver
+1661173,registered,tomasz74,1774,http://stackoverflow.com/users/1661173/tomasz74,13,http://stackoverflow.com/users/1090629/msakya,Yearling,silver
+1661173,registered,tomasz74,1774,http://stackoverflow.com/users/1661173/tomasz74,63,http://stackoverflow.com/users/1090629/msakya,Tumbleweed,bronze
+1661173,registered,tomasz74,1774,http://stackoverflow.com/users/1661173/tomasz74,1,http://stackoverflow.com/users/1090629/msakya,Teacher,bronze
+1661173,registered,tomasz74,1774,http://stackoverflow.com/users/1661173/tomasz74,6,http://stackoverflow.com/users/1090629/msakya,Supporter,bronze
+1661173,registered,tomasz74,1774,http://stackoverflow.com/users/1661173/tomasz74,2,http://stackoverflow.com/users/1090629/msakya,Student,bronze
+1661173,registered,tomasz74,1774,http://stackoverflow.com/users/1661173/tomasz74,10,http://stackoverflow.com/users/1090629/msakya,Scholar,bronze
+1661173,registered,tomasz74,1774,http://stackoverflow.com/users/1661173/tomasz74,26,http://stackoverflow.com/users/1090629/msakya,Popular Question,bronze
+1661173,registered,tomasz74,1774,http://stackoverflow.com/users/1661173/tomasz74,27,http://stackoverflow.com/users/1090629/msakya,Notable Question,silver
+1661173,registered,tomasz74,1774,http://stackoverflow.com/users/1661173/tomasz74,20,http://stackoverflow.com/users/1090629/msakya,Nice Question,bronze
+1661173,registered,tomasz74,1774,http://stackoverflow.com/users/1661173/tomasz74,2600,http://stackoverflow.com/users/1090629/msakya,Informed,bronze
+1661173,registered,tomasz74,1774,http://stackoverflow.com/users/1661173/tomasz74,22,http://stackoverflow.com/users/1090629/msakya,Great Question,gold
+1661173,registered,tomasz74,1774,http://stackoverflow.com/users/1661173/tomasz74,21,http://stackoverflow.com/users/1090629/msakya,Good Question,silver
+1661173,registered,tomasz74,1774,http://stackoverflow.com/users/1661173/tomasz74,33,http://stackoverflow.com/users/1090629/msakya,Favorite Question,silver
+1661173,registered,tomasz74,1774,http://stackoverflow.com/users/1661173/tomasz74,83,http://stackoverflow.com/users/1090629/msakya,Fanatic,gold
+1661173,registered,tomasz74,1774,http://stackoverflow.com/users/1661173/tomasz74,28,http://stackoverflow.com/users/1090629/msakya,Famous Question,gold
+1661173,registered,tomasz74,1774,http://stackoverflow.com/users/1661173/tomasz74,71,http://stackoverflow.com/users/1090629/msakya,Enthusiast,silver
+1661173,registered,tomasz74,1774,http://stackoverflow.com/users/1661173/tomasz74,3,http://stackoverflow.com/users/1090629/msakya,Editor,bronze
+1661173,registered,tomasz74,1774,http://stackoverflow.com/users/1661173/tomasz74,4127,http://stackoverflow.com/users/1090629/msakya,Curious,bronze
+1661173,registered,tomasz74,1774,http://stackoverflow.com/users/1661173/tomasz74,1974,http://stackoverflow.com/users/1090629/msakya,Constituent,silver
+1661173,registered,tomasz74,1774,http://stackoverflow.com/users/1661173/tomasz74,31,http://stackoverflow.com/users/1090629/msakya,Commentator,bronze
+1661173,registered,tomasz74,1774,http://stackoverflow.com/users/1661173/tomasz74,32,http://stackoverflow.com/users/1090629/msakya,Civic Duty,silver
+1661173,registered,tomasz74,1774,http://stackoverflow.com/users/1661173/tomasz74,1973,http://stackoverflow.com/users/1090629/msakya,Caucus,bronze
+1661173,registered,tomasz74,1774,http://stackoverflow.com/users/1661173/tomasz74,9,http://stackoverflow.com/users/1090629/msakya,Autobiographer,bronze
+31335,registered,PhE,1220,http://stackoverflow.com/users/31335/phe,13,http://stackoverflow.com/users/1090629/msakya,Yearling,silver
+31335,registered,PhE,1220,http://stackoverflow.com/users/31335/phe,1,http://stackoverflow.com/users/1090629/msakya,Teacher,bronze
+31335,registered,PhE,1220,http://stackoverflow.com/users/31335/phe,6,http://stackoverflow.com/users/1090629/msakya,Supporter,bronze
+31335,registered,PhE,1220,http://stackoverflow.com/users/31335/phe,2,http://stackoverflow.com/users/1090629/msakya,Student,bronze
+31335,registered,PhE,1220,http://stackoverflow.com/users/31335/phe,10,http://stackoverflow.com/users/1090629/msakya,Scholar,bronze
+31335,registered,PhE,1220,http://stackoverflow.com/users/31335/phe,26,http://stackoverflow.com/users/1090629/msakya,Popular Question,bronze
+31335,registered,PhE,1220,http://stackoverflow.com/users/31335/phe,27,http://stackoverflow.com/users/1090629/msakya,Notable Question,silver
+31335,registered,PhE,1220,http://stackoverflow.com/users/31335/phe,20,http://stackoverflow.com/users/1090629/msakya,Nice Question,bronze
+31335,registered,PhE,1220,http://stackoverflow.com/users/31335/phe,22,http://stackoverflow.com/users/1090629/msakya,Great Question,gold
+31335,registered,PhE,1220,http://stackoverflow.com/users/31335/phe,21,http://stackoverflow.com/users/1090629/msakya,Good Question,silver
+31335,registered,PhE,1220,http://stackoverflow.com/users/31335/phe,33,http://stackoverflow.com/users/1090629/msakya,Favorite Question,silver
+31335,registered,PhE,1220,http://stackoverflow.com/users/31335/phe,28,http://stackoverflow.com/users/1090629/msakya,Famous Question,gold
+31335,registered,PhE,1220,http://stackoverflow.com/users/31335/phe,3,http://stackoverflow.com/users/1090629/msakya,Editor,bronze
+31335,registered,PhE,1220,http://stackoverflow.com/users/31335/phe,31,http://stackoverflow.com/users/1090629/msakya,Commentator,bronze
+31335,registered,PhE,1220,http://stackoverflow.com/users/31335/phe,1973,http://stackoverflow.com/users/1090629/msakya,Caucus,bronze
+2428549,registered,natsuki_1996,2017,http://stackoverflow.com/users/2428549/natsuki-1996,13,http://stackoverflow.com/users/1090629/msakya,Yearling,silver
+2428549,registered,natsuki_1996,2017,http://stackoverflow.com/users/2428549/natsuki-1996,63,http://stackoverflow.com/users/1090629/msakya,Tumbleweed,bronze
+2428549,registered,natsuki_1996,2017,http://stackoverflow.com/users/2428549/natsuki-1996,1,http://stackoverflow.com/users/1090629/msakya,Teacher,bronze
+2428549,registered,natsuki_1996,2017,http://stackoverflow.com/users/2428549/natsuki-1996,6,http://stackoverflow.com/users/1090629/msakya,Supporter,bronze
+2428549,registered,natsuki_1996,2017,http://stackoverflow.com/users/2428549/natsuki-1996,2,http://stackoverflow.com/users/1090629/msakya,Student,bronze
+2428549,registered,natsuki_1996,2017,http://stackoverflow.com/users/2428549/natsuki-1996,10,http://stackoverflow.com/users/1090629/msakya,Scholar,bronze
+2428549,registered,natsuki_1996,2017,http://stackoverflow.com/users/2428549/natsuki-1996,26,http://stackoverflow.com/users/1090629/msakya,Popular Question,bronze
+2428549,registered,natsuki_1996,2017,http://stackoverflow.com/users/2428549/natsuki-1996,27,http://stackoverflow.com/users/1090629/msakya,Notable Question,silver
+2428549,registered,natsuki_1996,2017,http://stackoverflow.com/users/2428549/natsuki-1996,20,http://stackoverflow.com/users/1090629/msakya,Nice Question,bronze
+2428549,registered,natsuki_1996,2017,http://stackoverflow.com/users/2428549/natsuki-1996,4128,http://stackoverflow.com/users/1090629/msakya,Inquisitive,silver
+2428549,registered,natsuki_1996,2017,http://stackoverflow.com/users/2428549/natsuki-1996,22,http://stackoverflow.com/users/1090629/msakya,Great Question,gold
+2428549,registered,natsuki_1996,2017,http://stackoverflow.com/users/2428549/natsuki-1996,21,http://stackoverflow.com/users/1090629/msakya,Good Question,silver
+2428549,registered,natsuki_1996,2017,http://stackoverflow.com/users/2428549/natsuki-1996,33,http://stackoverflow.com/users/1090629/msakya,Favorite Question,silver
+2428549,registered,natsuki_1996,2017,http://stackoverflow.com/users/2428549/natsuki-1996,28,http://stackoverflow.com/users/1090629/msakya,Famous Question,gold
+2428549,registered,natsuki_1996,2017,http://stackoverflow.com/users/2428549/natsuki-1996,3,http://stackoverflow.com/users/1090629/msakya,Editor,bronze
+2428549,registered,natsuki_1996,2017,http://stackoverflow.com/users/2428549/natsuki-1996,4127,http://stackoverflow.com/users/1090629/msakya,Curious,bronze
+2428549,registered,natsuki_1996,2017,http://stackoverflow.com/users/2428549/natsuki-1996,31,http://stackoverflow.com/users/1090629/msakya,Commentator,bronze
+2428549,registered,natsuki_1996,2017,http://stackoverflow.com/users/2428549/natsuki-1996,8,http://stackoverflow.com/users/1090629/msakya,Citizen Patrol,bronze
+2428549,registered,natsuki_1996,2017,http://stackoverflow.com/users/2428549/natsuki-1996,9,http://stackoverflow.com/users/1090629/msakya,Autobiographer,bronze
+458429,registered,szli,1721,http://stackoverflow.com/users/458429/szli,13,http://stackoverflow.com/users/1090629/msakya,Yearling,silver
+458429,registered,szli,1721,http://stackoverflow.com/users/458429/szli,63,http://stackoverflow.com/users/1090629/msakya,Tumbleweed,bronze
+458429,registered,szli,1721,http://stackoverflow.com/users/458429/szli,1,http://stackoverflow.com/users/1090629/msakya,Teacher,bronze
+458429,registered,szli,1721,http://stackoverflow.com/users/458429/szli,6,http://stackoverflow.com/users/1090629/msakya,Supporter,bronze
+458429,registered,szli,1721,http://stackoverflow.com/users/458429/szli,2,http://stackoverflow.com/users/1090629/msakya,Student,bronze
+458429,registered,szli,1721,http://stackoverflow.com/users/458429/szli,14,http://stackoverflow.com/users/1090629/msakya,Self-Learner,bronze
+458429,registered,szli,1721,http://stackoverflow.com/users/458429/szli,10,http://stackoverflow.com/users/1090629/msakya,Scholar,bronze
+458429,registered,szli,1721,http://stackoverflow.com/users/458429/szli,26,http://stackoverflow.com/users/1090629/msakya,Popular Question,bronze
+458429,registered,szli,1721,http://stackoverflow.com/users/458429/szli,27,http://stackoverflow.com/users/1090629/msakya,Notable Question,silver
+458429,registered,szli,1721,http://stackoverflow.com/users/458429/szli,20,http://stackoverflow.com/users/1090629/msakya,Nice Question,bronze
+458429,registered,szli,1721,http://stackoverflow.com/users/458429/szli,22,http://stackoverflow.com/users/1090629/msakya,Great Question,gold
+458429,registered,szli,1721,http://stackoverflow.com/users/458429/szli,21,http://stackoverflow.com/users/1090629/msakya,Good Question,silver
+458429,registered,szli,1721,http://stackoverflow.com/users/458429/szli,33,http://stackoverflow.com/users/1090629/msakya,Favorite Question,silver
+458429,registered,szli,1721,http://stackoverflow.com/users/458429/szli,28,http://stackoverflow.com/users/1090629/msakya,Famous Question,gold
+458429,registered,szli,1721,http://stackoverflow.com/users/458429/szli,3,http://stackoverflow.com/users/1090629/msakya,Editor,bronze
+458429,registered,szli,1721,http://stackoverflow.com/users/458429/szli,4127,http://stackoverflow.com/users/1090629/msakya,Curious,bronze
+458429,registered,szli,1721,http://stackoverflow.com/users/458429/szli,7,http://stackoverflow.com/users/1090629/msakya,Critic,bronze
+458429,registered,szli,1721,http://stackoverflow.com/users/458429/szli,31,http://stackoverflow.com/users/1090629/msakya,Commentator,bronze
+1772165,registered,Timmie,989,http://stackoverflow.com/users/1772165/timmie,13,http://stackoverflow.com/users/1090629/msakya,Yearling,silver
+1772165,registered,Timmie,989,http://stackoverflow.com/users/1772165/timmie,63,http://stackoverflow.com/users/1090629/msakya,Tumbleweed,bronze
+1772165,registered,Timmie,989,http://stackoverflow.com/users/1772165/timmie,6,http://stackoverflow.com/users/1090629/msakya,Supporter,bronze
+1772165,registered,Timmie,989,http://stackoverflow.com/users/1772165/timmie,2,http://stackoverflow.com/users/1090629/msakya,Student,bronze
+1772165,registered,Timmie,989,http://stackoverflow.com/users/1772165/timmie,26,http://stackoverflow.com/users/1090629/msakya,Popular Question,bronze
+1772165,registered,Timmie,989,http://stackoverflow.com/users/1772165/timmie,27,http://stackoverflow.com/users/1090629/msakya,Notable Question,silver
+1772165,registered,Timmie,989,http://stackoverflow.com/users/1772165/timmie,20,http://stackoverflow.com/users/1090629/msakya,Nice Question,bronze
+1772165,registered,Timmie,989,http://stackoverflow.com/users/1772165/timmie,22,http://stackoverflow.com/users/1090629/msakya,Great Question,gold
+1772165,registered,Timmie,989,http://stackoverflow.com/users/1772165/timmie,21,http://stackoverflow.com/users/1090629/msakya,Good Question,silver
+1772165,registered,Timmie,989,http://stackoverflow.com/users/1772165/timmie,33,http://stackoverflow.com/users/1090629/msakya,Favorite Question,silver
+1772165,registered,Timmie,989,http://stackoverflow.com/users/1772165/timmie,28,http://stackoverflow.com/users/1090629/msakya,Famous Question,gold
+1642513,registered,ezbentley,3157,http://stackoverflow.com/users/1642513/ezbentley,13,http://stackoverflow.com/users/1090629/msakya,Yearling,silver
+1642513,registered,ezbentley,3157,http://stackoverflow.com/users/1642513/ezbentley,63,http://stackoverflow.com/users/1090629/msakya,Tumbleweed,bronze
+1642513,registered,ezbentley,3157,http://stackoverflow.com/users/1642513/ezbentley,6,http://stackoverflow.com/users/1090629/msakya,Supporter,bronze
+1642513,registered,ezbentley,3157,http://stackoverflow.com/users/1642513/ezbentley,2,http://stackoverflow.com/users/1090629/msakya,Student,bronze
+1642513,registered,ezbentley,3157,http://stackoverflow.com/users/1642513/ezbentley,10,http://stackoverflow.com/users/1090629/msakya,Scholar,bronze
+1642513,registered,ezbentley,3157,http://stackoverflow.com/users/1642513/ezbentley,26,http://stackoverflow.com/users/1090629/msakya,Popular Question,bronze
+1642513,registered,ezbentley,3157,http://stackoverflow.com/users/1642513/ezbentley,27,http://stackoverflow.com/users/1090629/msakya,Notable Question,silver
+1642513,registered,ezbentley,3157,http://stackoverflow.com/users/1642513/ezbentley,20,http://stackoverflow.com/users/1090629/msakya,Nice Question,bronze
+1642513,registered,ezbentley,3157,http://stackoverflow.com/users/1642513/ezbentley,4128,http://stackoverflow.com/users/1090629/msakya,Inquisitive,silver
+1642513,registered,ezbentley,3157,http://stackoverflow.com/users/1642513/ezbentley,22,http://stackoverflow.com/users/1090629/msakya,Great Question,gold
+1642513,registered,ezbentley,3157,http://stackoverflow.com/users/1642513/ezbentley,21,http://stackoverflow.com/users/1090629/msakya,Good Question,silver
+1642513,registered,ezbentley,3157,http://stackoverflow.com/users/1642513/ezbentley,33,http://stackoverflow.com/users/1090629/msakya,Favorite Question,silver
+1642513,registered,ezbentley,3157,http://stackoverflow.com/users/1642513/ezbentley,28,http://stackoverflow.com/users/1090629/msakya,Famous Question,gold
+1642513,registered,ezbentley,3157,http://stackoverflow.com/users/1642513/ezbentley,71,http://stackoverflow.com/users/1090629/msakya,Enthusiast,silver
+1642513,registered,ezbentley,3157,http://stackoverflow.com/users/1642513/ezbentley,3,http://stackoverflow.com/users/1090629/msakya,Editor,bronze
+1642513,registered,ezbentley,3157,http://stackoverflow.com/users/1642513/ezbentley,4127,http://stackoverflow.com/users/1090629/msakya,Curious,bronze
+1642513,registered,ezbentley,3157,http://stackoverflow.com/users/1642513/ezbentley,7,http://stackoverflow.com/users/1090629/msakya,Critic,bronze
+1642513,registered,ezbentley,3157,http://stackoverflow.com/users/1642513/ezbentley,31,http://stackoverflow.com/users/1090629/msakya,Commentator,bronze
+1642513,registered,ezbentley,3157,http://stackoverflow.com/users/1642513/ezbentley,1973,http://stackoverflow.com/users/1090629/msakya,Caucus,bronze
+1560517,registered,appleLover,1687,http://stackoverflow.com/users/1560517/applelover,13,http://stackoverflow.com/users/1090629/msakya,Yearling,silver
+1560517,registered,appleLover,1687,http://stackoverflow.com/users/1560517/applelover,63,http://stackoverflow.com/users/1090629/msakya,Tumbleweed,bronze
+1560517,registered,appleLover,1687,http://stackoverflow.com/users/1560517/applelover,1,http://stackoverflow.com/users/1090629/msakya,Teacher,bronze
+1560517,registered,appleLover,1687,http://stackoverflow.com/users/1560517/applelover,6,http://stackoverflow.com/users/1090629/msakya,Supporter,bronze
+1560517,registered,appleLover,1687,http://stackoverflow.com/users/1560517/applelover,2,http://stackoverflow.com/users/1090629/msakya,Student,bronze
+1560517,registered,appleLover,1687,http://stackoverflow.com/users/1560517/applelover,10,http://stackoverflow.com/users/1090629/msakya,Scholar,bronze
+1560517,registered,appleLover,1687,http://stackoverflow.com/users/1560517/applelover,26,http://stackoverflow.com/users/1090629/msakya,Popular Question,bronze
+1560517,registered,appleLover,1687,http://stackoverflow.com/users/1560517/applelover,27,http://stackoverflow.com/users/1090629/msakya,Notable Question,silver
+1560517,registered,appleLover,1687,http://stackoverflow.com/users/1560517/applelover,20,http://stackoverflow.com/users/1090629/msakya,Nice Question,bronze
+1560517,registered,appleLover,1687,http://stackoverflow.com/users/1560517/applelover,4128,http://stackoverflow.com/users/1090629/msakya,Inquisitive,silver
+1560517,registered,appleLover,1687,http://stackoverflow.com/users/1560517/applelover,22,http://stackoverflow.com/users/1090629/msakya,Great Question,gold
+1560517,registered,appleLover,1687,http://stackoverflow.com/users/1560517/applelover,21,http://stackoverflow.com/users/1090629/msakya,Good Question,silver
+1560517,registered,appleLover,1687,http://stackoverflow.com/users/1560517/applelover,28,http://stackoverflow.com/users/1090629/msakya,Famous Question,gold
+1560517,registered,appleLover,1687,http://stackoverflow.com/users/1560517/applelover,71,http://stackoverflow.com/users/1090629/msakya,Enthusiast,silver
+1560517,registered,appleLover,1687,http://stackoverflow.com/users/1560517/applelover,3,http://stackoverflow.com/users/1090629/msakya,Editor,bronze
+1560517,registered,appleLover,1687,http://stackoverflow.com/users/1560517/applelover,4127,http://stackoverflow.com/users/1090629/msakya,Curious,bronze
+1560517,registered,appleLover,1687,http://stackoverflow.com/users/1560517/applelover,7,http://stackoverflow.com/users/1090629/msakya,Critic,bronze
+1560517,registered,appleLover,1687,http://stackoverflow.com/users/1560517/applelover,31,http://stackoverflow.com/users/1090629/msakya,Commentator,bronze
+1560517,registered,appleLover,1687,http://stackoverflow.com/users/1560517/applelover,32,http://stackoverflow.com/users/1090629/msakya,Civic Duty,silver
+1072888,registered,bigbug,4946,http://stackoverflow.com/users/1072888/bigbug,13,http://stackoverflow.com/users/1090629/msakya,Yearling,silver
+1072888,registered,bigbug,4946,http://stackoverflow.com/users/1072888/bigbug,63,http://stackoverflow.com/users/1090629/msakya,Tumbleweed,bronze
+1072888,registered,bigbug,4946,http://stackoverflow.com/users/1072888/bigbug,1,http://stackoverflow.com/users/1090629/msakya,Teacher,bronze
+1072888,registered,bigbug,4946,http://stackoverflow.com/users/1072888/bigbug,6,http://stackoverflow.com/users/1090629/msakya,Supporter,bronze
+1072888,registered,bigbug,4946,http://stackoverflow.com/users/1072888/bigbug,2,http://stackoverflow.com/users/1090629/msakya,Student,bronze
+1072888,registered,bigbug,4946,http://stackoverflow.com/users/1072888/bigbug,10,http://stackoverflow.com/users/1090629/msakya,Scholar,bronze
+1072888,registered,bigbug,4946,http://stackoverflow.com/users/1072888/bigbug,26,http://stackoverflow.com/users/1090629/msakya,Popular Question,bronze
+1072888,registered,bigbug,4946,http://stackoverflow.com/users/1072888/bigbug,27,http://stackoverflow.com/users/1090629/msakya,Notable Question,silver
+1072888,registered,bigbug,4946,http://stackoverflow.com/users/1072888/bigbug,20,http://stackoverflow.com/users/1090629/msakya,Nice Question,bronze
+1072888,registered,bigbug,4946,http://stackoverflow.com/users/1072888/bigbug,23,http://stackoverflow.com/users/1090629/msakya,Nice Answer,bronze
+1072888,registered,bigbug,4946,http://stackoverflow.com/users/1072888/bigbug,4128,http://stackoverflow.com/users/1090629/msakya,Inquisitive,silver
+1072888,registered,bigbug,4946,http://stackoverflow.com/users/1072888/bigbug,22,http://stackoverflow.com/users/1090629/msakya,Great Question,gold
+1072888,registered,bigbug,4946,http://stackoverflow.com/users/1072888/bigbug,21,http://stackoverflow.com/users/1090629/msakya,Good Question,silver
+1072888,registered,bigbug,4946,http://stackoverflow.com/users/1072888/bigbug,33,http://stackoverflow.com/users/1090629/msakya,Favorite Question,silver
+1072888,registered,bigbug,4946,http://stackoverflow.com/users/1072888/bigbug,28,http://stackoverflow.com/users/1090629/msakya,Famous Question,gold
+1072888,registered,bigbug,4946,http://stackoverflow.com/users/1072888/bigbug,3,http://stackoverflow.com/users/1090629/msakya,Editor,bronze
+1072888,registered,bigbug,4946,http://stackoverflow.com/users/1072888/bigbug,4127,http://stackoverflow.com/users/1090629/msakya,Curious,bronze
+1072888,registered,bigbug,4946,http://stackoverflow.com/users/1072888/bigbug,7,http://stackoverflow.com/users/1090629/msakya,Critic,bronze
+1072888,registered,bigbug,4946,http://stackoverflow.com/users/1072888/bigbug,31,http://stackoverflow.com/users/1090629/msakya,Commentator,bronze
+1072888,registered,bigbug,4946,http://stackoverflow.com/users/1072888/bigbug,1973,http://stackoverflow.com/users/1090629/msakya,Caucus,bronze
+1072888,registered,bigbug,4946,http://stackoverflow.com/users/1072888/bigbug,9,http://stackoverflow.com/users/1090629/msakya,Autobiographer,bronze
+245549,registered,Roman,14359,http://stackoverflow.com/users/245549/roman,13,http://stackoverflow.com/users/1090629/msakya,Yearling,silver
+245549,registered,Roman,14359,http://stackoverflow.com/users/245549/roman,63,http://stackoverflow.com/users/1090629/msakya,Tumbleweed,bronze
+245549,registered,Roman,14359,http://stackoverflow.com/users/245549/roman,1,http://stackoverflow.com/users/1090629/msakya,Teacher,bronze
+245549,registered,Roman,14359,http://stackoverflow.com/users/245549/roman,11,http://stackoverflow.com/users/1090629/msakya,Taxonomist,silver
+245549,registered,Roman,14359,http://stackoverflow.com/users/245549/roman,6,http://stackoverflow.com/users/1090629/msakya,Supporter,bronze
+245549,registered,Roman,14359,http://stackoverflow.com/users/245549/roman,2,http://stackoverflow.com/users/1090629/msakya,Student,bronze
+245549,registered,Roman,14359,http://stackoverflow.com/users/245549/roman,4129,http://stackoverflow.com/users/1090629/msakya,Socratic,gold
+245549,registered,Roman,14359,http://stackoverflow.com/users/245549/roman,14,http://stackoverflow.com/users/1090629/msakya,Self-Learner,bronze
+245549,registered,Roman,14359,http://stackoverflow.com/users/245549/roman,10,http://stackoverflow.com/users/1090629/msakya,Scholar,bronze
+245549,registered,Roman,14359,http://stackoverflow.com/users/245549/roman,900,http://stackoverflow.com/users/1090629/msakya,Quorum,bronze
+245549,registered,Roman,14359,http://stackoverflow.com/users/245549/roman,220,http://stackoverflow.com/users/1090629/msakya,Promoter,bronze
+245549,registered,Roman,14359,http://stackoverflow.com/users/245549/roman,26,http://stackoverflow.com/users/1090629/msakya,Popular Question,bronze
+245549,registered,Roman,14359,http://stackoverflow.com/users/245549/roman,38,http://stackoverflow.com/users/1090629/msakya,Peer Pressure,bronze
+245549,registered,Roman,14359,http://stackoverflow.com/users/245549/roman,27,http://stackoverflow.com/users/1090629/msakya,Notable Question,silver
+245549,registered,Roman,14359,http://stackoverflow.com/users/245549/roman,20,http://stackoverflow.com/users/1090629/msakya,Nice Question,bronze
+245549,registered,Roman,14359,http://stackoverflow.com/users/245549/roman,23,http://stackoverflow.com/users/1090629/msakya,Nice Answer,bronze
+245549,registered,Roman,14359,http://stackoverflow.com/users/245549/roman,4128,http://stackoverflow.com/users/1090629/msakya,Inquisitive,silver
+245549,registered,Roman,14359,http://stackoverflow.com/users/245549/roman,22,http://stackoverflow.com/users/1090629/msakya,Great Question,gold
+245549,registered,Roman,14359,http://stackoverflow.com/users/245549/roman,21,http://stackoverflow.com/users/1090629/msakya,Good Question,silver
+245549,registered,Roman,14359,http://stackoverflow.com/users/245549/roman,24,http://stackoverflow.com/users/1090629/msakya,Good Answer,silver
+245549,registered,Roman,14359,http://stackoverflow.com/users/245549/roman,33,http://stackoverflow.com/users/1090629/msakya,Favorite Question,silver
+245549,registered,Roman,14359,http://stackoverflow.com/users/245549/roman,28,http://stackoverflow.com/users/1090629/msakya,Famous Question,gold
+245549,registered,Roman,14359,http://stackoverflow.com/users/245549/roman,71,http://stackoverflow.com/users/1090629/msakya,Enthusiast,silver
+245549,registered,Roman,14359,http://stackoverflow.com/users/245549/roman,3,http://stackoverflow.com/users/1090629/msakya,Editor,bronze
+245549,registered,Roman,14359,http://stackoverflow.com/users/245549/roman,4127,http://stackoverflow.com/users/1090629/msakya,Curious,bronze
+245549,registered,Roman,14359,http://stackoverflow.com/users/245549/roman,7,http://stackoverflow.com/users/1090629/msakya,Critic,bronze
+245549,registered,Roman,14359,http://stackoverflow.com/users/245549/roman,31,http://stackoverflow.com/users/1090629/msakya,Commentator,bronze
+245549,registered,Roman,14359,http://stackoverflow.com/users/245549/roman,32,http://stackoverflow.com/users/1090629/msakya,Civic Duty,silver
+245549,registered,Roman,14359,http://stackoverflow.com/users/245549/roman,221,http://stackoverflow.com/users/1090629/msakya,Benefactor,bronze
+983191,registered,zach,4294,http://stackoverflow.com/users/983191/zach,13,http://stackoverflow.com/users/1090629/msakya,Yearling,silver
+983191,registered,zach,4294,http://stackoverflow.com/users/983191/zach,63,http://stackoverflow.com/users/1090629/msakya,Tumbleweed,bronze
+983191,registered,zach,4294,http://stackoverflow.com/users/983191/zach,1,http://stackoverflow.com/users/1090629/msakya,Teacher,bronze
+983191,registered,zach,4294,http://stackoverflow.com/users/983191/zach,6,http://stackoverflow.com/users/1090629/msakya,Supporter,bronze
+983191,registered,zach,4294,http://stackoverflow.com/users/983191/zach,2,http://stackoverflow.com/users/1090629/msakya,Student,bronze
+983191,registered,zach,4294,http://stackoverflow.com/users/983191/zach,14,http://stackoverflow.com/users/1090629/msakya,Self-Learner,bronze
+983191,registered,zach,4294,http://stackoverflow.com/users/983191/zach,10,http://stackoverflow.com/users/1090629/msakya,Scholar,bronze
+983191,registered,zach,4294,http://stackoverflow.com/users/983191/zach,837,http://stackoverflow.com/users/1090629/msakya,Revival,bronze
+983191,registered,zach,4294,http://stackoverflow.com/users/983191/zach,26,http://stackoverflow.com/users/1090629/msakya,Popular Question,bronze
+983191,registered,zach,4294,http://stackoverflow.com/users/983191/zach,5,http://stackoverflow.com/users/1090629/msakya,Organizer,bronze
+983191,registered,zach,4294,http://stackoverflow.com/users/983191/zach,27,http://stackoverflow.com/users/1090629/msakya,Notable Question,silver
+983191,registered,zach,4294,http://stackoverflow.com/users/983191/zach,20,http://stackoverflow.com/users/1090629/msakya,Nice Question,bronze
+983191,registered,zach,4294,http://stackoverflow.com/users/983191/zach,23,http://stackoverflow.com/users/1090629/msakya,Nice Answer,bronze
+983191,registered,zach,4294,http://stackoverflow.com/users/983191/zach,17,http://stackoverflow.com/users/1090629/msakya,Necromancer,silver
+983191,registered,zach,4294,http://stackoverflow.com/users/983191/zach,4128,http://stackoverflow.com/users/1090629/msakya,Inquisitive,silver
+983191,registered,zach,4294,http://stackoverflow.com/users/983191/zach,2600,http://stackoverflow.com/users/1090629/msakya,Informed,bronze
+983191,registered,zach,4294,http://stackoverflow.com/users/983191/zach,22,http://stackoverflow.com/users/1090629/msakya,Great Question,gold
+983191,registered,zach,4294,http://stackoverflow.com/users/983191/zach,25,http://stackoverflow.com/users/1090629/msakya,Great Answer,gold
+983191,registered,zach,4294,http://stackoverflow.com/users/983191/zach,21,http://stackoverflow.com/users/1090629/msakya,Good Question,silver
+983191,registered,zach,4294,http://stackoverflow.com/users/983191/zach,24,http://stackoverflow.com/users/1090629/msakya,Good Answer,silver
+983191,registered,zach,4294,http://stackoverflow.com/users/983191/zach,33,http://stackoverflow.com/users/1090629/msakya,Favorite Question,silver
+983191,registered,zach,4294,http://stackoverflow.com/users/983191/zach,28,http://stackoverflow.com/users/1090629/msakya,Famous Question,gold
+983191,registered,zach,4294,http://stackoverflow.com/users/983191/zach,1287,http://stackoverflow.com/users/1090629/msakya,Excavator,bronze
+983191,registered,zach,4294,http://stackoverflow.com/users/983191/zach,3,http://stackoverflow.com/users/1090629/msakya,Editor,bronze
+983191,registered,zach,4294,http://stackoverflow.com/users/983191/zach,37,http://stackoverflow.com/users/1090629/msakya,Disciplined,bronze
+983191,registered,zach,4294,http://stackoverflow.com/users/983191/zach,2278,http://stackoverflow.com/users/1090629/msakya,Custodian,bronze
+983191,registered,zach,4294,http://stackoverflow.com/users/983191/zach,4127,http://stackoverflow.com/users/1090629/msakya,Curious,bronze
+983191,registered,zach,4294,http://stackoverflow.com/users/983191/zach,7,http://stackoverflow.com/users/1090629/msakya,Critic,bronze
+983191,registered,zach,4294,http://stackoverflow.com/users/983191/zach,1974,http://stackoverflow.com/users/1090629/msakya,Constituent,silver
+983191,registered,zach,4294,http://stackoverflow.com/users/983191/zach,31,http://stackoverflow.com/users/1090629/msakya,Commentator,bronze
+2006977,registered,yemu,2190,http://stackoverflow.com/users/2006977/yemu,13,http://stackoverflow.com/users/1090629/msakya,Yearling,silver
+2006977,registered,yemu,2190,http://stackoverflow.com/users/2006977/yemu,63,http://stackoverflow.com/users/1090629/msakya,Tumbleweed,bronze
+2006977,registered,yemu,2190,http://stackoverflow.com/users/2006977/yemu,1,http://stackoverflow.com/users/1090629/msakya,Teacher,bronze
+2006977,registered,yemu,2190,http://stackoverflow.com/users/2006977/yemu,6,http://stackoverflow.com/users/1090629/msakya,Supporter,bronze
+2006977,registered,yemu,2190,http://stackoverflow.com/users/2006977/yemu,2,http://stackoverflow.com/users/1090629/msakya,Student,bronze
+2006977,registered,yemu,2190,http://stackoverflow.com/users/2006977/yemu,10,http://stackoverflow.com/users/1090629/msakya,Scholar,bronze
+2006977,registered,yemu,2190,http://stackoverflow.com/users/2006977/yemu,26,http://stackoverflow.com/users/1090629/msakya,Popular Question,bronze
+2006977,registered,yemu,2190,http://stackoverflow.com/users/2006977/yemu,27,http://stackoverflow.com/users/1090629/msakya,Notable Question,silver
+2006977,registered,yemu,2190,http://stackoverflow.com/users/2006977/yemu,20,http://stackoverflow.com/users/1090629/msakya,Nice Question,bronze
+2006977,registered,yemu,2190,http://stackoverflow.com/users/2006977/yemu,23,http://stackoverflow.com/users/1090629/msakya,Nice Answer,bronze
+2006977,registered,yemu,2190,http://stackoverflow.com/users/2006977/yemu,17,http://stackoverflow.com/users/1090629/msakya,Necromancer,silver
+2006977,registered,yemu,2190,http://stackoverflow.com/users/2006977/yemu,22,http://stackoverflow.com/users/1090629/msakya,Great Question,gold
+2006977,registered,yemu,2190,http://stackoverflow.com/users/2006977/yemu,21,http://stackoverflow.com/users/1090629/msakya,Good Question,silver
+2006977,registered,yemu,2190,http://stackoverflow.com/users/2006977/yemu,33,http://stackoverflow.com/users/1090629/msakya,Favorite Question,silver
+2006977,registered,yemu,2190,http://stackoverflow.com/users/2006977/yemu,28,http://stackoverflow.com/users/1090629/msakya,Famous Question,gold
+2006977,registered,yemu,2190,http://stackoverflow.com/users/2006977/yemu,3,http://stackoverflow.com/users/1090629/msakya,Editor,bronze
+2006977,registered,yemu,2190,http://stackoverflow.com/users/2006977/yemu,4127,http://stackoverflow.com/users/1090629/msakya,Curious,bronze
+2006977,registered,yemu,2190,http://stackoverflow.com/users/2006977/yemu,7,http://stackoverflow.com/users/1090629/msakya,Critic,bronze
+2006977,registered,yemu,2190,http://stackoverflow.com/users/2006977/yemu,31,http://stackoverflow.com/users/1090629/msakya,Commentator,bronze
+1072888,registered,bigbug,4946,http://stackoverflow.com/users/1072888/bigbug,13,http://stackoverflow.com/users/1090629/msakya,Yearling,silver
+1072888,registered,bigbug,4946,http://stackoverflow.com/users/1072888/bigbug,63,http://stackoverflow.com/users/1090629/msakya,Tumbleweed,bronze
+1072888,registered,bigbug,4946,http://stackoverflow.com/users/1072888/bigbug,1,http://stackoverflow.com/users/1090629/msakya,Teacher,bronze
+1072888,registered,bigbug,4946,http://stackoverflow.com/users/1072888/bigbug,6,http://stackoverflow.com/users/1090629/msakya,Supporter,bronze
+1072888,registered,bigbug,4946,http://stackoverflow.com/users/1072888/bigbug,2,http://stackoverflow.com/users/1090629/msakya,Student,bronze
+1072888,registered,bigbug,4946,http://stackoverflow.com/users/1072888/bigbug,10,http://stackoverflow.com/users/1090629/msakya,Scholar,bronze
+1072888,registered,bigbug,4946,http://stackoverflow.com/users/1072888/bigbug,26,http://stackoverflow.com/users/1090629/msakya,Popular Question,bronze
+1072888,registered,bigbug,4946,http://stackoverflow.com/users/1072888/bigbug,27,http://stackoverflow.com/users/1090629/msakya,Notable Question,silver
+1072888,registered,bigbug,4946,http://stackoverflow.com/users/1072888/bigbug,20,http://stackoverflow.com/users/1090629/msakya,Nice Question,bronze
+1072888,registered,bigbug,4946,http://stackoverflow.com/users/1072888/bigbug,23,http://stackoverflow.com/users/1090629/msakya,Nice Answer,bronze
+1072888,registered,bigbug,4946,http://stackoverflow.com/users/1072888/bigbug,4128,http://stackoverflow.com/users/1090629/msakya,Inquisitive,silver
+1072888,registered,bigbug,4946,http://stackoverflow.com/users/1072888/bigbug,22,http://stackoverflow.com/users/1090629/msakya,Great Question,gold
+1072888,registered,bigbug,4946,http://stackoverflow.com/users/1072888/bigbug,21,http://stackoverflow.com/users/1090629/msakya,Good Question,silver
+1072888,registered,bigbug,4946,http://stackoverflow.com/users/1072888/bigbug,33,http://stackoverflow.com/users/1090629/msakya,Favorite Question,silver
+1072888,registered,bigbug,4946,http://stackoverflow.com/users/1072888/bigbug,28,http://stackoverflow.com/users/1090629/msakya,Famous Question,gold
+1072888,registered,bigbug,4946,http://stackoverflow.com/users/1072888/bigbug,3,http://stackoverflow.com/users/1090629/msakya,Editor,bronze
+1072888,registered,bigbug,4946,http://stackoverflow.com/users/1072888/bigbug,4127,http://stackoverflow.com/users/1090629/msakya,Curious,bronze
+1072888,registered,bigbug,4946,http://stackoverflow.com/users/1072888/bigbug,7,http://stackoverflow.com/users/1090629/msakya,Critic,bronze
+1072888,registered,bigbug,4946,http://stackoverflow.com/users/1072888/bigbug,31,http://stackoverflow.com/users/1090629/msakya,Commentator,bronze
+1072888,registered,bigbug,4946,http://stackoverflow.com/users/1072888/bigbug,1973,http://stackoverflow.com/users/1090629/msakya,Caucus,bronze
+1072888,registered,bigbug,4946,http://stackoverflow.com/users/1072888/bigbug,9,http://stackoverflow.com/users/1090629/msakya,Autobiographer,bronze
+213216,registered,user7289,3432,http://stackoverflow.com/users/213216/user7289,13,http://stackoverflow.com/users/1090629/msakya,Yearling,silver
+213216,registered,user7289,3432,http://stackoverflow.com/users/213216/user7289,63,http://stackoverflow.com/users/1090629/msakya,Tumbleweed,bronze
+213216,registered,user7289,3432,http://stackoverflow.com/users/213216/user7289,1,http://stackoverflow.com/users/1090629/msakya,Teacher,bronze
+213216,registered,user7289,3432,http://stackoverflow.com/users/213216/user7289,6,http://stackoverflow.com/users/1090629/msakya,Supporter,bronze
+213216,registered,user7289,3432,http://stackoverflow.com/users/213216/user7289,2,http://stackoverflow.com/users/1090629/msakya,Student,bronze
+213216,registered,user7289,3432,http://stackoverflow.com/users/213216/user7289,14,http://stackoverflow.com/users/1090629/msakya,Self-Learner,bronze
+213216,registered,user7289,3432,http://stackoverflow.com/users/213216/user7289,10,http://stackoverflow.com/users/1090629/msakya,Scholar,bronze
+213216,registered,user7289,3432,http://stackoverflow.com/users/213216/user7289,26,http://stackoverflow.com/users/1090629/msakya,Popular Question,bronze
+213216,registered,user7289,3432,http://stackoverflow.com/users/213216/user7289,5,http://stackoverflow.com/users/1090629/msakya,Organizer,bronze
+213216,registered,user7289,3432,http://stackoverflow.com/users/213216/user7289,27,http://stackoverflow.com/users/1090629/msakya,Notable Question,silver
+213216,registered,user7289,3432,http://stackoverflow.com/users/213216/user7289,20,http://stackoverflow.com/users/1090629/msakya,Nice Question,bronze
+213216,registered,user7289,3432,http://stackoverflow.com/users/213216/user7289,4128,http://stackoverflow.com/users/1090629/msakya,Inquisitive,silver
+213216,registered,user7289,3432,http://stackoverflow.com/users/213216/user7289,2600,http://stackoverflow.com/users/1090629/msakya,Informed,bronze
+213216,registered,user7289,3432,http://stackoverflow.com/users/213216/user7289,22,http://stackoverflow.com/users/1090629/msakya,Great Question,gold
+213216,registered,user7289,3432,http://stackoverflow.com/users/213216/user7289,21,http://stackoverflow.com/users/1090629/msakya,Good Question,silver
+213216,registered,user7289,3432,http://stackoverflow.com/users/213216/user7289,33,http://stackoverflow.com/users/1090629/msakya,Favorite Question,silver
+213216,registered,user7289,3432,http://stackoverflow.com/users/213216/user7289,28,http://stackoverflow.com/users/1090629/msakya,Famous Question,gold
+213216,registered,user7289,3432,http://stackoverflow.com/users/213216/user7289,3,http://stackoverflow.com/users/1090629/msakya,Editor,bronze
+213216,registered,user7289,3432,http://stackoverflow.com/users/213216/user7289,4127,http://stackoverflow.com/users/1090629/msakya,Curious,bronze
+213216,registered,user7289,3432,http://stackoverflow.com/users/213216/user7289,7,http://stackoverflow.com/users/1090629/msakya,Critic,bronze
+213216,registered,user7289,3432,http://stackoverflow.com/users/213216/user7289,31,http://stackoverflow.com/users/1090629/msakya,Commentator,bronze
+1005409,registered,Muppet,1092,http://stackoverflow.com/users/1005409/muppet,13,http://stackoverflow.com/users/1090629/msakya,Yearling,silver
+1005409,registered,Muppet,1092,http://stackoverflow.com/users/1005409/muppet,63,http://stackoverflow.com/users/1090629/msakya,Tumbleweed,bronze
+1005409,registered,Muppet,1092,http://stackoverflow.com/users/1005409/muppet,1,http://stackoverflow.com/users/1090629/msakya,Teacher,bronze
+1005409,registered,Muppet,1092,http://stackoverflow.com/users/1005409/muppet,6,http://stackoverflow.com/users/1090629/msakya,Supporter,bronze
+1005409,registered,Muppet,1092,http://stackoverflow.com/users/1005409/muppet,2,http://stackoverflow.com/users/1090629/msakya,Student,bronze
+1005409,registered,Muppet,1092,http://stackoverflow.com/users/1005409/muppet,14,http://stackoverflow.com/users/1090629/msakya,Self-Learner,bronze
+1005409,registered,Muppet,1092,http://stackoverflow.com/users/1005409/muppet,10,http://stackoverflow.com/users/1090629/msakya,Scholar,bronze
+1005409,registered,Muppet,1092,http://stackoverflow.com/users/1005409/muppet,26,http://stackoverflow.com/users/1090629/msakya,Popular Question,bronze
+1005409,registered,Muppet,1092,http://stackoverflow.com/users/1005409/muppet,27,http://stackoverflow.com/users/1090629/msakya,Notable Question,silver
+1005409,registered,Muppet,1092,http://stackoverflow.com/users/1005409/muppet,20,http://stackoverflow.com/users/1090629/msakya,Nice Question,bronze
+1005409,registered,Muppet,1092,http://stackoverflow.com/users/1005409/muppet,2600,http://stackoverflow.com/users/1090629/msakya,Informed,bronze
+1005409,registered,Muppet,1092,http://stackoverflow.com/users/1005409/muppet,22,http://stackoverflow.com/users/1090629/msakya,Great Question,gold
+1005409,registered,Muppet,1092,http://stackoverflow.com/users/1005409/muppet,21,http://stackoverflow.com/users/1090629/msakya,Good Question,silver
+1005409,registered,Muppet,1092,http://stackoverflow.com/users/1005409/muppet,33,http://stackoverflow.com/users/1090629/msakya,Favorite Question,silver
+1005409,registered,Muppet,1092,http://stackoverflow.com/users/1005409/muppet,28,http://stackoverflow.com/users/1090629/msakya,Famous Question,gold
+1005409,registered,Muppet,1092,http://stackoverflow.com/users/1005409/muppet,3,http://stackoverflow.com/users/1090629/msakya,Editor,bronze
+1005409,registered,Muppet,1092,http://stackoverflow.com/users/1005409/muppet,4127,http://stackoverflow.com/users/1090629/msakya,Curious,bronze
+1005409,registered,Muppet,1092,http://stackoverflow.com/users/1005409/muppet,7,http://stackoverflow.com/users/1090629/msakya,Critic,bronze
+1005409,registered,Muppet,1092,http://stackoverflow.com/users/1005409/muppet,31,http://stackoverflow.com/users/1090629/msakya,Commentator,bronze
+867549,registered,TravisVOX,1246,http://stackoverflow.com/users/867549/travisvox,13,http://stackoverflow.com/users/1090629/msakya,Yearling,silver
+867549,registered,TravisVOX,1246,http://stackoverflow.com/users/867549/travisvox,63,http://stackoverflow.com/users/1090629/msakya,Tumbleweed,bronze
+867549,registered,TravisVOX,1246,http://stackoverflow.com/users/867549/travisvox,1,http://stackoverflow.com/users/1090629/msakya,Teacher,bronze
+867549,registered,TravisVOX,1246,http://stackoverflow.com/users/867549/travisvox,6,http://stackoverflow.com/users/1090629/msakya,Supporter,bronze
+867549,registered,TravisVOX,1246,http://stackoverflow.com/users/867549/travisvox,2,http://stackoverflow.com/users/1090629/msakya,Student,bronze
+867549,registered,TravisVOX,1246,http://stackoverflow.com/users/867549/travisvox,10,http://stackoverflow.com/users/1090629/msakya,Scholar,bronze
+867549,registered,TravisVOX,1246,http://stackoverflow.com/users/867549/travisvox,26,http://stackoverflow.com/users/1090629/msakya,Popular Question,bronze
+867549,registered,TravisVOX,1246,http://stackoverflow.com/users/867549/travisvox,27,http://stackoverflow.com/users/1090629/msakya,Notable Question,silver
+867549,registered,TravisVOX,1246,http://stackoverflow.com/users/867549/travisvox,20,http://stackoverflow.com/users/1090629/msakya,Nice Question,bronze
+867549,registered,TravisVOX,1246,http://stackoverflow.com/users/867549/travisvox,22,http://stackoverflow.com/users/1090629/msakya,Great Question,gold
+867549,registered,TravisVOX,1246,http://stackoverflow.com/users/867549/travisvox,21,http://stackoverflow.com/users/1090629/msakya,Good Question,silver
+867549,registered,TravisVOX,1246,http://stackoverflow.com/users/867549/travisvox,33,http://stackoverflow.com/users/1090629/msakya,Favorite Question,silver
+867549,registered,TravisVOX,1246,http://stackoverflow.com/users/867549/travisvox,28,http://stackoverflow.com/users/1090629/msakya,Famous Question,gold
+867549,registered,TravisVOX,1246,http://stackoverflow.com/users/867549/travisvox,3,http://stackoverflow.com/users/1090629/msakya,Editor,bronze
+867549,registered,TravisVOX,1246,http://stackoverflow.com/users/867549/travisvox,4127,http://stackoverflow.com/users/1090629/msakya,Curious,bronze
+867549,registered,TravisVOX,1246,http://stackoverflow.com/users/867549/travisvox,31,http://stackoverflow.com/users/1090629/msakya,Commentator,bronze
+345660,registered,Zach,11013,http://stackoverflow.com/users/345660/zach,13,http://stackoverflow.com/users/1090629/msakya,Yearling,silver
+345660,registered,Zach,11013,http://stackoverflow.com/users/345660/zach,1108,http://stackoverflow.com/users/1090629/msakya,Vox Populi,bronze
+345660,registered,Zach,11013,http://stackoverflow.com/users/345660/zach,63,http://stackoverflow.com/users/1090629/msakya,Tumbleweed,bronze
+345660,registered,Zach,11013,http://stackoverflow.com/users/345660/zach,1,http://stackoverflow.com/users/1090629/msakya,Teacher,bronze
+345660,registered,Zach,11013,http://stackoverflow.com/users/345660/zach,11,http://stackoverflow.com/users/1090629/msakya,Taxonomist,silver
+345660,registered,Zach,11013,http://stackoverflow.com/users/345660/zach,6,http://stackoverflow.com/users/1090629/msakya,Supporter,bronze
+345660,registered,Zach,11013,http://stackoverflow.com/users/345660/zach,804,http://stackoverflow.com/users/1090629/msakya,Suffrage,bronze
+345660,registered,Zach,11013,http://stackoverflow.com/users/345660/zach,2,http://stackoverflow.com/users/1090629/msakya,Student,bronze
+345660,registered,Zach,11013,http://stackoverflow.com/users/345660/zach,4129,http://stackoverflow.com/users/1090629/msakya,Socratic,gold
+345660,registered,Zach,11013,http://stackoverflow.com/users/345660/zach,14,http://stackoverflow.com/users/1090629/msakya,Self-Learner,bronze
+345660,registered,Zach,11013,http://stackoverflow.com/users/345660/zach,10,http://stackoverflow.com/users/1090629/msakya,Scholar,bronze
+345660,registered,Zach,11013,http://stackoverflow.com/users/345660/zach,837,http://stackoverflow.com/users/1090629/msakya,Revival,bronze
+345660,registered,Zach,11013,http://stackoverflow.com/users/345660/zach,414,http://stackoverflow.com/users/1090629/msakya,r,bronze
+345660,registered,Zach,11013,http://stackoverflow.com/users/345660/zach,220,http://stackoverflow.com/users/1090629/msakya,Promoter,bronze
+345660,registered,Zach,11013,http://stackoverflow.com/users/345660/zach,26,http://stackoverflow.com/users/1090629/msakya,Popular Question,bronze
+345660,registered,Zach,11013,http://stackoverflow.com/users/345660/zach,5,http://stackoverflow.com/users/1090629/msakya,Organizer,bronze
+345660,registered,Zach,11013,http://stackoverflow.com/users/345660/zach,27,http://stackoverflow.com/users/1090629/msakya,Notable Question,silver
+345660,registered,Zach,11013,http://stackoverflow.com/users/345660/zach,20,http://stackoverflow.com/users/1090629/msakya,Nice Question,bronze
+345660,registered,Zach,11013,http://stackoverflow.com/users/345660/zach,23,http://stackoverflow.com/users/1090629/msakya,Nice Answer,bronze
+345660,registered,Zach,11013,http://stackoverflow.com/users/345660/zach,17,http://stackoverflow.com/users/1090629/msakya,Necromancer,silver
+345660,registered,Zach,11013,http://stackoverflow.com/users/345660/zach,219,http://stackoverflow.com/users/1090629/msakya,Investor,bronze
+345660,registered,Zach,11013,http://stackoverflow.com/users/345660/zach,4128,http://stackoverflow.com/users/1090629/msakya,Inquisitive,silver
+345660,registered,Zach,11013,http://stackoverflow.com/users/345660/zach,22,http://stackoverflow.com/users/1090629/msakya,Great Question,gold
+345660,registered,Zach,11013,http://stackoverflow.com/users/345660/zach,21,http://stackoverflow.com/users/1090629/msakya,Good Question,silver
+345660,registered,Zach,11013,http://stackoverflow.com/users/345660/zach,24,http://stackoverflow.com/users/1090629/msakya,Good Answer,silver
+345660,registered,Zach,11013,http://stackoverflow.com/users/345660/zach,33,http://stackoverflow.com/users/1090629/msakya,Favorite Question,silver
+345660,registered,Zach,11013,http://stackoverflow.com/users/345660/zach,28,http://stackoverflow.com/users/1090629/msakya,Famous Question,gold
+345660,registered,Zach,11013,http://stackoverflow.com/users/345660/zach,4368,http://stackoverflow.com/users/1090629/msakya,Explainer,bronze
+345660,registered,Zach,11013,http://stackoverflow.com/users/345660/zach,1287,http://stackoverflow.com/users/1090629/msakya,Excavator,bronze
+345660,registered,Zach,11013,http://stackoverflow.com/users/345660/zach,19,http://stackoverflow.com/users/1090629/msakya,Enlightened,silver
+1505259,registered,marillion,1421,http://stackoverflow.com/users/1505259/marillion,13,http://stackoverflow.com/users/1090629/msakya,Yearling,silver
+1505259,registered,marillion,1421,http://stackoverflow.com/users/1505259/marillion,1,http://stackoverflow.com/users/1090629/msakya,Teacher,bronze
+1505259,registered,marillion,1421,http://stackoverflow.com/users/1505259/marillion,6,http://stackoverflow.com/users/1090629/msakya,Supporter,bronze
+1505259,registered,marillion,1421,http://stackoverflow.com/users/1505259/marillion,2,http://stackoverflow.com/users/1090629/msakya,Student,bronze
+1505259,registered,marillion,1421,http://stackoverflow.com/users/1505259/marillion,10,http://stackoverflow.com/users/1090629/msakya,Scholar,bronze
+1505259,registered,marillion,1421,http://stackoverflow.com/users/1505259/marillion,220,http://stackoverflow.com/users/1090629/msakya,Promoter,bronze
+1505259,registered,marillion,1421,http://stackoverflow.com/users/1505259/marillion,26,http://stackoverflow.com/users/1090629/msakya,Popular Question,bronze
+1505259,registered,marillion,1421,http://stackoverflow.com/users/1505259/marillion,27,http://stackoverflow.com/users/1090629/msakya,Notable Question,silver
+1505259,registered,marillion,1421,http://stackoverflow.com/users/1505259/marillion,20,http://stackoverflow.com/users/1090629/msakya,Nice Question,bronze
+1505259,registered,marillion,1421,http://stackoverflow.com/users/1505259/marillion,4128,http://stackoverflow.com/users/1090629/msakya,Inquisitive,silver
+1505259,registered,marillion,1421,http://stackoverflow.com/users/1505259/marillion,22,http://stackoverflow.com/users/1090629/msakya,Great Question,gold
+1505259,registered,marillion,1421,http://stackoverflow.com/users/1505259/marillion,21,http://stackoverflow.com/users/1090629/msakya,Good Question,silver
+1505259,registered,marillion,1421,http://stackoverflow.com/users/1505259/marillion,33,http://stackoverflow.com/users/1090629/msakya,Favorite Question,silver
+1505259,registered,marillion,1421,http://stackoverflow.com/users/1505259/marillion,28,http://stackoverflow.com/users/1090629/msakya,Famous Question,gold
+1505259,registered,marillion,1421,http://stackoverflow.com/users/1505259/marillion,3,http://stackoverflow.com/users/1090629/msakya,Editor,bronze
+1505259,registered,marillion,1421,http://stackoverflow.com/users/1505259/marillion,4127,http://stackoverflow.com/users/1090629/msakya,Curious,bronze
+1505259,registered,marillion,1421,http://stackoverflow.com/users/1505259/marillion,7,http://stackoverflow.com/users/1090629/msakya,Critic,bronze
+1505259,registered,marillion,1421,http://stackoverflow.com/users/1505259/marillion,1974,http://stackoverflow.com/users/1090629/msakya,Constituent,silver
+1505259,registered,marillion,1421,http://stackoverflow.com/users/1505259/marillion,31,http://stackoverflow.com/users/1090629/msakya,Commentator,bronze
+1505259,registered,marillion,1421,http://stackoverflow.com/users/1505259/marillion,1973,http://stackoverflow.com/users/1090629/msakya,Caucus,bronze
+1413778,registered,peoplesparkresident,525,http://stackoverflow.com/users/1413778/peoplesparkresident,13,http://stackoverflow.com/users/1090629/msakya,Yearling,silver
+1413778,registered,peoplesparkresident,525,http://stackoverflow.com/users/1413778/peoplesparkresident,63,http://stackoverflow.com/users/1090629/msakya,Tumbleweed,bronze
+1413778,registered,peoplesparkresident,525,http://stackoverflow.com/users/1413778/peoplesparkresident,6,http://stackoverflow.com/users/1090629/msakya,Supporter,bronze
+1413778,registered,peoplesparkresident,525,http://stackoverflow.com/users/1413778/peoplesparkresident,2,http://stackoverflow.com/users/1090629/msakya,Student,bronze
+1413778,registered,peoplesparkresident,525,http://stackoverflow.com/users/1413778/peoplesparkresident,10,http://stackoverflow.com/users/1090629/msakya,Scholar,bronze
+1413778,registered,peoplesparkresident,525,http://stackoverflow.com/users/1413778/peoplesparkresident,220,http://stackoverflow.com/users/1090629/msakya,Promoter,bronze
+1413778,registered,peoplesparkresident,525,http://stackoverflow.com/users/1413778/peoplesparkresident,26,http://stackoverflow.com/users/1090629/msakya,Popular Question,bronze
+1413778,registered,peoplesparkresident,525,http://stackoverflow.com/users/1413778/peoplesparkresident,27,http://stackoverflow.com/users/1090629/msakya,Notable Question,silver
+1413778,registered,peoplesparkresident,525,http://stackoverflow.com/users/1413778/peoplesparkresident,20,http://stackoverflow.com/users/1090629/msakya,Nice Question,bronze
+1413778,registered,peoplesparkresident,525,http://stackoverflow.com/users/1413778/peoplesparkresident,22,http://stackoverflow.com/users/1090629/msakya,Great Question,gold
+1413778,registered,peoplesparkresident,525,http://stackoverflow.com/users/1413778/peoplesparkresident,21,http://stackoverflow.com/users/1090629/msakya,Good Question,silver
+1413778,registered,peoplesparkresident,525,http://stackoverflow.com/users/1413778/peoplesparkresident,28,http://stackoverflow.com/users/1090629/msakya,Famous Question,gold
+1413778,registered,peoplesparkresident,525,http://stackoverflow.com/users/1413778/peoplesparkresident,3,http://stackoverflow.com/users/1090629/msakya,Editor,bronze
+1413778,registered,peoplesparkresident,525,http://stackoverflow.com/users/1413778/peoplesparkresident,7,http://stackoverflow.com/users/1090629/msakya,Critic,bronze
+1733061,registered,George Thompson,677,http://stackoverflow.com/users/1733061/george-thompson,13,http://stackoverflow.com/users/1090629/msakya,Yearling,silver
+1733061,registered,George Thompson,677,http://stackoverflow.com/users/1733061/george-thompson,6,http://stackoverflow.com/users/1090629/msakya,Supporter,bronze
+1733061,registered,George Thompson,677,http://stackoverflow.com/users/1733061/george-thompson,2,http://stackoverflow.com/users/1090629/msakya,Student,bronze
+1733061,registered,George Thompson,677,http://stackoverflow.com/users/1733061/george-thompson,10,http://stackoverflow.com/users/1090629/msakya,Scholar,bronze
+1733061,registered,George Thompson,677,http://stackoverflow.com/users/1733061/george-thompson,26,http://stackoverflow.com/users/1090629/msakya,Popular Question,bronze
+1733061,registered,George Thompson,677,http://stackoverflow.com/users/1733061/george-thompson,27,http://stackoverflow.com/users/1090629/msakya,Notable Question,silver
+1733061,registered,George Thompson,677,http://stackoverflow.com/users/1733061/george-thompson,20,http://stackoverflow.com/users/1090629/msakya,Nice Question,bronze
+1733061,registered,George Thompson,677,http://stackoverflow.com/users/1733061/george-thompson,22,http://stackoverflow.com/users/1090629/msakya,Great Question,gold
+1733061,registered,George Thompson,677,http://stackoverflow.com/users/1733061/george-thompson,21,http://stackoverflow.com/users/1090629/msakya,Good Question,silver
+1733061,registered,George Thompson,677,http://stackoverflow.com/users/1733061/george-thompson,28,http://stackoverflow.com/users/1090629/msakya,Famous Question,gold
+1733061,registered,George Thompson,677,http://stackoverflow.com/users/1733061/george-thompson,3,http://stackoverflow.com/users/1090629/msakya,Editor,bronze
+1733061,registered,George Thompson,677,http://stackoverflow.com/users/1733061/george-thompson,4127,http://stackoverflow.com/users/1090629/msakya,Curious,bronze
+1733061,registered,George Thompson,677,http://stackoverflow.com/users/1733061/george-thompson,31,http://stackoverflow.com/users/1090629/msakya,Commentator,bronze
+1240268,registered,Andy Hayden,90023,http://stackoverflow.com/users/1240268/andy-hayden,13,http://stackoverflow.com/users/1090629/msakya,Yearling,silver
+1240268,registered,Andy Hayden,90023,http://stackoverflow.com/users/1240268/andy-hayden,1108,http://stackoverflow.com/users/1090629/msakya,Vox Populi,bronze
+1240268,registered,Andy Hayden,90023,http://stackoverflow.com/users/1240268/andy-hayden,63,http://stackoverflow.com/users/1090629/msakya,Tumbleweed,bronze
+1240268,registered,Andy Hayden,90023,http://stackoverflow.com/users/1240268/andy-hayden,1,http://stackoverflow.com/users/1090629/msakya,Teacher,bronze
+1240268,registered,Andy Hayden,90023,http://stackoverflow.com/users/1240268/andy-hayden,884,http://stackoverflow.com/users/1090629/msakya,Talkative,bronze
+1240268,registered,Andy Hayden,90023,http://stackoverflow.com/users/1240268/andy-hayden,254,http://stackoverflow.com/users/1090629/msakya,Tag Editor,bronze
+1240268,registered,Andy Hayden,90023,http://stackoverflow.com/users/1240268/andy-hayden,1224,http://stackoverflow.com/users/1090629/msakya,Synonymizer,bronze
+1240268,registered,Andy Hayden,90023,http://stackoverflow.com/users/1240268/andy-hayden,6,http://stackoverflow.com/users/1090629/msakya,Supporter,bronze
+1240268,registered,Andy Hayden,90023,http://stackoverflow.com/users/1240268/andy-hayden,804,http://stackoverflow.com/users/1090629/msakya,Suffrage,bronze
+1240268,registered,Andy Hayden,90023,http://stackoverflow.com/users/1240268/andy-hayden,2,http://stackoverflow.com/users/1090629/msakya,Student,bronze
+1240268,registered,Andy Hayden,90023,http://stackoverflow.com/users/1240268/andy-hayden,12,http://stackoverflow.com/users/1090629/msakya,Strunk &amp; White,silver
+1240268,registered,Andy Hayden,90023,http://stackoverflow.com/users/1240268/andy-hayden,2279,http://stackoverflow.com/users/1090629/msakya,Steward,gold
+1240268,registered,Andy Hayden,90023,http://stackoverflow.com/users/1240268/andy-hayden,805,http://stackoverflow.com/users/1090629/msakya,Sportsmanship,silver
+1240268,registered,Andy Hayden,90023,http://stackoverflow.com/users/1240268/andy-hayden,14,http://stackoverflow.com/users/1090629/msakya,Self-Learner,bronze
+1240268,registered,Andy Hayden,90023,http://stackoverflow.com/users/1240268/andy-hayden,10,http://stackoverflow.com/users/1090629/msakya,Scholar,bronze
+1240268,registered,Andy Hayden,90023,http://stackoverflow.com/users/1240268/andy-hayden,837,http://stackoverflow.com/users/1090629/msakya,Revival,bronze
+1240268,registered,Andy Hayden,90023,http://stackoverflow.com/users/1240268/andy-hayden,1478,http://stackoverflow.com/users/1090629/msakya,Reviewer,silver
+1240268,registered,Andy Hayden,90023,http://stackoverflow.com/users/1240268/andy-hayden,5856,http://stackoverflow.com/users/1090629/msakya,Renovator,bronze
+1240268,registered,Andy Hayden,90023,http://stackoverflow.com/users/1240268/andy-hayden,4369,http://stackoverflow.com/users/1090629/msakya,Refiner,silver
+1240268,registered,Andy Hayden,90023,http://stackoverflow.com/users/1240268/andy-hayden,900,http://stackoverflow.com/users/1090629/msakya,Quorum,bronze
+1240268,registered,Andy Hayden,90023,http://stackoverflow.com/users/1240268/andy-hayden,476,http://stackoverflow.com/users/1090629/msakya,python-3.x,bronze
+1240268,registered,Andy Hayden,90023,http://stackoverflow.com/users/1240268/andy-hayden,2125,http://stackoverflow.com/users/1090629/msakya,python-2.7,bronze
+1240268,registered,Andy Hayden,90023,http://stackoverflow.com/users/1240268/andy-hayden,2595,http://stackoverflow.com/users/1090629/msakya,python-2.7,silver
+1240268,registered,Andy Hayden,90023,http://stackoverflow.com/users/1240268/andy-hayden,267,http://stackoverflow.com/users/1090629/msakya,python,bronze
+1240268,registered,Andy Hayden,90023,http://stackoverflow.com/users/1240268/andy-hayden,50,http://stackoverflow.com/users/1090629/msakya,python,silver
+1240268,registered,Andy Hayden,90023,http://stackoverflow.com/users/1240268/andy-hayden,51,http://stackoverflow.com/users/1090629/msakya,python,gold
+1240268,registered,Andy Hayden,90023,http://stackoverflow.com/users/1240268/andy-hayden,94,http://stackoverflow.com/users/1090629/msakya,Pundit,silver
+1240268,registered,Andy Hayden,90023,http://stackoverflow.com/users/1240268/andy-hayden,1276,http://stackoverflow.com/users/1090629/msakya,Proofreader,bronze
+1240268,registered,Andy Hayden,90023,http://stackoverflow.com/users/1240268/andy-hayden,220,http://stackoverflow.com/users/1090629/msakya,Promoter,bronze
+1240268,registered,Andy Hayden,90023,http://stackoverflow.com/users/1240268/andy-hayden,5855,http://stackoverflow.com/users/1090629/msakya,Primer,bronze
+468604,registered,saveenr,1481,http://stackoverflow.com/users/468604/saveenr,13,http://stackoverflow.com/users/1090629/msakya,Yearling,silver
+468604,registered,saveenr,1481,http://stackoverflow.com/users/468604/saveenr,1,http://stackoverflow.com/users/1090629/msakya,Teacher,bronze
+468604,registered,saveenr,1481,http://stackoverflow.com/users/468604/saveenr,6,http://stackoverflow.com/users/1090629/msakya,Supporter,bronze
+468604,registered,saveenr,1481,http://stackoverflow.com/users/468604/saveenr,2,http://stackoverflow.com/users/1090629/msakya,Student,bronze
+468604,registered,saveenr,1481,http://stackoverflow.com/users/468604/saveenr,10,http://stackoverflow.com/users/1090629/msakya,Scholar,bronze
+468604,registered,saveenr,1481,http://stackoverflow.com/users/468604/saveenr,26,http://stackoverflow.com/users/1090629/msakya,Popular Question,bronze
+468604,registered,saveenr,1481,http://stackoverflow.com/users/468604/saveenr,5,http://stackoverflow.com/users/1090629/msakya,Organizer,bronze
+468604,registered,saveenr,1481,http://stackoverflow.com/users/468604/saveenr,27,http://stackoverflow.com/users/1090629/msakya,Notable Question,silver
+468604,registered,saveenr,1481,http://stackoverflow.com/users/468604/saveenr,20,http://stackoverflow.com/users/1090629/msakya,Nice Question,bronze
+468604,registered,saveenr,1481,http://stackoverflow.com/users/468604/saveenr,23,http://stackoverflow.com/users/1090629/msakya,Nice Answer,bronze
+468604,registered,saveenr,1481,http://stackoverflow.com/users/468604/saveenr,17,http://stackoverflow.com/users/1090629/msakya,Necromancer,silver
+468604,registered,saveenr,1481,http://stackoverflow.com/users/468604/saveenr,21,http://stackoverflow.com/users/1090629/msakya,Good Question,silver
+468604,registered,saveenr,1481,http://stackoverflow.com/users/468604/saveenr,33,http://stackoverflow.com/users/1090629/msakya,Favorite Question,silver
+468604,registered,saveenr,1481,http://stackoverflow.com/users/468604/saveenr,28,http://stackoverflow.com/users/1090629/msakya,Famous Question,gold
+468604,registered,saveenr,1481,http://stackoverflow.com/users/468604/saveenr,1287,http://stackoverflow.com/users/1090629/msakya,Excavator,bronze
+468604,registered,saveenr,1481,http://stackoverflow.com/users/468604/saveenr,19,http://stackoverflow.com/users/1090629/msakya,Enlightened,silver
+468604,registered,saveenr,1481,http://stackoverflow.com/users/468604/saveenr,5870,http://stackoverflow.com/users/1090629/msakya,Educated,bronze
+468604,registered,saveenr,1481,http://stackoverflow.com/users/468604/saveenr,3,http://stackoverflow.com/users/1090629/msakya,Editor,bronze
+468604,registered,saveenr,1481,http://stackoverflow.com/users/468604/saveenr,7,http://stackoverflow.com/users/1090629/msakya,Critic,bronze
+468604,registered,saveenr,1481,http://stackoverflow.com/users/468604/saveenr,31,http://stackoverflow.com/users/1090629/msakya,Commentator,bronze
+468604,registered,saveenr,1481,http://stackoverflow.com/users/468604/saveenr,8,http://stackoverflow.com/users/1090629/msakya,Citizen Patrol,bronze
+468604,registered,saveenr,1481,http://stackoverflow.com/users/468604/saveenr,1973,http://stackoverflow.com/users/1090629/msakya,Caucus,bronze
+468604,registered,saveenr,1481,http://stackoverflow.com/users/468604/saveenr,9,http://stackoverflow.com/users/1090629/msakya,Autobiographer,bronze
+1560238,registered,beets,636,http://stackoverflow.com/users/1560238/beets,13,http://stackoverflow.com/users/1090629/msakya,Yearling,silver
+1560238,registered,beets,636,http://stackoverflow.com/users/1560238/beets,6,http://stackoverflow.com/users/1090629/msakya,Supporter,bronze
+1560238,registered,beets,636,http://stackoverflow.com/users/1560238/beets,2,http://stackoverflow.com/users/1090629/msakya,Student,bronze
+1560238,registered,beets,636,http://stackoverflow.com/users/1560238/beets,10,http://stackoverflow.com/users/1090629/msakya,Scholar,bronze
+1560238,registered,beets,636,http://stackoverflow.com/users/1560238/beets,26,http://stackoverflow.com/users/1090629/msakya,Popular Question,bronze
+1560238,registered,beets,636,http://stackoverflow.com/users/1560238/beets,27,http://stackoverflow.com/users/1090629/msakya,Notable Question,silver
+1560238,registered,beets,636,http://stackoverflow.com/users/1560238/beets,20,http://stackoverflow.com/users/1090629/msakya,Nice Question,bronze
+1560238,registered,beets,636,http://stackoverflow.com/users/1560238/beets,21,http://stackoverflow.com/users/1090629/msakya,Good Question,silver
+1560238,registered,beets,636,http://stackoverflow.com/users/1560238/beets,33,http://stackoverflow.com/users/1090629/msakya,Favorite Question,silver
+1560238,registered,beets,636,http://stackoverflow.com/users/1560238/beets,28,http://stackoverflow.com/users/1090629/msakya,Famous Question,gold
+1560238,registered,beets,636,http://stackoverflow.com/users/1560238/beets,31,http://stackoverflow.com/users/1090629/msakya,Commentator,bronze
+1072888,registered,bigbug,4946,http://stackoverflow.com/users/1072888/bigbug,13,http://stackoverflow.com/users/1090629/msakya,Yearling,silver
+1072888,registered,bigbug,4946,http://stackoverflow.com/users/1072888/bigbug,63,http://stackoverflow.com/users/1090629/msakya,Tumbleweed,bronze
+1072888,registered,bigbug,4946,http://stackoverflow.com/users/1072888/bigbug,1,http://stackoverflow.com/users/1090629/msakya,Teacher,bronze
+1072888,registered,bigbug,4946,http://stackoverflow.com/users/1072888/bigbug,6,http://stackoverflow.com/users/1090629/msakya,Supporter,bronze
+1072888,registered,bigbug,4946,http://stackoverflow.com/users/1072888/bigbug,2,http://stackoverflow.com/users/1090629/msakya,Student,bronze
+1072888,registered,bigbug,4946,http://stackoverflow.com/users/1072888/bigbug,10,http://stackoverflow.com/users/1090629/msakya,Scholar,bronze
+1072888,registered,bigbug,4946,http://stackoverflow.com/users/1072888/bigbug,26,http://stackoverflow.com/users/1090629/msakya,Popular Question,bronze
+1072888,registered,bigbug,4946,http://stackoverflow.com/users/1072888/bigbug,27,http://stackoverflow.com/users/1090629/msakya,Notable Question,silver
+1072888,registered,bigbug,4946,http://stackoverflow.com/users/1072888/bigbug,20,http://stackoverflow.com/users/1090629/msakya,Nice Question,bronze
+1072888,registered,bigbug,4946,http://stackoverflow.com/users/1072888/bigbug,23,http://stackoverflow.com/users/1090629/msakya,Nice Answer,bronze
+1072888,registered,bigbug,4946,http://stackoverflow.com/users/1072888/bigbug,4128,http://stackoverflow.com/users/1090629/msakya,Inquisitive,silver
+1072888,registered,bigbug,4946,http://stackoverflow.com/users/1072888/bigbug,22,http://stackoverflow.com/users/1090629/msakya,Great Question,gold
+1072888,registered,bigbug,4946,http://stackoverflow.com/users/1072888/bigbug,21,http://stackoverflow.com/users/1090629/msakya,Good Question,silver
+1072888,registered,bigbug,4946,http://stackoverflow.com/users/1072888/bigbug,33,http://stackoverflow.com/users/1090629/msakya,Favorite Question,silver
+1072888,registered,bigbug,4946,http://stackoverflow.com/users/1072888/bigbug,28,http://stackoverflow.com/users/1090629/msakya,Famous Question,gold
+1072888,registered,bigbug,4946,http://stackoverflow.com/users/1072888/bigbug,3,http://stackoverflow.com/users/1090629/msakya,Editor,bronze
+1072888,registered,bigbug,4946,http://stackoverflow.com/users/1072888/bigbug,4127,http://stackoverflow.com/users/1090629/msakya,Curious,bronze
+1072888,registered,bigbug,4946,http://stackoverflow.com/users/1072888/bigbug,7,http://stackoverflow.com/users/1090629/msakya,Critic,bronze
+1072888,registered,bigbug,4946,http://stackoverflow.com/users/1072888/bigbug,31,http://stackoverflow.com/users/1090629/msakya,Commentator,bronze
+1072888,registered,bigbug,4946,http://stackoverflow.com/users/1072888/bigbug,1973,http://stackoverflow.com/users/1090629/msakya,Caucus,bronze
+1072888,registered,bigbug,4946,http://stackoverflow.com/users/1072888/bigbug,9,http://stackoverflow.com/users/1090629/msakya,Autobiographer,bronze
+1072888,registered,bigbug,4946,http://stackoverflow.com/users/1072888/bigbug,13,http://stackoverflow.com/users/1090629/msakya,Yearling,silver
+1072888,registered,bigbug,4946,http://stackoverflow.com/users/1072888/bigbug,63,http://stackoverflow.com/users/1090629/msakya,Tumbleweed,bronze
+1072888,registered,bigbug,4946,http://stackoverflow.com/users/1072888/bigbug,1,http://stackoverflow.com/users/1090629/msakya,Teacher,bronze
+1072888,registered,bigbug,4946,http://stackoverflow.com/users/1072888/bigbug,6,http://stackoverflow.com/users/1090629/msakya,Supporter,bronze
+1072888,registered,bigbug,4946,http://stackoverflow.com/users/1072888/bigbug,2,http://stackoverflow.com/users/1090629/msakya,Student,bronze
+1072888,registered,bigbug,4946,http://stackoverflow.com/users/1072888/bigbug,10,http://stackoverflow.com/users/1090629/msakya,Scholar,bronze
+1072888,registered,bigbug,4946,http://stackoverflow.com/users/1072888/bigbug,26,http://stackoverflow.com/users/1090629/msakya,Popular Question,bronze
+1072888,registered,bigbug,4946,http://stackoverflow.com/users/1072888/bigbug,27,http://stackoverflow.com/users/1090629/msakya,Notable Question,silver
+1072888,registered,bigbug,4946,http://stackoverflow.com/users/1072888/bigbug,20,http://stackoverflow.com/users/1090629/msakya,Nice Question,bronze
+1072888,registered,bigbug,4946,http://stackoverflow.com/users/1072888/bigbug,23,http://stackoverflow.com/users/1090629/msakya,Nice Answer,bronze
+1072888,registered,bigbug,4946,http://stackoverflow.com/users/1072888/bigbug,4128,http://stackoverflow.com/users/1090629/msakya,Inquisitive,silver
+1072888,registered,bigbug,4946,http://stackoverflow.com/users/1072888/bigbug,22,http://stackoverflow.com/users/1090629/msakya,Great Question,gold
+1072888,registered,bigbug,4946,http://stackoverflow.com/users/1072888/bigbug,21,http://stackoverflow.com/users/1090629/msakya,Good Question,silver
+1072888,registered,bigbug,4946,http://stackoverflow.com/users/1072888/bigbug,33,http://stackoverflow.com/users/1090629/msakya,Favorite Question,silver
+1072888,registered,bigbug,4946,http://stackoverflow.com/users/1072888/bigbug,28,http://stackoverflow.com/users/1090629/msakya,Famous Question,gold
+1072888,registered,bigbug,4946,http://stackoverflow.com/users/1072888/bigbug,3,http://stackoverflow.com/users/1090629/msakya,Editor,bronze
+1072888,registered,bigbug,4946,http://stackoverflow.com/users/1072888/bigbug,4127,http://stackoverflow.com/users/1090629/msakya,Curious,bronze
+1072888,registered,bigbug,4946,http://stackoverflow.com/users/1072888/bigbug,7,http://stackoverflow.com/users/1090629/msakya,Critic,bronze
+1072888,registered,bigbug,4946,http://stackoverflow.com/users/1072888/bigbug,31,http://stackoverflow.com/users/1090629/msakya,Commentator,bronze
+1072888,registered,bigbug,4946,http://stackoverflow.com/users/1072888/bigbug,1973,http://stackoverflow.com/users/1090629/msakya,Caucus,bronze
+1072888,registered,bigbug,4946,http://stackoverflow.com/users/1072888/bigbug,9,http://stackoverflow.com/users/1090629/msakya,Autobiographer,bronze
+1072888,registered,bigbug,4946,http://stackoverflow.com/users/1072888/bigbug,13,http://stackoverflow.com/users/1090629/msakya,Yearling,silver
+1072888,registered,bigbug,4946,http://stackoverflow.com/users/1072888/bigbug,63,http://stackoverflow.com/users/1090629/msakya,Tumbleweed,bronze
+1072888,registered,bigbug,4946,http://stackoverflow.com/users/1072888/bigbug,1,http://stackoverflow.com/users/1090629/msakya,Teacher,bronze
+1072888,registered,bigbug,4946,http://stackoverflow.com/users/1072888/bigbug,6,http://stackoverflow.com/users/1090629/msakya,Supporter,bronze
+1072888,registered,bigbug,4946,http://stackoverflow.com/users/1072888/bigbug,2,http://stackoverflow.com/users/1090629/msakya,Student,bronze
+1072888,registered,bigbug,4946,http://stackoverflow.com/users/1072888/bigbug,10,http://stackoverflow.com/users/1090629/msakya,Scholar,bronze
+1072888,registered,bigbug,4946,http://stackoverflow.com/users/1072888/bigbug,26,http://stackoverflow.com/users/1090629/msakya,Popular Question,bronze
+1072888,registered,bigbug,4946,http://stackoverflow.com/users/1072888/bigbug,27,http://stackoverflow.com/users/1090629/msakya,Notable Question,silver
+1072888,registered,bigbug,4946,http://stackoverflow.com/users/1072888/bigbug,20,http://stackoverflow.com/users/1090629/msakya,Nice Question,bronze
+1072888,registered,bigbug,4946,http://stackoverflow.com/users/1072888/bigbug,23,http://stackoverflow.com/users/1090629/msakya,Nice Answer,bronze
+1072888,registered,bigbug,4946,http://stackoverflow.com/users/1072888/bigbug,4128,http://stackoverflow.com/users/1090629/msakya,Inquisitive,silver
+1072888,registered,bigbug,4946,http://stackoverflow.com/users/1072888/bigbug,22,http://stackoverflow.com/users/1090629/msakya,Great Question,gold
+1072888,registered,bigbug,4946,http://stackoverflow.com/users/1072888/bigbug,21,http://stackoverflow.com/users/1090629/msakya,Good Question,silver
+1072888,registered,bigbug,4946,http://stackoverflow.com/users/1072888/bigbug,33,http://stackoverflow.com/users/1090629/msakya,Favorite Question,silver
+1072888,registered,bigbug,4946,http://stackoverflow.com/users/1072888/bigbug,28,http://stackoverflow.com/users/1090629/msakya,Famous Question,gold
+1072888,registered,bigbug,4946,http://stackoverflow.com/users/1072888/bigbug,3,http://stackoverflow.com/users/1090629/msakya,Editor,bronze
+1072888,registered,bigbug,4946,http://stackoverflow.com/users/1072888/bigbug,4127,http://stackoverflow.com/users/1090629/msakya,Curious,bronze
+1072888,registered,bigbug,4946,http://stackoverflow.com/users/1072888/bigbug,7,http://stackoverflow.com/users/1090629/msakya,Critic,bronze
+1072888,registered,bigbug,4946,http://stackoverflow.com/users/1072888/bigbug,31,http://stackoverflow.com/users/1090629/msakya,Commentator,bronze
+1072888,registered,bigbug,4946,http://stackoverflow.com/users/1072888/bigbug,1973,http://stackoverflow.com/users/1090629/msakya,Caucus,bronze
+1072888,registered,bigbug,4946,http://stackoverflow.com/users/1072888/bigbug,9,http://stackoverflow.com/users/1090629/msakya,Autobiographer,bronze
+1170342,registered,euforia,476,http://stackoverflow.com/users/1170342/euforia,13,http://stackoverflow.com/users/1090629/msakya,Yearling,silver
+1170342,registered,euforia,476,http://stackoverflow.com/users/1170342/euforia,1,http://stackoverflow.com/users/1090629/msakya,Teacher,bronze
+1170342,registered,euforia,476,http://stackoverflow.com/users/1170342/euforia,2,http://stackoverflow.com/users/1090629/msakya,Student,bronze
+1170342,registered,euforia,476,http://stackoverflow.com/users/1170342/euforia,14,http://stackoverflow.com/users/1090629/msakya,Self-Learner,bronze
+1170342,registered,euforia,476,http://stackoverflow.com/users/1170342/euforia,26,http://stackoverflow.com/users/1090629/msakya,Popular Question,bronze
+1170342,registered,euforia,476,http://stackoverflow.com/users/1170342/euforia,27,http://stackoverflow.com/users/1090629/msakya,Notable Question,silver
+1170342,registered,euforia,476,http://stackoverflow.com/users/1170342/euforia,20,http://stackoverflow.com/users/1090629/msakya,Nice Question,bronze
+1170342,registered,euforia,476,http://stackoverflow.com/users/1170342/euforia,21,http://stackoverflow.com/users/1090629/msakya,Good Question,silver
+1170342,registered,euforia,476,http://stackoverflow.com/users/1170342/euforia,33,http://stackoverflow.com/users/1090629/msakya,Favorite Question,silver
+1170342,registered,euforia,476,http://stackoverflow.com/users/1170342/euforia,28,http://stackoverflow.com/users/1090629/msakya,Famous Question,gold
+1090629,registered,msakya,756,http://stackoverflow.com/users/1090629/msakya,13,http://stackoverflow.com/users/1090629/msakya,Yearling,silver
+1090629,registered,msakya,756,http://stackoverflow.com/users/1090629/msakya,63,http://stackoverflow.com/users/1090629/msakya,Tumbleweed,bronze
+1090629,registered,msakya,756,http://stackoverflow.com/users/1090629/msakya,6,http://stackoverflow.com/users/1090629/msakya,Supporter,bronze
+1090629,registered,msakya,756,http://stackoverflow.com/users/1090629/msakya,2,http://stackoverflow.com/users/1090629/msakya,Student,bronze
+1090629,registered,msakya,756,http://stackoverflow.com/users/1090629/msakya,10,http://stackoverflow.com/users/1090629/msakya,Scholar,bronze
+1090629,registered,msakya,756,http://stackoverflow.com/users/1090629/msakya,26,http://stackoverflow.com/users/1090629/msakya,Popular Question,bronze
+1090629,registered,msakya,756,http://stackoverflow.com/users/1090629/msakya,27,http://stackoverflow.com/users/1090629/msakya,Notable Question,silver
+1090629,registered,msakya,756,http://stackoverflow.com/users/1090629/msakya,20,http://stackoverflow.com/users/1090629/msakya,Nice Question,bronze
+1090629,registered,msakya,756,http://stackoverflow.com/users/1090629/msakya,21,http://stackoverflow.com/users/1090629/msakya,Good Question,silver
+1090629,registered,msakya,756,http://stackoverflow.com/users/1090629/msakya,33,http://stackoverflow.com/users/1090629/msakya,Favorite Question,silver
+1090629,registered,msakya,756,http://stackoverflow.com/users/1090629/msakya,28,http://stackoverflow.com/users/1090629/msakya,Famous Question,gold
+1090629,registered,msakya,756,http://stackoverflow.com/users/1090629/msakya,71,http://stackoverflow.com/users/1090629/msakya,Enthusiast,silver
+1090629,registered,msakya,756,http://stackoverflow.com/users/1090629/msakya,3,http://stackoverflow.com/users/1090629/msakya,Editor,bronze
+1090629,registered,msakya,756,http://stackoverflow.com/users/1090629/msakya,4127,http://stackoverflow.com/users/1090629/msakya,Curious,bronze
+1090629,registered,msakya,756,http://stackoverflow.com/users/1090629/msakya,7,http://stackoverflow.com/users/1090629/msakya,Critic,bronze
+1090629,registered,msakya,756,http://stackoverflow.com/users/1090629/msakya,31,http://stackoverflow.com/users/1090629/msakya,Commentator,bronze
+1090629,registered,msakya,756,http://stackoverflow.com/users/1090629/msakya,1973,http://stackoverflow.com/users/1090629/msakya,Caucus,bronze
+1090629,registered,msakya,756,http://stackoverflow.com/users/1090629/msakya,9,http://stackoverflow.com/users/1090629/msakya,Autobiographer,bronze
