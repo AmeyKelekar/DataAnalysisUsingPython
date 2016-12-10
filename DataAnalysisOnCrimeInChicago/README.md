@@ -59,8 +59,6 @@ python Chicago_Crime_DataCollection.py
 * datetime
 * os
 * argparse
-* csv
-* json
 
 Please refer the following documenation [**The Python Standard Library**][The Python Standard Library] to learn more about python inbuilt/standard librarries
 
@@ -134,14 +132,25 @@ conda install numpy
 pip install numpy
 ```
 
+##Folder Structure:
+- Data Collection File: ../Chicago_Crime_DataCollection.py
+- Python Scripts for Analysis:  ../Analysis_Scripts/python_scripts/<python-scripts>
+	- example : ../Analysis_Scripts/python_scripts/Chicago_Crime_Analysis_Seasonality.py
+- Ipython notebooks for Analysis: ../Analysis_Scripts/ipython_notebooks/<ipython-notebooks>
+	- example : ../Analysis_Scripts/ipython_notebooks/Chicago_Crime_Analysis_Seasonality.ipynb
+- Data Set file : ../Chicago_crime/Crimes_-_2001_to_present.csv
+- CSV Result: ../OutputFiles/<current-date>/<current-time>/<analysis-name>/CSV/<result>
+	- example : ../OutputFiles/12_9_2016/22_22_45/Chicago_Crime_Analysis_Seasonality/CSV/SeasonalitySelectedCrimes:Jan2001-Present.csv
+- Graph Result: ../OutputFiles/<current-date>/<current-time>/<analysis-name>/OutputGraphs/<result>
+	- example : ../OutputFiles/12_9_2016/22_22_45/Chicago_Crime_Analysis_Seasonality/OutputGraphs/SeasonalitySelectedCrimes:Jan2001-Present,PrimaryType=ASSAULT.png
+
+
 ##Some important points:
-* Keep both the files: **Midterm_StackOver_DataCollection.py** and **Midterm_Analysis.py** in the same directory.
-* Run the script in the path where you store the files
+* Run the script from the path where Data Collection File (Chicago_Crime_DataCollection.py) is stored
 * The path containing the scripts will be selected as your current working directory.
-* A new folder with name "Stackoverflow_Search" will be created in the current working directory, if not present. If folder already exists, then it will use it without creating a new one.
-* A new folder with today's date will be created inside the folder "Stackoverflow_Search" (../Stackoverflow_Search/today's date), if not present. If exists, then it will use it without creating a new one. For example: ../Stackoverflow_Search/11_1_2016
-* Everytime a new folder will be created with the current time inside today's date (../Stackoverflow_Search/today's date/currenttime). For example: ../Stackoverflow_Search/11_1_2016/1_10_55
-* All the data and output csv files will be written into the time folder
+* A new folder with today's date will be created inside the folder "OutputFiles", if not present. If exists, then it will use it without creating a new one. 
+* Everytime a new folder will be created with the current time inside today's date.
+
 
 
 
