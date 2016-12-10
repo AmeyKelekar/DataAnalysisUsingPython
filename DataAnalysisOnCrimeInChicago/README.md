@@ -165,6 +165,15 @@ pip install numpy
 
 ![alt tag](https://github.com/AmeyKelekar/DataAnalysisUsingPython/blob/master/DataAnalysisOnCrimeInChicago/OutputFiles/12_9_2016/22_22_45/Chicago_Crime_Analysis_OverallArrestRates/OutputGraphs/OverallArrestRateByPrimaryTypeOfCrime:Jan2001-Present.png)
 
+**2.b) Arrest rate trends (high-arrest-rate crimes)
+- To answer more questions on arrest rates, we need to look at trends
+- Dividing the crimes between high-arrest-rate crimes, mid-arrest-rate and low-arrest-rate crimes, we can get cleaner visualizations, and we can easily compare arrest rates across crimes.
+- There’s a weird aberration in 2008 where arrest rates for a lot of these crimes drop. And arrest rates for public peace violation / interference with a public officer have climbed significantly over the period.
+
+![alt tag](https://github.com/AmeyKelekar/DataAnalysisUsingPython/blob/master/DataAnalysisOnCrimeInChicago/OutputFiles/12_9_2016/22_22_45/Chicago_Crime_Analysis_OverallArrestRates/OutputGraphs/Arrest_RateTrend_For_High-arrest-rate_crimes.png)
+
+
+
 
 
 
