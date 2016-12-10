@@ -1,5 +1,5 @@
 ## Crime in Chicago:
-![alt tag](https://github.com/AmeyKelekar/DataAnalysisUsingPython/blob/master/DataAnalysisOnCrimeInChicago/ChicagoCrimeSampleImage.jpeg)
+![picture alt](https://github.com/AmeyKelekar/DataAnalysisUsingPython/blob/master/DataAnalysisOnCrimeInChicago/ChicagoCrimeSampleImage.jpeg "Crime in Chicago")
 
 ##Problem Statement / Question:
 -  Use the Chicago Crime Dataset from Jan 2001 to Present and perform 5 analysis on the data collected.
