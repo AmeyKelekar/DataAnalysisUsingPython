@@ -165,12 +165,19 @@ pip install numpy
 
 ![alt tag](https://github.com/AmeyKelekar/DataAnalysisUsingPython/blob/master/DataAnalysisOnCrimeInChicago/OutputFiles/12_9_2016/22_22_45/Chicago_Crime_Analysis_OverallArrestRates/OutputGraphs/OverallArrestRateByPrimaryTypeOfCrime:Jan2001-Present.png)
 
-**2.b) Arrest rate trends (high-arrest-rate crimes)
+**2.b) Arrest rate trends (high-arrest-rate crimes):**
 - To answer more questions on arrest rates, we need to look at trends
 - Dividing the crimes between high-arrest-rate crimes, mid-arrest-rate and low-arrest-rate crimes, we can get cleaner visualizations, and we can easily compare arrest rates across crimes.
 - There’s a weird aberration in 2008 where arrest rates for a lot of these crimes drop. And arrest rates for public peace violation / interference with a public officer have climbed significantly over the period.
 
 ![alt tag](https://github.com/AmeyKelekar/DataAnalysisUsingPython/blob/master/DataAnalysisOnCrimeInChicago/OutputFiles/12_9_2016/22_22_45/Chicago_Crime_Analysis_OverallArrestRates/OutputGraphs/Arrest_RateTrend_For_High-arrest-rate_crimes.png)
+
+**2.c) Arrest rate trends (mid-arrest-rate crimes):**
+- Homicides always sticks out: here because the rate is around 60%-63% in the past (so murders committed years ago still doesn’t get the best closure). But it also is interesting because of the downward trend. Again, part of this trend is most likely that the time to close a murder case is longer than for, say, a liquor law violation in the above graph.
+
+![alt tag](https://github.com/AmeyKelekar/DataAnalysisUsingPython/blob/master/DataAnalysisOnCrimeInChicago/OutputFiles/12_9_2016/22_22_45/Chicago_Crime_Analysis_OverallArrestRates/OutputGraphs/Arrest_RateTrend_For_Medium-arrest-rate_crimes.png)
+
+
 
 
 
