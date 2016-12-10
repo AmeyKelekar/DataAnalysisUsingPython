@@ -210,13 +210,13 @@
 **VIOLENT CRIME PER COMMUNITY AREA, PAST 30 DAYS**
 ![alt tag](https://github.com/AmeyKelekar/DataAnalysisUsingPython/blob/master/DataAnalysisOnCrimeInChicago/OutputFiles/12_10_2016/3_50_39/Chicago_Crime_Analysis_ChicagoCrimeRatesByCommunityArea:2016-11-30_2016-10-31/OutputGraphs/ViolentCrimePerCommunityArea:2016-11-30_2016-10-31.png)
 
-**5) Chicago Crime Over:**
+**5) Chicago Crime Over Time:**
 - Crime count and crime count rate is calculated grouped by **Year** and **Hour**
 - Top 5 hours and percentage are displayed grouped by each year
 - The result is saved in a CSV file and looks like below :
 	
-	Year  |	 Hour	|  Crime Count
-	------|---------|-----------------
+	Year  |	 Hour	|  Crime Count Percentage
+	------|---------|---------------------------
 	2001  |	 20:00	|  5.892683248
 	2001  |	 18:00	|  5.830919396
 	2001  |	 19:00	|  5.823301854
