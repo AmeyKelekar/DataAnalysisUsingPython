@@ -14,8 +14,14 @@ The csv file can be downladed from the following path:
 
 **3) Chicago_Crime_Analysis_Seasonality.py:**
 - Since month column is not given in the CSV file, this script first derives the month value for each crime date. 
-- Then the count of crimes are calculated grouped by **Crime Type**, **Year** and **Month*
-- Here, we are only analyzing crime for 5 specific crimes: **'HOMICIDE','PROSTITUTION','ASSAULT','NARCOTICS','MOTOR VEHICLE THEFT'**. So, we only select these 5 crime types.
+- Then the count of crimes are calculated grouped by **Crime Type**, **Year** and **Month**
+- Here, we are only analyzing crime for 5 specific crimes: **HOMICIDE** , **PROSTITUTION**, **ASSAULT**, **NARCOTICS** and **MOTOR VEHICLE THEFT**. So, we only select these 5 crime types.
+
+**4)Chicago_Crime_Analysis_CrimeOverTime.py:**
+- Since hour column is not given in the CSV file, this script first derives the hour value for each crime date.
+- Then the count of crimes are calculated grouped by **Year** and **Hour**
+- Further percentage for each crime count is calculated grouped by **Year** and **Hour**
+- Top 5 hours and the percentage are displayed for each year
 
 
 [/chicagocrime]: https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-present/ijzp-q8t2
