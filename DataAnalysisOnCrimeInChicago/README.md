@@ -30,12 +30,24 @@ The csv file can be downladed from the following path:
 - Arrest rate is divided into 3 categories: high-arrest-rate, mid-arrest-rate and low-arrest-rate
 - High-arrest-rate = Arrest percentage > 50, mid-arrest-rate=  Arrest percentage in (50,15) and low-arrest-rate = Arrest percentage <=15
 
+**6)Chicago_Crime_Analysis_ChicagoCrimeRatesByCommunityArea.py:**
+- Since community name(neighbourhood) is not given in the CSV file, this script first derives the community name for each record. 
+- If end date is provided by the user, it goes 30 days back and fetches all the records. 
+- Else considers end date as current date and then goes 30 days back and fetches all the records.
+- Calculates crime count grouped by community name and crime type.
+- Only 11 crime types: **ASSAULT**, **ROBBERY**, **BATTERY**, **CRIM SEXUAL ASSAULT**, **HOMICIDE**, **ARSON**, **THEFT**, **BURGLARY**, **MOTOR VEHICLE THEFT**, **CRIMINALDAMAGE**, **PROSTITUTION** and **NARCOTICS** are selected
+- Even these 11 crimes are futher sub-categorized as:
+	- **VIOLENT**: ASSAULT, ROBBERY, BATTERY, CRIM SEXUAL ASSAULT and HOMICIDE 
+	- **PROPERTY**:  ARSON', THEFT, BURGLARY and MOTOR VEHICLE THEFT
+	- **QUALITY OF LIFE**: CRIMINALDAMAGE, PROSTITUTION and NARCOTICS
+-We find crime rate all the the 3 cartegories individually and even combined.
+
 
 [/chicagocrime]: https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-present/ijzp-q8t2
 
 ##Run the script:
 ```sh
-python Midterm_StackOver_DataCollection.py
+python Chicago_Crime_DataCollection.py
 ```
 
 ##Dependencies:
@@ -47,9 +59,7 @@ python Midterm_StackOver_DataCollection.py
 * datetime
 * os
 * csv
-* glob
 * json
-* collections
 
 Please refer the following documenation [**The Python Standard Library**][The Python Standard Library] to learn more about python inbuilt/standard librarries
 
