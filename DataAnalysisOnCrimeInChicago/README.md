@@ -151,6 +151,13 @@ pip install numpy
 * A new folder with today's date will be created inside the folder "OutputFiles", if not present. If exists, then it will use it without creating a new one. 
 * Everytime a new folder will be created with the current time inside today's date.
 
+## Analysis and Graphs:
+**1) Homicides by location description:**
+ Why is it called “street crime”? By the location description, most murders appear to take place in the “street”. A surprising amount also took place in cars. Some of the lower-number-locations are also interesting, such as that 16 murders that happened in a vestibule.
+
+ ![alt tag](https://github.com/AmeyKelekar/DataAnalysisUsingPython/blob/master/DataAnalysisOnCrimeInChicago/OutputFiles/12_9_2016/22_22_45/Chicago_Crime_Analysis_HomicidesByLocationDescription/OutputGraphs/Homicides_By_LocationDescription:Jan2001-Present.png)
+
+
 
 
 
