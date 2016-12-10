@@ -201,6 +201,7 @@
 	- Burnside is almost zero for all  crime categories
 
 - The results are visualized as below:
+
 **CRIME BY TYPE PER COMMUNITY AREA, PAST 30 DAYS**
 ![alt tag](https://github.com/AmeyKelekar/DataAnalysisUsingPython/blob/master/DataAnalysisOnCrimeInChicago/OutputFiles/12_10_2016/3_50_39/Chicago_Crime_Analysis_ChicagoCrimeRatesByCommunityArea:2016-11-30_2016-10-31/OutputGraphs/CrimeByTypePerCommunityArea:2016-11-30_2016-10-31.png)
 **PROPERTY CRIME PER COMMUNITY AREA, PAST 30 DAYS**
@@ -246,7 +247,27 @@
 **Year 2003**
 ![alt tag](https://github.com/AmeyKelekar/DataAnalysisUsingPython/blob/master/DataAnalysisOnCrimeInChicago/OutputFiles/12_9_2016/22_22_45/Chicago_Crime_Analysis_CrimeOverTime/OutputGraphs/CrimeOverTime-Top5HoursPerYear-Year%3D2003.png)
 
+##Pre-exploration steps:
+- Since there is no month in the orginal CSV file, it had to be extracted from the date column for Seasonality Analysis.
+- Since there is no hour in the orginal CSV file, it had to be extracted from the date column for Crime over time Analysis.
+- Since community name(neighbourhood) is not given in the CSV file, it is fetched using the API "http://crime.chicagotribune.com/api/1.0-beta1/communityarea/" and then merged with the DataFile. 
+- Approximately 9% of the community area are blank in the Dataset, so initially I tried to find the community name using geopy library. But there is limitation to the query to get neighbourhood value and after sometime the code use to fail giving "GeocoderServiceError: [Errno 65] No route to host"
+- I also tried using googlemaps API 'http://maps.googleapis.com/maps/api/geocode/json' to get the neighbourhood values for all missing data, but again there is query limit of 2500 records per day.
+- If you pay and take developers account, even then the limit is 100000 request per day. So at the end these records were omitted for Chicago Crime Rates By Community Area Analysis.
 
+##Folder Structure:
+- **Data Collection File:** ../Chicago_Crime_DataCollection.py
+- **Community Name Collection File:** ../Chicago_Crime_CommunityNameCollection.py
+- **Python Scripts for Analysis:**  ../Analysis_Scripts/python_scripts/python-scripts
+	- example : ../Analysis_Scripts/python_scripts/Chicago_Crime_Analysis_Seasonality.py
+- **Ipython notebooks for Analysis:** ../Analysis_Scripts/ipython_notebooks/ipython-notebooks
+	- example : ../Analysis_Scripts/ipython_notebooks/Chicago_Crime_Analysis_Seasonality.ipynb
+- **Data Set file:** ../Chicago_crime/Crimes_-_2001_to_present.csv
+- **CSV Result:** ../OutputFiles/current-date/current-time/analysis-name/CSV/result
+	- example : ../OutputFiles/12_9_2016/22_22_45/Chicago_Crime_Analysis_Seasonality/CSV/SeasonalitySelectedCrimes:Jan2001-Present.csv
+- **Graph Result:** ../OutputFiles/current-date/current-time/analysis-name/OutputGraphs/result
+	- example : ../OutputFiles/12_9_2016/22_22_45/Chicago_Crime_Analysis_Seasonality/OutputGraphs/SeasonalitySelectedCrimes:Jan2001-Present,PrimaryType=ASSAULT.png
+	
 ##Files: 
 I have designed 6 scripts, namely:
 
@@ -376,20 +397,6 @@ conda install numpy
 # or PyPI
 pip install numpy
 ```
-
-##Folder Structure:
-- **Data Collection File:** ../Chicago_Crime_DataCollection.py
-- **Community Name Collection File:** ../Chicago_Crime_CommunityNameCollection.py
-- **Python Scripts for Analysis:**  ../Analysis_Scripts/python_scripts/python-scripts
-	- example : ../Analysis_Scripts/python_scripts/Chicago_Crime_Analysis_Seasonality.py
-- **Ipython notebooks for Analysis:** ../Analysis_Scripts/ipython_notebooks/ipython-notebooks
-	- example : ../Analysis_Scripts/ipython_notebooks/Chicago_Crime_Analysis_Seasonality.ipynb
-- **Data Set file:** ../Chicago_crime/Crimes_-_2001_to_present.csv
-- **CSV Result:** ../OutputFiles/current-date/current-time/analysis-name/CSV/result
-	- example : ../OutputFiles/12_9_2016/22_22_45/Chicago_Crime_Analysis_Seasonality/CSV/SeasonalitySelectedCrimes:Jan2001-Present.csv
-- **Graph Result:** ../OutputFiles/current-date/current-time/analysis-name/OutputGraphs/result
-	- example : ../OutputFiles/12_9_2016/22_22_45/Chicago_Crime_Analysis_Seasonality/OutputGraphs/SeasonalitySelectedCrimes:Jan2001-Present,PrimaryType=ASSAULT.png
-
 
 ##Some important points:
 * Run the script from the path where Data Collection File (Chicago_Crime_DataCollection.py) is stored
