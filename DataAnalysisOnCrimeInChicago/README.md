@@ -189,6 +189,30 @@ pip install numpy
 ![alt tag](https://github.com/AmeyKelekar/DataAnalysisUsingPython/blob/master/DataAnalysisOnCrimeInChicago/OutputFiles/12_9_2016/22_22_45/Chicago_Crime_Analysis_Seasonality/OutputGraphs/SeasonalitySelectedCrimes:Jan2001-Present%2CPrimaryType%3DNARCOTICS.png)
 ![alt tag](https://github.com/AmeyKelekar/DataAnalysisUsingPython/blob/master/DataAnalysisOnCrimeInChicago/OutputFiles/12_9_2016/22_22_45/Chicago_Crime_Analysis_Seasonality/OutputGraphs/SeasonalitySelectedCrimes:Jan2001-Present%2CPrimaryType%3DPROSTITUTION.png)
 
+## Run the code:
+```sh
+python Chicago_Crime_DataCollection.py -e 2016-11-30
+```
+	- 2016-11-30 is the enddate  and start date is calculated 30 days back as 2016-10-31
+	- this input is only used for the Chicago Crime Rates By Community Area Analysis
+
+```sh
+python Chicago_Crime_DataCollection.py
+```
+	- current date is the enddate and start date is calculated as 30 days back
+	- again the input is only used for the Chicago Crime Rates By Community Area Analysis
+
+## Error Scenario:
+```sh
+python Chicago_Crime_DataCollection.py -e abc
+```
+	- Output :
+	usage: Chicago_Crime_DataCollection.py [-h] [-e ENDDATE]
+	Chicago_Crime_DataCollection.py: error: argument -e/--enddate: Not a valid date: 'abc'.
+
+
+
+
 
 
 
