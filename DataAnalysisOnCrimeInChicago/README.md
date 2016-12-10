@@ -19,8 +19,9 @@
 **1) Homicides by location description:**
 - Here we compute crime count for each location description.
 - The result is saved in a CSV file and looks like below :
+
 	index          |  Location Description  
-	---------------|------------------------
+	---------------|---------------------------
 	STREET	       |  3895      
 	AUTO	       |  985    
 	APARTMENT	   |  698 
