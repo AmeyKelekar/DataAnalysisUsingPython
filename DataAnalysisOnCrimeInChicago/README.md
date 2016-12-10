@@ -141,7 +141,7 @@ pip install numpy
 - **Data Set file:** ../Chicago_crime/Crimes_-_2001_to_present.csv
 - **CSV Result:** ../OutputFiles/<current-date>/<current-time>/<analysis-name>/CSV/<result>
 	- example : ../OutputFiles/12_9_2016/22_22_45/Chicago_Crime_Analysis_Seasonality/CSV/SeasonalitySelectedCrimes:Jan2001-Present.csv
-- Graph Result:** ../OutputFiles/<current-date>/<current-time>/<analysis-name>/OutputGraphs/<result>
+- **Graph Result:** ../OutputFiles/<current-date>/<current-time>/<analysis-name>/OutputGraphs/<result>
 	- example : ../OutputFiles/12_9_2016/22_22_45/Chicago_Crime_Analysis_Seasonality/OutputGraphs/SeasonalitySelectedCrimes:Jan2001-Present,PrimaryType=ASSAULT.png
 
 
