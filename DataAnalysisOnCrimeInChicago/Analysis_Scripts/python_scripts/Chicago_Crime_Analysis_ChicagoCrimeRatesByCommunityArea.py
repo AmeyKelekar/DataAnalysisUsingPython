@@ -30,6 +30,9 @@ violent_df['Percentage Crime Rate'] = 100*violent_df['Crimes Count']/len(df)
 violent_df1 = violent_df.pivot(index='Community Name', columns='Primary Type', values='Percentage Crime Rate').fillna(value=0).reset_index()
 new_combined_df = combined_df.pivot(index='Community Name', columns='Crime Category', values='Percentage Crime Rate').reset_index()
 
+myenddate = str(args.enddate)
+mystartdate = str(startdate)
+
 def ensure_dir(f):
     if not os.path.exists(f):
         os.makedirs(f)
@@ -38,7 +41,7 @@ date_path = dir_path+OUTPUT_FILES_RESULT_PATH+ "/%i_%i_%i" % (month, day, year)
 ensure_dir(date_path)
 time_path = date_path + "/%i_%i_%i" % (hour, minute, second)
 ensure_dir(time_path)
-analysis_folder_path = time_path + "/Chicago_Crime_Analysis_ChicagoCrimeRatesByCommunityArea:%s_%s" % (str(args.enddate),str(startdate))
+analysis_folder_path = time_path + "/Chicago_Crime_Analysis_ChicagoCrimeRatesByCommunityArea:%s_%s" % (myenddate,mystartdate)
 ensure_dir(analysis_folder_path)
 csv_file_path = analysis_folder_path + "/CSV"
 ensure_dir(csv_file_path)
@@ -46,10 +49,10 @@ png_graph_path = analysis_folder_path + "/OutputGraphs"
 ensure_dir(png_graph_path)
 
 os.chdir(csv_file_path)
-new_combined_df.to_csv(path_or_buf= 'CrimeByTypePerCommunityArea.csv',index =False) 
-violent_df1.to_csv(path_or_buf= 'ViolentCrimePerCommunityArea.csv',index =False)
-quality_of_life_df1.to_csv(path_or_buf= 'QualityOfLifeCrimePerCommunityArea.csv',index =False)
-property_df1.to_csv(path_or_buf= 'PropertyCrimePerCommunityArea.csv',index =False)
+new_combined_df.to_csv(path_or_buf= 'CrimeByTypePerCommunityArea:%s_%s.csv' % (myenddate,mystartdate),index =False) 
+violent_df1.to_csv(path_or_buf= 'ViolentCrimePerCommunityArea:%s_%s.csv' % (myenddate,mystartdate),index =False)
+quality_of_life_df1.to_csv(path_or_buf= 'QualityOfLifeCrimePerCommunityArea:%s_%s.csv' % (myenddate,mystartdate),index =False)
+property_df1.to_csv(path_or_buf= 'PropertyCrimePerCommunityArea:%s_%s.csv' % (myenddate,mystartdate),index =False)
 
 os.chdir(png_graph_path)
 
@@ -77,9 +80,9 @@ def create_graph(dFrame,title_list,color,xlim,filename):
     sns.despine(left=True, bottom=True)
     plt.savefig(filename, dpi=100, facecolor='w', edgecolor='w', orientation='portrait', bbox_inches='tight')
 
-create_graph(property_df1,["ARSON", "BURGLARY", "MOTOR VEHICLE THEFT", "THEFT"],"BuGn_r",0.5,"PropertyCrimePerCommunityArea.png")
-create_graph(quality_of_life_df1,['CRIMINAL DAMAGE', 'NARCOTICS', 'PROSTITUTION'],sns.cubehelix_palette(8),0.5,"QualityOfLifeCrimePerCommunityArea.png")
-create_graph(violent_df1,['ASSAULT', 'BATTERY', 'CRIM SEXUAL ASSAULT', 'HOMICIDE', 'ROBBERY'],sns.color_palette("GnBu_d"),0.5,"ViolentCrimePerCommunityArea.png")
-create_graph(new_combined_df,["Property Crime", "Quality of Life crime", "Violent Crime"],"Reds_r",3,"CrimeByTypePerCommunityArea.png")
+create_graph(property_df1,["ARSON", "BURGLARY", "MOTOR VEHICLE THEFT", "THEFT"],"BuGn_r",0.5,"PropertyCrimePerCommunityArea:%s_%s.png" % (myenddate,mystartdate))
+create_graph(quality_of_life_df1,['CRIMINAL DAMAGE', 'NARCOTICS', 'PROSTITUTION'],sns.cubehelix_palette(8),0.5,"QualityOfLifeCrimePerCommunityArea:%s_%s.png" % (myenddate,mystartdate))
+create_graph(violent_df1,['ASSAULT', 'BATTERY', 'CRIM SEXUAL ASSAULT', 'HOMICIDE', 'ROBBERY'],sns.color_palette("GnBu_d"),0.5,"ViolentCrimePerCommunityArea:%s_%s.png" % (myenddate,mystartdate))
+create_graph(new_combined_df,["Property Crime", "Quality of Life crime", "Violent Crime"],"Reds_r",3,"CrimeByTypePerCommunityArea:%s_%s.png" % (myenddate,mystartdate))
 
 os.chdir(dir_path)

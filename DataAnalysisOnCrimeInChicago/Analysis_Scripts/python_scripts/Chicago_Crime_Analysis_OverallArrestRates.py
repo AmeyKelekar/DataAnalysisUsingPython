@@ -63,6 +63,7 @@ for p in ax.patches:
 plt.savefig('OverallArrestRateByPrimaryTypeOfCrime:Jan2001-Present.png', dpi=100, facecolor='w', edgecolor='w', orientation='portrait', bbox_inches='tight')
 
 def create_graph(df,title,filename):
+	plt.subplots(212)
 	sns.set_style('white')
 	#every bar should have same color - windows blue
 	ax = sns.factorplot(x="Year", y="Arrest Rate", hue="Primary Type",data= df,size=8, aspect=2)

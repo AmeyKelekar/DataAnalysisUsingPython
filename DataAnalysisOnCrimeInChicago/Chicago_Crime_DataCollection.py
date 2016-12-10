@@ -10,7 +10,7 @@ OUTPUT_FILES_RESULT_PATH = '/OutputFiles'
 
 def valid_date(s):
     try:
-        return datetime.strptime(s, "%Y-%m-%d")
+        return datetime.datetime.strptime(s, "%Y-%m-%d")
     except ValueError:
         msg = "Not a valid date: '{0}'.".format(s)
         raise argparse.ArgumentTypeError(msg)
@@ -20,9 +20,10 @@ parser.add_argument('-e', "--enddate", help="The Start Date - format YYYY-MM-DD"
 args = parser.parse_args()
 
 if args.enddate is None:
-	args.enddate = datetime.datetime.now()
-	startdate = datetime.datetime.now() + datetime.timedelta(-30)
+	args.enddate = datetime.datetime.now().date()
+	startdate = datetime.datetime.now().date() + datetime.timedelta(-30)
 else :
+	args.enddate = args.enddate.date()
 	startdate =  args.enddate + datetime.timedelta(-30)
 	
 print(startdate)
