@@ -5,12 +5,9 @@ Use the Chicago Crime Dataset from Jan 2001 to Present and perform 5 analysis on
 I have designed 6 scripts, namely:
 
 **1) Chicago_Crime_DataCollection.py:**
-This script collects the data for stackoverflow from the StackExchange REST API and saves the details fetched in a csv file. 
-Following are the per-site methods used: 
-* [**/questions**] [/questions]: Get all questions on the site.
-* [**/users/{ids}**] [/users/{ids}]: Get the users identified by a set of ids.
-* [**/users/{ids}/tags**] [/users/{ids}/tags]: Get the tags that the users (identified by a set of ids) have been active in.
-* [**/users/{ids}/badges**] [/users/{ids}/badges]: Get the badges earned by the users identified by a set of ids.
+This script reads the data from the Crimes_-_2001_to_present CSV file and then performs 5 different analysis on the data. 
+The csv file can be downladed from the following path: 
+* [**/chicagocrime**] [/chicagocrime]: This dataset reflects reported incidents of crime (with the exception of murders where data exists for each victim) that occurred in the City of Chicago from 2001 to present, minus the most recent seven days
 
 **2) Midterm_Analysis.py:**
 This script performs 5 analysis:
@@ -21,10 +18,7 @@ This script performs 5 analysis:
 - **Analysis 5:** For each of the question that is asked, find out the tags attached to it.Find how many numbers of answers have been given for each question. For each tag, calculate the number of question asked and how many times it has been answered.
 
 
-[/questions]: https://api.stackexchange.com/docs/questions
-[/users/{ids}]: https://api.stackexchange.com/docs/users-by-ids
-[/users/{ids}/tags]: https://api.stackexchange.com/docs/tags-on-users
-[/users/{ids}/badges]: https://api.stackexchange.com/docs/badges-on-users
+[/chicagocrime]: https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-present/ijzp-q8t2
 
 ##Run the script:
 ```sh
