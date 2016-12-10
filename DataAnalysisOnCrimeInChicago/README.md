@@ -6,10 +6,14 @@
 - The dataset can be downladed from the following path: [**chicagocrime**] [/chicagocrime]
 - The dataset reflects reported incidents of crime (with the exception of murders where data exists for each victim) that occurred in the City of Chicago from 2001 to present, minus the most recent seven days.
 - Sample Dataset looks like:
-First Header  | Second Header
-------------- | -------------
-Content Cell  | Content Cell
-Content Cell  | Content Cell
+
+	First Name  |  Last Name  |  Location           |  Allegiance
+	------------|-------------|---------------------|-----------------
+	Mance       |  Rayder     |  North of the Wall  |  Wildlings
+	Margaery    |  Tyrell     |  The Reach          |  House Tyrell
+	Danerys     |  Targaryen  |  Meereen            |  House Targaryen
+	Tyrion      |  Lannister  |  King's Landing     |  House Lannister
+
 
 ##Files: 
 I have designed 6 scripts, namely:
