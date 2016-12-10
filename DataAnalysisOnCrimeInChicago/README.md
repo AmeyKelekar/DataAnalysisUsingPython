@@ -134,6 +134,7 @@ pip install numpy
 
 ##Folder Structure:
 - **Data Collection File:** ../Chicago_Crime_DataCollection.py
+- **Community Name Collection File:** ../Chicago_Crime_CommunityNameCollection.py
 - **Python Scripts for Analysis:**  ../Analysis_Scripts/python_scripts/<python-scripts>
 	- example : ../Analysis_Scripts/python_scripts/Chicago_Crime_Analysis_Seasonality.py
 - **Ipython notebooks for Analysis:** ../Analysis_Scripts/ipython_notebooks/<ipython-notebooks>
@@ -150,6 +151,7 @@ pip install numpy
 * The path containing the scripts will be selected as your current working directory.
 * A new folder with today's date will be created inside the folder "OutputFiles", if not present. If exists, then it will use it without creating a new one. 
 * Everytime a new folder will be created with the current time inside today's date.
+* Community Name Collection file should be executed only once at the beginning when you first time execute this file. You will require to re-execute this file incase you delete the community name CSV. You don't have to execute thie file everytime.
 
 ## Analysis and Graphs:
 **1) Homicides by location description:**
