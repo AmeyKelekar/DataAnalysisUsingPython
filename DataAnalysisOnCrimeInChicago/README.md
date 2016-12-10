@@ -154,6 +154,7 @@
 	- **PROPERTY**:  ARSON', THEFT, BURGLARY and MOTOR VEHICLE THEFT
 	- **QUALITY OF LIFE**: CRIMINALDAMAGE, PROSTITUTION and NARCOTICS
 - The results are saved in a CSV files and looks like below :
+	
 	**CRIME BY TYPE PER COMMUNITY AREA, PAST 30 DAYS**
 
 	Community Name  |  PROPERTY	     |  QUALITY OF LIFE  |  VIOLENT
@@ -209,6 +210,40 @@
 **VIOLENT CRIME PER COMMUNITY AREA, PAST 30 DAYS**
 ![alt tag](https://github.com/AmeyKelekar/DataAnalysisUsingPython/blob/master/DataAnalysisOnCrimeInChicago/OutputFiles/12_10_2016/3_50_39/Chicago_Crime_Analysis_ChicagoCrimeRatesByCommunityArea:2016-11-30_2016-10-31/OutputGraphs/ViolentCrimePerCommunityArea:2016-11-30_2016-10-31.png)
 
+**5) Chicago Crime Over:**
+- Crime count and crime count rate is calculated grouped by **Year** and **Hour**
+- Top 5 hours and percentage are displayed grouped by each year
+- The result is saved in a CSV file and looks like below :
+	
+	Year  |	 Hour	|  Crime Count
+	------|---------|-----------------
+	2001  |	 20:00	|  5.892683248
+	2001  |	 18:00	|  5.830919396
+	2001  |	 19:00	|  5.823301854
+	2001  |	 21:00	|  5.794684603
+	2001  |	 22:00	|  5.759273328
+	2002  |	 20:00	|  5.867862661
+	2002  |	 21:00	|  5.781368134
+	2002  |	 19:00	|  5.764521219
+	2002  |	 22:00	|  5.7431544
+	2002  |	 18:00	|  5.690764603
+	2003  |	 20:00	|  5.907914201
+	2003  |	 19:00	|  5.821552246
+	2003  |	 0:00	|  5.789192778
+	2003  |	 21:00	|  5.78499025
+	2003  |	 22:00	|  5.69190425
+ 
+- **Some Observation:**
+	- More or less the crime count is almost similar for all the 5 hours
+	- Even the range of hours are almost same for all the years.
+
+- The results are visualized as below:
+**Year 2001**
+![alt tag](https://github.com/AmeyKelekar/DataAnalysisUsingPython/blob/master/DataAnalysisOnCrimeInChicago/OutputFiles/12_9_2016/22_22_45/Chicago_Crime_Analysis_CrimeOverTime/OutputGraphs/CrimeOverTime-Top5HoursPerYear-Year%3D2001.png)
+**Year 2002**
+![alt tag](https://github.com/AmeyKelekar/DataAnalysisUsingPython/blob/master/DataAnalysisOnCrimeInChicago/OutputFiles/12_9_2016/22_22_45/Chicago_Crime_Analysis_CrimeOverTime/OutputGraphs/CrimeOverTime-Top5HoursPerYear-Year%3D2002.png)
+**Year 2003**
+![alt tag](https://github.com/AmeyKelekar/DataAnalysisUsingPython/blob/master/DataAnalysisOnCrimeInChicago/OutputFiles/12_9_2016/22_22_45/Chicago_Crime_Analysis_CrimeOverTime/OutputGraphs/CrimeOverTime-Top5HoursPerYear-Year%3D2003.png)
 ##Files: 
 I have designed 6 scripts, namely:
 
