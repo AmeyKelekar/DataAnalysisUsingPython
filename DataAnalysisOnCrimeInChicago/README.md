@@ -191,6 +191,19 @@ pip install numpy
 ![alt tag](https://github.com/AmeyKelekar/DataAnalysisUsingPython/blob/master/DataAnalysisOnCrimeInChicago/OutputFiles/12_9_2016/22_22_45/Chicago_Crime_Analysis_Seasonality/OutputGraphs/SeasonalitySelectedCrimes:Jan2001-Present%2CPrimaryType%3DNARCOTICS.png)
 ![alt tag](https://github.com/AmeyKelekar/DataAnalysisUsingPython/blob/master/DataAnalysisOnCrimeInChicago/OutputFiles/12_9_2016/22_22_45/Chicago_Crime_Analysis_Seasonality/OutputGraphs/SeasonalitySelectedCrimes:Jan2001-Present%2CPrimaryType%3DPROSTITUTION.png)
 
+**4) Chicago Crime Rates By Community Area:**
+- Crime rate in each Chicago community area
+-Only 11 crime types: ASSAULT, ROBBERY, BATTERY, CRIM SEXUAL ASSAULT, HOMICIDE, ARSON, THEFT, BURGLARY, MOTOR VEHICLE THEFT, CRIMINALDAMAGE, PROSTITUTION and NARCOTICS are selected
+- Even these 11 crimes are futher sub-categorized as:
+	- **VIOLENT**: ASSAULT, ROBBERY, BATTERY, CRIM SEXUAL ASSAULT and HOMICIDE 
+	- **PROPERTY**:  ARSON', THEFT, BURGLARY and MOTOR VEHICLE THEFT
+	- **QUALITY OF LIFE**: CRIMINALDAMAGE, PROSTITUTION and NARCOTICS
+
+![alt tag](https://github.com/AmeyKelekar/DataAnalysisUsingPython/blob/master/DataAnalysisOnCrimeInChicago/OutputFiles/12_10_2016/3_50_39/Chicago_Crime_Analysis_ChicagoCrimeRatesByCommunityArea:2016-11-30_2016-10-31/OutputGraphs/CrimeByTypePerCommunityArea:2016-11-30_2016-10-31.png)
+![alt tag](https://github.com/AmeyKelekar/DataAnalysisUsingPython/blob/master/DataAnalysisOnCrimeInChicago/OutputFiles/12_10_2016/3_50_39/Chicago_Crime_Analysis_ChicagoCrimeRatesByCommunityArea:2016-11-30_2016-10-31/OutputGraphs/PropertyCrimePerCommunityArea:2016-11-30_2016-10-31.png)
+![alt tag](https://github.com/AmeyKelekar/DataAnalysisUsingPython/blob/master/DataAnalysisOnCrimeInChicago/OutputFiles/12_10_2016/3_50_39/Chicago_Crime_Analysis_ChicagoCrimeRatesByCommunityArea:2016-11-30_2016-10-31/OutputGraphs/QualityOfLifeCrimePerCommunityArea:2016-11-30_2016-10-31.png)
+![alt tag](https://github.com/AmeyKelekar/DataAnalysisUsingPython/blob/master/DataAnalysisOnCrimeInChicago/OutputFiles/12_10_2016/3_50_39/Chicago_Crime_Analysis_ChicagoCrimeRatesByCommunityArea:2016-11-30_2016-10-31/OutputGraphs/ViolentCrimePerCommunityArea:2016-11-30_2016-10-31.png)
+
 ## Run the code:
 ```sh
 python Chicago_Crime_DataCollection.py -e 2016-11-30
