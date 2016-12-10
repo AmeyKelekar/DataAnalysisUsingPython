@@ -4,7 +4,7 @@ Use the Chicago Crime Dataset from Jan 2001 to Present and perform 5 analysis on
 ##Files: 
 I have designed 6 scripts, namely:
 
-**1) Midterm_StackOver_DataCollection.py:**
+**1) Chicago_Crime_DataCollection.py:**
 This script collects the data for stackoverflow from the StackExchange REST API and saves the details fetched in a csv file. 
 Following are the per-site methods used: 
 * [**/questions**] [/questions]: Get all questions on the site.
