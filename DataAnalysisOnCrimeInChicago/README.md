@@ -76,32 +76,46 @@ Please refer the following documenation [**The Python Standard Library**][The Py
 [pandas]: http://pandas.pydata.org/
 
 ## How to install External Libraries:
-**requests**
+**pandas**
 - Binary installers for the latest released version are available at the [Python
-package index](http://pypi.python.org/pypi/requests/) and on conda.
+package index](https://pypi.python.org/pypi/pandas/) and on conda.
 
 ```sh
 # conda
-conda install requests
+conda install pandas
 ```
 
 ```sh
 # or PyPI
-pip install requests
+pip install pandas
 ```
 
-**simplejson**
+**matplotlib**
 - Binary installers for the latest released version are available at the [Python
-package index](http://pypi.python.org/pypi/simplejson/) and on conda.
+package index](https://pypi.python.org/pypi/matplotlib/) and on conda.
 
 ```sh
 # conda
-conda install simplejson
+conda install matplotlib
 ```
 
 ```sh
 # or PyPI
-pip install simplejson
+pip install matplotlib
+```
+
+**seaborn**
+- Binary installers for the latest released version are available at the [Python
+package index](https://pypi.python.org/pypi/seaborn/) and on conda.
+
+```sh
+# conda
+conda install seaborn
+```
+
+```sh
+# or PyPI
+pip install seaborn
 ```
 
 ##Some important points:
