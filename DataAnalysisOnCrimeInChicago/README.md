@@ -153,9 +153,18 @@ pip install numpy
 
 ## Analysis and Graphs:
 **1) Homicides by location description:**
- Why is it called “street crime”? By the location description, most murders appear to take place in the “street”. A surprising amount also took place in cars. Some of the lower-number-locations are also interesting, such as that 16 murders that happened in a vestibule.
+ - Why is it called “street crime”? By the location description, most murders appear to take place in the “street”. A surprising amount also took place in cars. Some of the lower-number-locations are also interesting, such as that 16 murders that happened in a vestibule.
 
  ![alt tag](https://github.com/AmeyKelekar/DataAnalysisUsingPython/blob/master/DataAnalysisOnCrimeInChicago/OutputFiles/12_9_2016/22_22_45/Chicago_Crime_Analysis_HomicidesByLocationDescription/OutputGraphs/Homicides_By_LocationDescription:Jan2001-Present.png)
+
+**2.a) Overall arrest rates:**
+- The Chicago data include a dimension on arrest = true/false. 
+- Below is an overall picture of arrest rates by primary type of crime for the whole 16-year period. It’s tempting to look at this as a prioritization issue. Why would Chicago arrest 99% of the time for public indecency but only 49% of the time for homicide? 
+- But there’s a lot of selection bias in these numbers. If an officer reports public indecency, he or she has probably seen it and can make the arrest. I’m sure there’s a lot of public indecency that happens unreported and unknown to our data set.
+- As the most serious crime there is, a homicide will (almost?) always be reported. There’s probably also a longer time period to solve a murder than a public indecency case. Still, that 51% of murders resulted in no arrests is a little disconcerting.
+
+![alt tag](https://github.com/AmeyKelekar/DataAnalysisUsingPython/blob/master/DataAnalysisOnCrimeInChicago/OutputFiles/12_9_2016/22_22_45/Chicago_Crime_Analysis_OverallArrestRates/OutputGraphs/OverallArrestRateByPrimaryTypeOfCrime:Jan2001-Present.png)
+
 
 
 
