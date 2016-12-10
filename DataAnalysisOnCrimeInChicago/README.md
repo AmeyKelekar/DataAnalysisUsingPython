@@ -1,13 +1,16 @@
-##Question:
-Use the Chicago Crime Dataset from Jan 2001 to Present and perform 5 analysis on the data that you collect.
+##Problem Statement / Question:
+-  Use the Chicago Crime Dataset from Jan 2001 to Present and perform 5 analysis on the data collected.
+- The dataset can be downladed from the following path: * [**chicagocrime**] [/chicagocrime]
+- The dataset reflects reported incidents of crime (with the exception of murders where data exists for each victim) that occurred in the City of Chicago from 2001 to present, minus the most recent seven days.
+- Sample Dataset looks like:
+
 
 ##Files: 
 I have designed 6 scripts, namely:
 
 **1) Chicago_Crime_DataCollection.py:**
 This script reads the data from the Crimes_-_2001_to_present CSV file and then performs 5 different analysis on the data. 
-The csv file can be downladed from the following path: 
-* [**chicagocrime**] [/chicagocrime]: This dataset reflects reported incidents of crime (with the exception of murders where data exists for each victim) that occurred in the City of Chicago from 2001 to present, minus the most recent seven days
+
 
 **2) Chicago_Crime_Analysis_HomicidesByLocationDescription.py:**
 - This script first collects all the data from the file where crime type is **HOMICIDE** and then further gives count of total crime grouped by location description. It also gives you percentage value of crime for each location.
