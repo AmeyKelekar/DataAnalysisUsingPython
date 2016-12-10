@@ -6,7 +6,12 @@
 - The dataset can be downladed from the following path: [**chicagocrime**] [/chicagocrime]
 - The dataset reflects reported incidents of crime (with the exception of murders where data exists for each victim) that occurred in the City of Chicago from 2001 to present, minus the most recent seven days.
 - Sample Dataset looks like:
-![alt tag](https://github.com/AmeyKelekar/DataAnalysisUsingPython/blob/master/DataAnalysisOnCrimeInChicago/Chicago_crime/Crimes_-_2001_to_present.csv)
+First Name  |  Last Name  |  Location           |  Allegiance
+------------|-------------|---------------------|-----------------
+Mance       |  Rayder     |  North of the Wall  |  Wildlings
+Margaery    |  Tyrell     |  The Reach          |  House Tyrell
+Danerys     |  Targaryen  |  Meereen            |  House Targaryen
+Tyrion      |  Lannister  |  King's Landing     |  House Lannister
 
 
 ##Files: 
@@ -142,14 +147,14 @@ pip install numpy
 ##Folder Structure:
 - **Data Collection File:** ../Chicago_Crime_DataCollection.py
 - **Community Name Collection File:** ../Chicago_Crime_CommunityNameCollection.py
-- **Python Scripts for Analysis:**  ../Analysis_Scripts/python_scripts/<python-scripts>
+- **Python Scripts for Analysis:**  ../Analysis_Scripts/python_scripts/python-scripts
 	- example : ../Analysis_Scripts/python_scripts/Chicago_Crime_Analysis_Seasonality.py
-- **Ipython notebooks for Analysis:** ../Analysis_Scripts/ipython_notebooks/<ipython-notebooks>
+- **Ipython notebooks for Analysis:** ../Analysis_Scripts/ipython_notebooks/ipython-notebooks
 	- example : ../Analysis_Scripts/ipython_notebooks/Chicago_Crime_Analysis_Seasonality.ipynb
 - **Data Set file:** ../Chicago_crime/Crimes_-_2001_to_present.csv
-- **CSV Result:** ../OutputFiles/<current-date>/<current-time>/<analysis-name>/CSV/<result>
+- **CSV Result:** ../OutputFiles/current-date/current-time/analysis-name/CSV/result
 	- example : ../OutputFiles/12_9_2016/22_22_45/Chicago_Crime_Analysis_Seasonality/CSV/SeasonalitySelectedCrimes:Jan2001-Present.csv
-- **Graph Result:** ../OutputFiles/<current-date>/<current-time>/<analysis-name>/OutputGraphs/<result>
+- **Graph Result:** ../OutputFiles/current-date/current-time/analysis-name/OutputGraphs/result
 	- example : ../OutputFiles/12_9_2016/22_22_45/Chicago_Crime_Analysis_Seasonality/OutputGraphs/SeasonalitySelectedCrimes:Jan2001-Present,PrimaryType=ASSAULT.png
 
 
