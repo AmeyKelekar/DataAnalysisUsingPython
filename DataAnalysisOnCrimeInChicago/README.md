@@ -70,10 +70,12 @@ Please refer the following documenation [**The Python Standard Library**][The Py
 * [**matplotlib**][matplotlib]
 * [**seaborn**][seaborn]
 * [**pandas**][pandas]
+* [**numpy**][numpy]
 
 [matplotlib]: http://matplotlib.org/
 [seaborn]: http://seaborn.pydata.org/
 [pandas]: http://pandas.pydata.org/
+[numpy]: http://www.numpy.org/
 
 ## How to install External Libraries:
 **pandas**
@@ -116,6 +118,20 @@ conda install seaborn
 ```sh
 # or PyPI
 pip install seaborn
+```
+
+**numpy**
+- Binary installers for the latest released version are available at the [Python
+package index](https://pypi.python.org/pypi/numpy/) and on conda.
+
+```sh
+# conda
+conda install numpy
+```
+
+```sh
+# or PyPI
+pip install numpy
 ```
 
 ##Some important points:
