@@ -7,13 +7,13 @@
 - The dataset reflects reported incidents of crime (with the exception of murders where data exists for each victim) that occurred in the City of Chicago from 2001 to present, minus the most recent seven days.
 - Sample Dataset looks like:
 
-	First Name  |  Last Name  |  Location           |  Allegiance
-	------------|-------------|---------------------|-----------------
-	Mance       |  Rayder     |  North of the Wall  |  Wildlings
-	Margaery    |  Tyrell     |  The Reach          |  House Tyrell
-	Danerys     |  Targaryen  |  Meereen            |  House Targaryen
-	Tyrion      |  Lannister  |  King's Landing     |  House Lannister
-
+	ID          |  Case Number |  Date            |  Block               |   IUCR
+	------------|--------------|------------------|----------------------|---------------
+	10776695    |  HZ543234    |  12/1/16 0:00    |  012XX W GRACE ST	 | 	 1310
+	10774757    |  HZ540108    |  12/1/16 0:00    |  011XX N HOWE ST     |   820
+	10771987    |  HZ537398    |  12/1/16 0:00    |  036XX W FLOURNOY ST | 	 910
+	10771468    |  HZ536986    |  12/1/16 0:00    |  084XX S KENNETH AVE |	 810
+	10770887    |  HZ536388    |  12/1/16 0:00    |  030XX N SAYRE AVE   |   820
 
 ##Files: 
 I have designed 6 scripts, namely:
