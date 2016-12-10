@@ -10,8 +10,13 @@ The csv file can be downladed from the following path:
 * [**chicagocrime**] [/chicagocrime]: This dataset reflects reported incidents of crime (with the exception of murders where data exists for each victim) that occurred in the City of Chicago from 2001 to present, minus the most recent seven days
 
 **2) Chicago_Crime_Analysis_HomicidesByLocationDescription.py:**
-This script performs following analysis:
-- It first collects all the data from the file where crime type is **HOMICIDE** and then further gives count of total crime grouped by location description. It also gives you percentage value of crime for each location.
+- This script first collects all the data from the file where crime type is **HOMICIDE** and then further gives count of total crime grouped by location description. It also gives you percentage value of crime for each location.
+
+**3) Chicago_Crime_Analysis_Seasonality.py:**
+- Since month column is not given in the CSV file, this script first derives the month value for each crime date. 
+- Then the count of crimes are calculated grouped by **Crime Type**, **Year** and **Month*
+- Here, we are only analyzing crime for 5 specific crimes: **'HOMICIDE','PROSTITUTION','ASSAULT','NARCOTICS','MOTOR VEHICLE THEFT'**. So, we only select these 5 crime types.
+
 
 [/chicagocrime]: https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-present/ijzp-q8t2
 
