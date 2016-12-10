@@ -21,7 +21,14 @@ The csv file can be downladed from the following path:
 - Since hour column is not given in the CSV file, this script first derives the hour value for each crime date.
 - Then the count of crimes are calculated grouped by **Year** and **Hour**
 - Further percentage for each crime count is calculated grouped by **Year** and **Hour**
-- Top 5 hours and the percentage are displayed for each year
+- Top 5 hours and percentage are displayed grouped by each year
+
+**5)Chicago_Crime_Analysis_OverallArrestRates.py:**
+- The Chicago data include a dimension on arrest = true/false
+- This script first calculates arrest percentage grouped by crime type
+- Further calculates arrest percentage grouped by **Year** and **Crime Type**
+- Arrest rate is divided into 3 categories: high-arrest-rate, mid-arrest-rate and low-arrest-rate
+- High-arrest-rate = Arrest percentage > 50, mid-arrest-rate=  Arrest percentage in (50,15) and low-arrest-rate = Arrest percentage <=15
 
 
 [/chicagocrime]: https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-present/ijzp-q8t2
