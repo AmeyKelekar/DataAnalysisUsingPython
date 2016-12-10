@@ -133,15 +133,15 @@ pip install numpy
 ```
 
 ##Folder Structure:
-- Data Collection File: ../Chicago_Crime_DataCollection.py
-- Python Scripts for Analysis:  ../Analysis_Scripts/python_scripts/<python-scripts>
+- **Data Collection File:** ../Chicago_Crime_DataCollection.py
+- **Python Scripts for Analysis:**  ../Analysis_Scripts/python_scripts/<python-scripts>
 	- example : ../Analysis_Scripts/python_scripts/Chicago_Crime_Analysis_Seasonality.py
-- Ipython notebooks for Analysis: ../Analysis_Scripts/ipython_notebooks/<ipython-notebooks>
+- **Ipython notebooks for Analysis:** ../Analysis_Scripts/ipython_notebooks/<ipython-notebooks>
 	- example : ../Analysis_Scripts/ipython_notebooks/Chicago_Crime_Analysis_Seasonality.ipynb
-- Data Set file : ../Chicago_crime/Crimes_-_2001_to_present.csv
-- CSV Result: ../OutputFiles/<current-date>/<current-time>/<analysis-name>/CSV/<result>
+- **Data Set file:** ../Chicago_crime/Crimes_-_2001_to_present.csv
+- **CSV Result:** ../OutputFiles/<current-date>/<current-time>/<analysis-name>/CSV/<result>
 	- example : ../OutputFiles/12_9_2016/22_22_45/Chicago_Crime_Analysis_Seasonality/CSV/SeasonalitySelectedCrimes:Jan2001-Present.csv
-- Graph Result: ../OutputFiles/<current-date>/<current-time>/<analysis-name>/OutputGraphs/<result>
+- Graph Result:** ../OutputFiles/<current-date>/<current-time>/<analysis-name>/OutputGraphs/<result>
 	- example : ../OutputFiles/12_9_2016/22_22_45/Chicago_Crime_Analysis_Seasonality/OutputGraphs/SeasonalitySelectedCrimes:Jan2001-Present,PrimaryType=ASSAULT.png
 
 
