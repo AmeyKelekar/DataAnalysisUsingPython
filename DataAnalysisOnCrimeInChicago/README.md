@@ -1,8 +1,12 @@
+## Crime in Chicago:
+![alt tag](https://github.com/AmeyKelekar/DataAnalysisUsingPython/blob/master/DataAnalysisOnCrimeInChicago/ChicagoCrimeSampleImage.jpeg)
+
 ##Problem Statement / Question:
 -  Use the Chicago Crime Dataset from Jan 2001 to Present and perform 5 analysis on the data collected.
-- The dataset can be downladed from the following path: * [**chicagocrime**] [/chicagocrime]
+- The dataset can be downladed from the following path: [**chicagocrime**] [/chicagocrime]
 - The dataset reflects reported incidents of crime (with the exception of murders where data exists for each victim) that occurred in the City of Chicago from 2001 to present, minus the most recent seven days.
 - Sample Dataset looks like:
+![alt tag](https://github.com/AmeyKelekar/DataAnalysisUsingPython/blob/master/DataAnalysisOnCrimeInChicago/Chicago_crime/Crimes_-_2001_to_present.csv)
 
 
 ##Files: 
