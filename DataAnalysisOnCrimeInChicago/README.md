@@ -40,7 +40,7 @@ The csv file can be downladed from the following path:
 	- **VIOLENT**: ASSAULT, ROBBERY, BATTERY, CRIM SEXUAL ASSAULT and HOMICIDE 
 	- **PROPERTY**:  ARSON', THEFT, BURGLARY and MOTOR VEHICLE THEFT
 	- **QUALITY OF LIFE**: CRIMINALDAMAGE, PROSTITUTION and NARCOTICS
--We find crime rate all the the 3 cartegories individually and even combined.
+- We find crime rate all the the 3 cartegories individually and even combined.
 
 
 [/chicagocrime]: https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-present/ijzp-q8t2
