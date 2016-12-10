@@ -238,12 +238,15 @@
 	- Even the range of hours are almost same for all the years.
 
 - The results are visualized as below:
+
 **Year 2001**
 ![alt tag](https://github.com/AmeyKelekar/DataAnalysisUsingPython/blob/master/DataAnalysisOnCrimeInChicago/OutputFiles/12_9_2016/22_22_45/Chicago_Crime_Analysis_CrimeOverTime/OutputGraphs/CrimeOverTime-Top5HoursPerYear-Year%3D2001.png)
 **Year 2002**
 ![alt tag](https://github.com/AmeyKelekar/DataAnalysisUsingPython/blob/master/DataAnalysisOnCrimeInChicago/OutputFiles/12_9_2016/22_22_45/Chicago_Crime_Analysis_CrimeOverTime/OutputGraphs/CrimeOverTime-Top5HoursPerYear-Year%3D2002.png)
 **Year 2003**
 ![alt tag](https://github.com/AmeyKelekar/DataAnalysisUsingPython/blob/master/DataAnalysisOnCrimeInChicago/OutputFiles/12_9_2016/22_22_45/Chicago_Crime_Analysis_CrimeOverTime/OutputGraphs/CrimeOverTime-Top5HoursPerYear-Year%3D2003.png)
+
+
 ##Files: 
 I have designed 6 scripts, namely:
 
