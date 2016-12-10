@@ -7,13 +7,13 @@
 - The dataset reflects reported incidents of crime (with the exception of murders where data exists for each victim) that occurred in the City of Chicago from 2001 to present, minus the most recent seven days.
 - Sample Dataset looks like:
 
-	ID        |  Case Number |  Date          |  Block               |  IUCR   |  Primary Type        |  Description      
-	----------|--------------|----------------|----------------------|---------|----------------------|-------------------
-	10776695  |  HZ543234    |  12/1/16 0:00  |  012XX W GRACE ST	 | 	1310   |  CRIMINAL DAMAGE     |  TO PROPERTY                 
-	10774757  |  HZ540108    |  12/1/16 0:00  |  011XX N HOWE ST     |  820    |  THEFT               |  $500 AND UNDER
-	10771987  |  HZ537398    |  12/1/16 0:00  |  036XX W FLOURNOY ST | 	910    |  MOTOR VEHICLE THEFT |  AUTOMOBILE
-	10771468  |  HZ536986    |  12/1/16 0:00  |  084XX S KENNETH AVE |	810    |  THEFT               |  OVER $500
-	10770887  |  HZ536388    |  12/1/16 0:00  |  030XX N SAYRE AVE   |  820    |  THEFT               |  $500 AND UNDER
+	ID        |  Case Number |  Date          |  Block               |  IUCR   |  Primary Type        |  Description     |  Location Description   |  Arrest |  Domestic  |  Beat   
+	----------|--------------|----------------|----------------------|---------|----------------------|------------------|-------------------------|---------|------------|--------
+	10776695  |  HZ543234    |  12/1/16 0:00  |  012XX W GRACE ST	 | 	1310   |  CRIMINAL DAMAGE     |  TO PROPERTY     |  APARTMENT              |  FALSE  |  FALSE     |  1923  
+	10774757  |  HZ540108    |  12/1/16 0:00  |  011XX N HOWE ST     |  820    |  THEFT               |  $500 AND UNDER  |  APARTMENT              |  FALSE  |  FALSE     |  1822
+	10771987  |  HZ537398    |  12/1/16 0:00  |  036XX W FLOURNOY ST | 	910    |  MOTOR VEHICLE THEFT |  AUTOMOBILE      |  STREET                 |  FALSE  |  TRUE      |  1133
+	10771468  |  HZ536986    |  12/1/16 0:00  |  084XX S KENNETH AVE |	810    |  THEFT               |  OVER $500       |  STREET	               |  FALSE  |  FALSE     |  834
+	10770887  |  HZ536388    |  12/1/16 0:00  |  030XX N SAYRE AVE   |  820    |  THEFT               |  $500 AND UNDER  |  VEHICLE NON-COMMERCIAL |  FALSE  |  FALSE     |  2511
 
 ##Files: 
 I have designed 6 scripts, namely:
