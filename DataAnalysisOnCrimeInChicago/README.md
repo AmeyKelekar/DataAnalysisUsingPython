@@ -65,8 +65,7 @@
 	HOMICIDE							|  48.54202401
 
 
-	- **Some Observation:**
-	  	- Below is an overall picture of arrest rates by primary type of crime for the whole 16-year period. 
+	- **Some Observation:** 
 	  	- It’s tempting to look at this as a prioritization issue. 
 	  	- Why would Chicago arrest 99% of the time for public indecency but only 49% of the time for homicide? 
  		- But there’s a lot of selection bias in these numbers. If an officer reports public indecency, he or she has probably seen it and can make the arrest. 
@@ -75,19 +74,140 @@
 		- There’s probably also a longer time period to solve a murder than a public indecency case. 
 		- Still, that 51% of murders resulted in no arrests is a little disconcerting.
 
+	- Below is an overall picture of arrest rates by primary type of crime for the whole 16-year period:
 ![alt tag](https://github.com/AmeyKelekar/DataAnalysisUsingPython/blob/master/DataAnalysisOnCrimeInChicago/OutputFiles/12_9_2016/22_22_45/Chicago_Crime_Analysis_OverallArrestRates/OutputGraphs/OverallArrestRateByPrimaryTypeOfCrime:Jan2001-Present.png)
 
-**2.b) Arrest rate trends (high-arrest-rate crimes):**
-- To answer more questions on arrest rates, we need to look at trends
-- Dividing the crimes between high-arrest-rate crimes, mid-arrest-rate and low-arrest-rate crimes, we can get cleaner visualizations, and we can easily compare arrest rates across crimes.
-- There’s a weird aberration in 2008 where arrest rates for a lot of these crimes drop. And arrest rates for public peace violation / interference with a public officer have climbed significantly over the period.
+- **b) Arrest rate trends (high-arrest-rate crimes):**
+	- To answer more questions on arrest rates, we need to look at trends
+	- Arrest percentage is calcualted grouped by **Year** and **Crime Type**
+	- Dividing the crimes between high-arrest-rate crimes, mid-arrest-rate and low-arrest-rate crimes, we can get cleaner visualizations, and we can easily compare arrest rates across crimes.
+	- The result is saved in a CSV file and looks like below :
 
+	Primary Type	                    |  Year	 |  Arrest Count  |  Total Count  |  Arrest Rate
+	------------------------------------|--------|----------------|---------------|-----------------
+	CONCEALED CARRY LICENSE VIOLATION	|  2014	 |  6	          |  15	          |  40
+	CONCEALED CARRY LICENSE VIOLATION	|  2015	 |  32	          |  34	          |  94.11764706
+	CONCEALED CARRY LICENSE VIOLATION	|  2016	 |  31	          |  32	          |  96.875
+	CRIMINAL TRESPASS	                |  2001	 |  10262	      |  13240	      |  77.50755287
+	CRIMINAL TRESPASS	                |  2002	 |  10632	      |  13880	      |  76.59942363
+
+	- **Some Observation:** 
+		- There’s a weird aberration in 2008 where arrest rates for a lot of these crimes drop. 
+		- And arrest rates for public peace violation / interference with a public officer have climbed significantly over the period.
+	- The result is visualized as below:
 ![alt tag](https://github.com/AmeyKelekar/DataAnalysisUsingPython/blob/master/DataAnalysisOnCrimeInChicago/OutputFiles/12_9_2016/22_22_45/Chicago_Crime_Analysis_OverallArrestRates/OutputGraphs/Arrest_RateTrend_For_High-arrest-rate_crimes.png)
 
-**2.c) Arrest rate trends (mid-arrest-rate crimes):**
-- Homicides always sticks out: here because the rate is around 60%-63% in the past (so murders committed years ago still doesn’t get the best closure). But it also is interesting because of the downward trend. Again, part of this trend is most likely that the time to close a murder case is longer than for, say, a liquor law violation in the above graph.
+- **c) Arrest rate trends (mid-arrest-rate crimes):**
+	- The result is saved in a CSV file and looks like below :
 
+	Primary Type  |  Year	 |  Arrest Count  |  Total Count  |  Arrest Rate
+	--------------|----------|----------------|---------------|-----------------
+	ASSAULT	      |  2001	 |  7150	      |  31384	      |  22.78230946
+	ASSAULT	      |  2002	 |  7340	      |  31521	      |  23.28606326
+	ASSAULT	      |  2003	 |  6909	      |  29477	      |  23.43861316
+	ASSAULT	      |  2004	 |  7004	      |  28850	      |  24.27729636
+	ASSAULT	      |  2005	 |  6631	      |  27066	      |  24.49937191
+
+	- **Some Observation:** 
+		- Homicides always sticks out: here because the rate is around 60%-63% in the past (so murders committed years ago still doesn’t get the best closure). 
+		- But it also is interesting because of the downward trend. 
+		- Again, part of this trend is most likely that the time to close a murder case is longer than for, say, a liquor law violation in the above graph.
+	- The result is visualized as below:
 ![alt tag](https://github.com/AmeyKelekar/DataAnalysisUsingPython/blob/master/DataAnalysisOnCrimeInChicago/OutputFiles/12_9_2016/22_22_45/Chicago_Crime_Analysis_OverallArrestRates/OutputGraphs/Arrest_RateTrend_For_Medium-arrest-rate_crimes.png)
+
+**3) Seasonality:**
+- Crime Count is calculated grouped by **Crime Type**, **Year** and **Month**
+- We are only analyzing for 5 specific crimes: **HOMICIDE** , **PROSTITUTION**, **ASSAULT**, **NARCOTICS** and **MOTOR VEHICLE THEFT**.
+- The result is saved in a CSV file and looks like below :
+	
+	Primary Type  |  Year  |  Month     |  Crimes Count
+	--------------|--------|------------|-----------------
+	ASSAULT		  |	 2001  |  April	    |  2746
+	ASSAULT	      |  2001  |  August	|  3021
+	ASSAULT	      |  2001  |  December	|  2078
+	ASSAULT		  |  2001  |  February	|  2029
+	ASSAULT		  |  2001  |  January	|  2123
+	ASSAULT		  |  2001  |  July	    |  3019
+	ASSAULT		  |  2001  |  June	    |  2767
+	ASSAULT	      |  2001  |  March	    |  2824
+	ASSAULT	      |  2001  |  May	    |  2903
+	ASSAULT	      |  2001  |  November	|  2394
+
+- **Some Observation:**
+	- I’ve heard that certain crimes are committed during different parts of the year.  
+	- It turns out that homicides do appear to spike in the summer. 
+	- Assault shows a similar, but broader, trend. Instead of spiking in the summer, it’s more accurate to say that assaults drop in the winter. 
+	- Narcotics, stealing cars and prostitution seem to know no breaks. Being crimes of money rather than passion, this is expected.
+
+- The results are visualized as below:
+![alt tag](https://github.com/AmeyKelekar/DataAnalysisUsingPython/blob/master/DataAnalysisOnCrimeInChicago/OutputFiles/12_9_2016/22_22_45/Chicago_Crime_Analysis_Seasonality/OutputGraphs/SeasonalitySelectedCrimes:Jan2001-Present%2CPrimaryType%3DASSAULT.png)
+![alt tag](https://github.com/AmeyKelekar/DataAnalysisUsingPython/blob/master/DataAnalysisOnCrimeInChicago/OutputFiles/12_9_2016/22_22_45/Chicago_Crime_Analysis_Seasonality/OutputGraphs/SeasonalitySelectedCrimes:Jan2001-Present%2CPrimaryType%3DHOMICIDE.png)
+![alt tag](https://github.com/AmeyKelekar/DataAnalysisUsingPython/blob/master/DataAnalysisOnCrimeInChicago/OutputFiles/12_9_2016/22_22_45/Chicago_Crime_Analysis_Seasonality/OutputGraphs/SeasonalitySelectedCrimes:Jan2001-Present%2CPrimaryType%3DMOTOR%20VEHICLE%20THEFT.png)
+![alt tag](https://github.com/AmeyKelekar/DataAnalysisUsingPython/blob/master/DataAnalysisOnCrimeInChicago/OutputFiles/12_9_2016/22_22_45/Chicago_Crime_Analysis_Seasonality/OutputGraphs/SeasonalitySelectedCrimes:Jan2001-Present%2CPrimaryType%3DNARCOTICS.png)
+![alt tag](https://github.com/AmeyKelekar/DataAnalysisUsingPython/blob/master/DataAnalysisOnCrimeInChicago/OutputFiles/12_9_2016/22_22_45/Chicago_Crime_Analysis_Seasonality/OutputGraphs/SeasonalitySelectedCrimes:Jan2001-Present%2CPrimaryType%3DPROSTITUTION.png)
+
+**4) Chicago Crime Rates By Community Area:**
+- Crime rate in each Chicago community area for a 30 days is calculated
+- Only 11 crime types: ASSAULT, ROBBERY, BATTERY, CRIM SEXUAL ASSAULT, HOMICIDE, ARSON, THEFT, BURGLARY, MOTOR VEHICLE THEFT, CRIMINALDAMAGE, PROSTITUTION and NARCOTICS are selected
+- Even these 11 crimes are futher sub-categorized as:
+	- **VIOLENT**: ASSAULT, ROBBERY, BATTERY, CRIM SEXUAL ASSAULT and HOMICIDE 
+	- **PROPERTY**:  ARSON', THEFT, BURGLARY and MOTOR VEHICLE THEFT
+	- **QUALITY OF LIFE**: CRIMINALDAMAGE, PROSTITUTION and NARCOTICS
+- The results are saved in a CSV files and looks like below :
+	**CRIME BY TYPE PER COMMUNITY AREA, PAST 30 DAYS**
+
+	Community Name  |  PROPERTY	     |  QUALITY OF LIFE  |  VIOLENT
+	----------------|----------------|-------------------|-----------------
+	Albany Park		|  0.432131368	 |  0.13444087	     |  0.312094877
+	Archer Heights	|  0.216065684	 |  0.067220435	     |  0.067220435
+	Armour Square	|  0.13924233	 |  0.024007298	     |  0.196859845
+	Ashburn			|  0.499351803	 |  0.211264224	     |  0.331300715
+	Auburn Gresham	|  0.715417487	 |  0.523359101	     |  1.094732799
+
+	**PROPERTY CRIME PER COMMUNITY AREA, PAST 30 DAYS**
+
+	Community Name  |  ARSON		|  BURGLARY		 |  MOTOR VEHICLE THEFT  |  THEFT
+	----------------|---------------|----------------|-----------------------|----------------
+	Albany Park		|  0			|  0.100830653	 |	0.057617516			 |  0.2736832
+	Archer Heights	|  0			|  0.057617516	 |	0.067220435			 |  0.091227733
+	Armour Square	|  0			|  0.024007298	 |	0.00480146			 |  0.110433572
+	Ashburn			|  0.00480146	|  0.081624814	 |	0.192058386			 |  0.220867144
+	Auburn Gresham	|  0			|  0.192058386	 |	0.115235031			 |  0.40812407
+
+	**QUALITY OF LIFE CRIME PER COMMUNITY AREA, PAST 30 DAYS**
+
+	Community Name  |  CRIMINAL DAMAGE  |  NARCOTICS     |  PROSTITUTION
+	----------------|-------------------|----------------|-----------------
+	Albany Park	    |  0.12963941		|  0.00480146	 |	0
+	Archer Heights	|  0.057617516		|  0.009602919	 |	0
+	Armour Square	|  0.014404379		|  0.009602919	 |	0
+	Ashburn	        |  0.206462765		|  0.00480146	 |	0
+	Auburn Gresham	|  0.451337207		|  0.067220435	 |	0.00480146
+
+	**VIOLENT CRIME PER COMMUNITY AREA, PAST 30 DAYS**
+
+	Community Name	|  ASSAULT	     |  BATTERY		 |  CRIM SEXUAL ASSAULT	 |  HOMICIDE	 |	ROBBERY
+	----------------|----------------|---------------|-----------------------|---------------|------------------
+	Albany Park	    |  0.048014596	 |	0.148845249	 |	0.009602919			 |	0			 |	0.105632112
+	Archer Heights	|  0.00480146	 |	0.043213137	 |	0					 |	0.00480146	 |	0.014404379
+	Armour Square	|  0.00480146	 |	0.100830653	 |	0					 |	0.00480146	 |	0.086426274
+	Ashburn	        |  0.072021895	 |	0.124837951	 |	0					 |	0			 |	0.13444087
+	Auburn Gresham	|  0.201661305	 |	0.66740289	 |	0.014404379			 |	0.014404379  |	0.196859845
+
+- **Some Observation:**
+	- We can clearly observe that Austin Community topped in all the crime categories. 
+	- South Deering shows a consistent value for all crime categories
+	- Burnside is almost zero for all  crime categories
+
+- The results are visualized as below:
+**CRIME BY TYPE PER COMMUNITY AREA, PAST 30 DAYS**
+![alt tag](https://github.com/AmeyKelekar/DataAnalysisUsingPython/blob/master/DataAnalysisOnCrimeInChicago/OutputFiles/12_10_2016/3_50_39/Chicago_Crime_Analysis_ChicagoCrimeRatesByCommunityArea:2016-11-30_2016-10-31/OutputGraphs/CrimeByTypePerCommunityArea:2016-11-30_2016-10-31.png)
+**PROPERTY CRIME PER COMMUNITY AREA, PAST 30 DAYS**
+![alt tag](https://github.com/AmeyKelekar/DataAnalysisUsingPython/blob/master/DataAnalysisOnCrimeInChicago/OutputFiles/12_10_2016/3_50_39/Chicago_Crime_Analysis_ChicagoCrimeRatesByCommunityArea:2016-11-30_2016-10-31/OutputGraphs/PropertyCrimePerCommunityArea:2016-11-30_2016-10-31.png)
+**QUALITY OF LIFE CRIME PER COMMUNITY AREA, PAST 30 DAYS**
+![alt tag](https://github.com/AmeyKelekar/DataAnalysisUsingPython/blob/master/DataAnalysisOnCrimeInChicago/OutputFiles/12_10_2016/3_50_39/Chicago_Crime_Analysis_ChicagoCrimeRatesByCommunityArea:2016-11-30_2016-10-31/OutputGraphs/QualityOfLifeCrimePerCommunityArea:2016-11-30_2016-10-31.png)
+**VIOLENT CRIME PER COMMUNITY AREA, PAST 30 DAYS**
+![alt tag](https://github.com/AmeyKelekar/DataAnalysisUsingPython/blob/master/DataAnalysisOnCrimeInChicago/OutputFiles/12_10_2016/3_50_39/Chicago_Crime_Analysis_ChicagoCrimeRatesByCommunityArea:2016-11-30_2016-10-31/OutputGraphs/ViolentCrimePerCommunityArea:2016-11-30_2016-10-31.png)
 
 ##Files: 
 I have designed 6 scripts, namely:
@@ -239,55 +359,6 @@ pip install numpy
 * A new folder with today's date will be created inside the folder "OutputFiles", if not present. If exists, then it will use it without creating a new one. 
 * Everytime a new folder will be created with the current time inside today's date.
 * Community Name Collection file should be executed only once at the beginning when you first time execute this file. You will require to re-execute this file incase you delete the community name CSV. You don't have to execute thie file everytime.
-
-
-**2.a) Overall arrest rates:**
-- The Chicago data include a dimension on arrest = true/false. 
-- Below is an overall picture of arrest rates by primary type of crime for the whole 16-year period. It’s tempting to look at this as a prioritization issue. Why would Chicago arrest 99% of the time for public indecency but only 49% of the time for homicide? 
-- But there’s a lot of selection bias in these numbers. If an officer reports public indecency, he or she has probably seen it and can make the arrest. I’m sure there’s a lot of public indecency that happens unreported and unknown to our data set.
-- As the most serious crime there is, a homicide will (almost?) always be reported. There’s probably also a longer time period to solve a murder than a public indecency case. Still, that 51% of murders resulted in no arrests is a little disconcerting.
-
-![alt tag](https://github.com/AmeyKelekar/DataAnalysisUsingPython/blob/master/DataAnalysisOnCrimeInChicago/OutputFiles/12_9_2016/22_22_45/Chicago_Crime_Analysis_OverallArrestRates/OutputGraphs/OverallArrestRateByPrimaryTypeOfCrime:Jan2001-Present.png)
-
-**2.b) Arrest rate trends (high-arrest-rate crimes):**
-- To answer more questions on arrest rates, we need to look at trends
-- Dividing the crimes between high-arrest-rate crimes, mid-arrest-rate and low-arrest-rate crimes, we can get cleaner visualizations, and we can easily compare arrest rates across crimes.
-- There’s a weird aberration in 2008 where arrest rates for a lot of these crimes drop. And arrest rates for public peace violation / interference with a public officer have climbed significantly over the period.
-
-![alt tag](https://github.com/AmeyKelekar/DataAnalysisUsingPython/blob/master/DataAnalysisOnCrimeInChicago/OutputFiles/12_9_2016/22_22_45/Chicago_Crime_Analysis_OverallArrestRates/OutputGraphs/Arrest_RateTrend_For_High-arrest-rate_crimes.png)
-
-**2.c) Arrest rate trends (mid-arrest-rate crimes):**
-- Homicides always sticks out: here because the rate is around 60%-63% in the past (so murders committed years ago still doesn’t get the best closure). But it also is interesting because of the downward trend. Again, part of this trend is most likely that the time to close a murder case is longer than for, say, a liquor law violation in the above graph.
-
-![alt tag](https://github.com/AmeyKelekar/DataAnalysisUsingPython/blob/master/DataAnalysisOnCrimeInChicago/OutputFiles/12_9_2016/22_22_45/Chicago_Crime_Analysis_OverallArrestRates/OutputGraphs/Arrest_RateTrend_For_Medium-arrest-rate_crimes.png)
-
-**3) Seasonality:**
-- I’ve heard that certain crimes are committed during different parts of the year.  
-- It turns out that homicides do appear to spike in the summer. 
-- Assault shows a similar, but broader, trend. Instead of spiking in the summer, it’s more accurate to say that assaults drop in the winter. 
-- Narcotics, stealing cars and prostitution seem to know no breaks. Being crimes of money rather than passion, this is expected.
-
-![alt tag](https://github.com/AmeyKelekar/DataAnalysisUsingPython/blob/master/DataAnalysisOnCrimeInChicago/OutputFiles/12_9_2016/22_22_45/Chicago_Crime_Analysis_Seasonality/OutputGraphs/SeasonalitySelectedCrimes:Jan2001-Present%2CPrimaryType%3DASSAULT.png)
-![alt tag](https://github.com/AmeyKelekar/DataAnalysisUsingPython/blob/master/DataAnalysisOnCrimeInChicago/OutputFiles/12_9_2016/22_22_45/Chicago_Crime_Analysis_Seasonality/OutputGraphs/SeasonalitySelectedCrimes:Jan2001-Present%2CPrimaryType%3DHOMICIDE.png)
-![alt tag](https://github.com/AmeyKelekar/DataAnalysisUsingPython/blob/master/DataAnalysisOnCrimeInChicago/OutputFiles/12_9_2016/22_22_45/Chicago_Crime_Analysis_Seasonality/OutputGraphs/SeasonalitySelectedCrimes:Jan2001-Present%2CPrimaryType%3DMOTOR%20VEHICLE%20THEFT.png)
-![alt tag](https://github.com/AmeyKelekar/DataAnalysisUsingPython/blob/master/DataAnalysisOnCrimeInChicago/OutputFiles/12_9_2016/22_22_45/Chicago_Crime_Analysis_Seasonality/OutputGraphs/SeasonalitySelectedCrimes:Jan2001-Present%2CPrimaryType%3DNARCOTICS.png)
-![alt tag](https://github.com/AmeyKelekar/DataAnalysisUsingPython/blob/master/DataAnalysisOnCrimeInChicago/OutputFiles/12_9_2016/22_22_45/Chicago_Crime_Analysis_Seasonality/OutputGraphs/SeasonalitySelectedCrimes:Jan2001-Present%2CPrimaryType%3DPROSTITUTION.png)
-
-**4) Chicago Crime Rates By Community Area:**
-- Crime rate in each Chicago community area
--Only 11 crime types: ASSAULT, ROBBERY, BATTERY, CRIM SEXUAL ASSAULT, HOMICIDE, ARSON, THEFT, BURGLARY, MOTOR VEHICLE THEFT, CRIMINALDAMAGE, PROSTITUTION and NARCOTICS are selected
-- Even these 11 crimes are futher sub-categorized as:
-	- **VIOLENT**: ASSAULT, ROBBERY, BATTERY, CRIM SEXUAL ASSAULT and HOMICIDE 
-	- **PROPERTY**:  ARSON', THEFT, BURGLARY and MOTOR VEHICLE THEFT
-	- **QUALITY OF LIFE**: CRIMINALDAMAGE, PROSTITUTION and NARCOTICS
-- We can clearly observe that Austin Community topped in all the crime categories. 
-- South Deering shows a consistent value for all crime categories
-- Burnside is almost zero for all  crime categories
-
-![alt tag](https://github.com/AmeyKelekar/DataAnalysisUsingPython/blob/master/DataAnalysisOnCrimeInChicago/OutputFiles/12_10_2016/3_50_39/Chicago_Crime_Analysis_ChicagoCrimeRatesByCommunityArea:2016-11-30_2016-10-31/OutputGraphs/CrimeByTypePerCommunityArea:2016-11-30_2016-10-31.png)
-![alt tag](https://github.com/AmeyKelekar/DataAnalysisUsingPython/blob/master/DataAnalysisOnCrimeInChicago/OutputFiles/12_10_2016/3_50_39/Chicago_Crime_Analysis_ChicagoCrimeRatesByCommunityArea:2016-11-30_2016-10-31/OutputGraphs/PropertyCrimePerCommunityArea:2016-11-30_2016-10-31.png)
-![alt tag](https://github.com/AmeyKelekar/DataAnalysisUsingPython/blob/master/DataAnalysisOnCrimeInChicago/OutputFiles/12_10_2016/3_50_39/Chicago_Crime_Analysis_ChicagoCrimeRatesByCommunityArea:2016-11-30_2016-10-31/OutputGraphs/QualityOfLifeCrimePerCommunityArea:2016-11-30_2016-10-31.png)
-![alt tag](https://github.com/AmeyKelekar/DataAnalysisUsingPython/blob/master/DataAnalysisOnCrimeInChicago/OutputFiles/12_10_2016/3_50_39/Chicago_Crime_Analysis_ChicagoCrimeRatesByCommunityArea:2016-11-30_2016-10-31/OutputGraphs/ViolentCrimePerCommunityArea:2016-11-30_2016-10-31.png)
 
 ## Run the code:
 ```sh
