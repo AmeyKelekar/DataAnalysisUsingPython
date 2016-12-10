@@ -42,27 +42,27 @@
 ![alt tag](https://github.com/AmeyKelekar/DataAnalysisUsingPython/blob/master/DataAnalysisOnCrimeInChicago/OutputFiles/12_9_2016/22_22_45/Chicago_Crime_Analysis_HomicidesByLocationDescription/OutputGraphs/Homicides_By_LocationDescription:Jan2001-Present.png)
 
 **2) Overall arrest rates and different arrest rate trends:**
-	- **a) Overall arrest rates:**
-	  	- The Chicago data include a dimension on arrest = true/false.
-	  	- Here we compute arrest percentage grouped by crime type.
-	  	- The result is saved in a CSV file and looks like below :
+- **a) Overall arrest rates:**
+	- The Chicago data include a dimension on arrest = true/false.
+	- Here we compute arrest percentage grouped by crime type.
+	- The result is saved in a CSV file and looks like below :
 
-	  	Primary Type						|  Arrest Percentage
-	  	------------------------------------|----------------------
-		DOMESTIC VIOLENCE					|  100
-		PROSTITUTION						|  99.60118301
-		NARCOTICS							|  99.35619284
-		PUBLIC INDECENCY					|  99.28571429
-		GAMBLING							|  99.25899537
-		LIQUOR LAW VIOLATION				|  99.07434617
-		INTERFERENCE WITH PUBLIC OFFICER	|  91.13707165
-		CONCEALED CARRY LICENSE VIOLATION	|  85.18518519
-		OBSCENITY							|  83.61858191
-		WEAPONS VIOLATION					|  80.238146
-		CRIMINAL TRESPASS					|  74.42169163
-		OTHER NARCOTIC VIOLATION			|  72.97297297
-		PUBLIC PEACE VIOLATION				|  64.1938279
-		HOMICIDE							|  48.54202401
+	Primary Type						|  Arrest Percentage
+	------------------------------------|----------------------
+	DOMESTIC VIOLENCE					|  100
+	PROSTITUTION						|  99.60118301
+	NARCOTICS							|  99.35619284
+	PUBLIC INDECENCY					|  99.28571429
+	GAMBLING							|  99.25899537
+	LIQUOR LAW VIOLATION				|  99.07434617
+	INTERFERENCE WITH PUBLIC OFFICER	|  91.13707165
+	CONCEALED CARRY LICENSE VIOLATION	|  85.18518519
+	OBSCENITY							|  83.61858191
+	WEAPONS VIOLATION					|  80.238146
+	CRIMINAL TRESPASS					|  74.42169163
+	OTHER NARCOTIC VIOLATION			|  72.97297297
+	PUBLIC PEACE VIOLATION				|  64.1938279
+	HOMICIDE							|  48.54202401
 
 
 	- **Some Observation:**
