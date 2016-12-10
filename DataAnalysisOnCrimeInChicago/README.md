@@ -15,11 +15,36 @@
 	10771468  |  HZ536986    |  12/1/16 0:00  |  084XX S KENNETH AVE |	810    |  THEFT               |  OVER $500       |  STREET	               |  FALSE  |  FALSE     |  834   |  8	        |  18	 |  70	            |  6         |  1148223	      |  1848277	   |  2016  |  12/8/16 15:55  |  41.73960892  |	 -87.73252059  |  (41.739608919, -87.732520588)
 	10770887  |  HZ536388    |  12/1/16 0:00  |  030XX N SAYRE AVE   |  820    |  THEFT               |  $500 AND UNDER  |  VEHICLE NON-COMMERCIAL |  FALSE  |  FALSE     |  2511  |  25	    |  36	 |  18	            |  6         |  1129052	      |  1919628	   |  2016  |  12/8/16 15:55  |	 41.93575385  |	 -87.80114211  |  (41.935753851, -87.80114211)
 
+## Analysis and visualization done on dataset:
+**1) Homicides by location description:**
+- Here we compute crime count for each location description.
+- The result is saved in a CSV file and looks like below :
+	index          |  Location Description  
+	---------------|------------------------
+	STREET	       |  3895      
+	AUTO	       |  985    
+	APARTMENT	   |  698 
+	ALLEY	       |  517 
+	HOUSE	       |  463
+	PORCH	       |  247
+	YARD	       |  164
+    PARKING LOT	   |  139
+    PARK PROPERTY  |  95
+    VACANT LOT	   |  93
+ 
+- **Some Observation:**
+	- Why is it called “street crime”? 
+	- By the location description, most murders appear to take place in the “street”. 
+	- A surprising amount also took place in cars. 
+	- Some of the lower-number-locations are also interesting, such as that 16 murders that happened in a vestibule.
+- The result is visualized as below:
+![alt tag](https://github.com/AmeyKelekar/DataAnalysisUsingPython/blob/master/DataAnalysisOnCrimeInChicago/OutputFiles/12_9_2016/22_22_45/Chicago_Crime_Analysis_HomicidesByLocationDescription/OutputGraphs/Homicides_By_LocationDescription:Jan2001-Present.png)
+
 ##Files: 
 I have designed 6 scripts, namely:
 
 **1) Chicago_Crime_DataCollection.py:**
-This script reads the data from the Crimes_-_2001_to_present CSV file and then performs 5 different analysis on the data. 
+- This script reads the data from the Crimes_-_2001_to_present CSV file and then performs 5 different analysis on the data. 
 
 
 **2) Chicago_Crime_Analysis_HomicidesByLocationDescription.py:**
@@ -166,11 +191,6 @@ pip install numpy
 * Everytime a new folder will be created with the current time inside today's date.
 * Community Name Collection file should be executed only once at the beginning when you first time execute this file. You will require to re-execute this file incase you delete the community name CSV. You don't have to execute thie file everytime.
 
-## Analysis and Graphs:
-**1) Homicides by location description:**
- - Why is it called “street crime”? By the location description, most murders appear to take place in the “street”. A surprising amount also took place in cars. Some of the lower-number-locations are also interesting, such as that 16 murders that happened in a vestibule.
-
- ![alt tag](https://github.com/AmeyKelekar/DataAnalysisUsingPython/blob/master/DataAnalysisOnCrimeInChicago/OutputFiles/12_9_2016/22_22_45/Chicago_Crime_Analysis_HomicidesByLocationDescription/OutputGraphs/Homicides_By_LocationDescription:Jan2001-Present.png)
 
 **2.a) Overall arrest rates:**
 - The Chicago data include a dimension on arrest = true/false. 
