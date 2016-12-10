@@ -58,6 +58,7 @@ python Chicago_Crime_DataCollection.py
 ##Standard Libraries used:
 * datetime
 * os
+* argparse
 * csv
 * json
 
@@ -66,11 +67,13 @@ Please refer the following documenation [**The Python Standard Library**][The Py
 [The Python Standard Library]: https://docs.python.org/3/library/
 
 ##External Libraries used:
-* [**requests**][requests]
-* [**simplejson**][simplejson]
+* [**matplotlib**][matplotlib]
+* [**seaborn**][seaborn]
+* [**pandas**][pandas]
 
-[requests]: http://docs.python-requests.org/en/master/
-[simplejson]: https://simplejson.readthedocs.io/en/latest/
+[matplotlib]: http://matplotlib.org/
+[seaborn]: http://seaborn.pydata.org/
+[pandas]: http://pandas.pydata.org/
 
 ## How to install External Libraries:
 **requests**
