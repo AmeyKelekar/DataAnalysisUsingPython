@@ -410,7 +410,7 @@ pip install numpy
 * The path containing the scripts will be selected as your current working directory.
 * A new folder with today's date will be created inside the folder "OutputFiles", if not present. If exists, then it will use it without creating a new one. 
 * Everytime a new folder will be created with the current time inside today's date.
-* Community Name Collection file should be executed only once at the beginning when you first time execute this file. You will require to re-execute this file incase you delete the community name CSV. You don't have to execute thie file everytime.
+* When you first execute this application/ project, Community Name Collection file should be executed only once at the beginning before executing the Data Collection File. You will require to re-execute this file, only if you delete the community name CSV. You don't have to execute this file everytime.
 
 ## Run the code:
 ```sh
