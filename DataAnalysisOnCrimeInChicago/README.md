@@ -254,6 +254,7 @@
 - Approximately 9% of the community area are blank in the Dataset, so initially I tried to find the community name using geopy library. But there is limitation to the query to get neighbourhood value and after sometime the code use to fail giving "GeocoderServiceError: [Errno 65] No route to host"
 - I also tried using googlemaps API 'http://maps.googleapis.com/maps/api/geocode/json' to get the neighbourhood values for all missing data, but again there is query limit of 2500 records per day.
 - If you pay and take developers account, even then the limit is 100000 request per day. So at the end these records were omitted for Chicago Crime Rates By Community Area Analysis.
+- Categorized and combined crime into new categories to perform Chicago Crime Rates By Community Area Analysis.
 
 ##Folder Structure:
 - **Data Collection File:** ../Chicago_Crime_DataCollection.py
