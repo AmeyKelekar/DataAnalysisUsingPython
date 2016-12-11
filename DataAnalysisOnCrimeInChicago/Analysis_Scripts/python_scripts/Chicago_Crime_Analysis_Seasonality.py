@@ -42,10 +42,10 @@ def create_graph(primary_type_list):
         #sns.set(font_scale=1.2)
         g = sns.factorplot(x="Month", y="Crimes Count", hue="Year", data= new_df2[new_df2['Primary Type'] == primary_type], size=8, aspect=2)
         g.set_xticklabels(rotation=90)
-        g.fig.suptitle('Seasonality selected crimes: Jan 2001 - present, Primary Type = %s' %(primary_type),fontsize=15)
-        g.set_xlabels(fontsize=15)
-        g.set_ylabels(fontsize=15)
-
+        g.fig.suptitle('Seasonality selected crimes: Jan 2001 - present, Primary Type = %s' %(primary_type),fontsize=20)
+        g.set_xlabels(fontsize=20)
+        g.set_ylabels(fontsize=20)
+        plt.axvspan(3.5, 7.5, color='y', alpha=0.1, label='Summer')
         plt.savefig('SeasonalitySelectedCrimes:Jan2001-Present,PrimaryType=%s.png' %(primary_type),dpi=100, facecolor='w', edgecolor='w', orientation='portrait', bbox_inches='tight')
 
 create_graph(['HOMICIDE','PROSTITUTION','ASSAULT','NARCOTICS','MOTOR VEHICLE THEFT'])

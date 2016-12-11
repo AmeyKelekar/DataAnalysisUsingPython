@@ -9,6 +9,7 @@ from Chicago_Crime_DataCollection import crime_data,dir_path,day,month,year,hour
 import os
 
 homicides_by_location_description_df= crime_data[crime_data['Primary Type'] == 'HOMICIDE']['Location Description'].value_counts().reset_index()
+homicides_by_location_description_df.columns = ['Location Description', 'Crime Count']
 
 def ensure_dir(f):
     if not os.path.exists(f):
@@ -31,21 +32,21 @@ homicides_by_location_description_df.to_csv(path_or_buf= 'HomicidesByLocationDes
 #homicides_by_location_description_df.to_csv(path_or_buf= dir_path+'/HomicidesByLocationDescription.csv',index =False)
 
 os.chdir(png_graph_path)
-#Change your figure size to be (25,100)
-plt.subplots(figsize=(25,100))
+#Change your figure size to be (25,50)
+plt.subplots(figsize=(25,50))
 #Make backround while
 sns.set_style('white')
 #every bar should have same color - windows blue
-ax = sns.barplot(x='Location Description',y='index',data= homicides_by_location_description_df,n_boot = 200, color='#3778bf')
+ax = sns.barplot(x='Crime Count',y='Location Description',data= homicides_by_location_description_df[homicides_by_location_description_df['Crime Count'] > 15],n_boot = 200, color='#3778bf')
 #change font size of ticks and labels to make them look big(Don't use deafult font size)
-ax.xaxis.get_label().set_fontsize(20)
-ax.yaxis.get_label().set_fontsize(20)
+ax.xaxis.get_label().set_fontsize(30)
+ax.yaxis.get_label().set_fontsize(30)
 ax.set_xbound(0,5000)
-ax.tick_params(axis='x',which='major',labelsize=20)
-ax.tick_params(axis='y',which='major',labelsize=20)
+ax.tick_params(axis='x',which='major',labelsize=24)
+ax.tick_params(axis='y',which='major',labelsize=24)
 #change the tilte
 ax.set_title('Homicides by location description: Jan 2001 - present')
-ax.title.set_fontsize(25)
+ax.title.set_fontsize(36)
 for p in ax.patches:
     output = str(p.get_width()) + ' | ' +  '%1.2f'%((100 * p.get_width())/len(crime_data[crime_data['Primary Type'] == 'HOMICIDE'])) + '%'
     ax.annotate(output,(p.get_width() * 1.005, p.get_y() + 0.5),fontsize=30)
