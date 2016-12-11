@@ -251,7 +251,7 @@
 - Since there is no month in the orginal CSV file, it had to be extracted from the date column for Seasonality Analysis.
 - Since there is no hour in the orginal CSV file, it had to be extracted from the date column for Crime over time Analysis.
 - Since community name(neighbourhood) is not given in the CSV file, it is fetched using the API http://crime.chicagotribune.com/api/1.0-beta1/communityarea/ and then merged with the DataFile. 
-- **geopy library:**
+- **[**geopy**] [/geopy] library:**
 	- Approximately 9% of the community area are blank in the Dataset.
 	- Initially I used the geopy library to fetch the community name corresponding to aset of coordinates (latitude and longitude)
 	- But there is a limitation to the query to get neighbourhood value and after sometime the code failed giving a service denial error: "GeocoderServiceError: [Errno 65] No route to host"
@@ -317,6 +317,7 @@ I have designed 6 scripts, namely:
 
 
 [/chicagocrime]: https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-present/ijzp-q8t2
+[/geopy]: https://pypi.python.org/pypi/geopy/1.11.0
 
 ##Run the script:
 ```sh
