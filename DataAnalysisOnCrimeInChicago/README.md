@@ -250,10 +250,16 @@
 ##Pre-exploration steps:
 - Since there is no month in the orginal CSV file, it had to be extracted from the date column for Seasonality Analysis.
 - Since there is no hour in the orginal CSV file, it had to be extracted from the date column for Crime over time Analysis.
-- Since community name(neighbourhood) is not given in the CSV file, it is fetched using the API "http://crime.chicagotribune.com/api/1.0-beta1/communityarea/" and then merged with the DataFile. 
-- Approximately 9% of the community area are blank in the Dataset, so initially I tried to find the community name using geopy library. But there is limitation to the query to get neighbourhood value and after sometime the code use to fail giving "GeocoderServiceError: [Errno 65] No route to host"
-- I also tried using googlemaps API 'http://maps.googleapis.com/maps/api/geocode/json' to get the neighbourhood values for all missing data, but again there is query limit of 2500 records per day.
-- If you pay and take developers account, even then the limit is 100000 request per day. So at the end these records were omitted for Chicago Crime Rates By Community Area Analysis.
+- Since community name(neighbourhood) is not given in the CSV file, it is fetched using the API http://crime.chicagotribune.com/api/1.0-beta1/communityarea/ and then merged with the DataFile. 
+- **geopy library:**
+	- Approximately 9% of the community area are blank in the Dataset.
+	- Initially I used the geopy library to fetch the community name corresponding to aset of coordinates (latitude and longitude)
+	- But there is a limitation to the query to get neighbourhood value and after sometime the code failed giving a service denial error: "GeocoderServiceError: [Errno 65] No route to host"
+- **googlemaps API:**
+	- Later I tried to use googlemaps API http://maps.googleapis.com/maps/api/geocode/json to get the neighbourhood values for all missing data.
+	- But again there is query limit of **2500 records per day.**
+	- If you pay and take developers account, even then the limit is **100000 request per day.**
+	- At the end these records were omitted for Chicago Crime Rates By Community Area Analysis only.
 - Categorized and combined crime into new categories to perform Chicago Crime Rates By Community Area Analysis.
 
 ##Folder Structure:
