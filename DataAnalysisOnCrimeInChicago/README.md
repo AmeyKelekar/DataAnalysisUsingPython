@@ -259,7 +259,7 @@
 	- Later I tried to use googlemaps API http://maps.googleapis.com/maps/api/geocode/json to get the neighbourhood values for all missing data.
 	- But again there is query limit of **2500 records per day.**
 	- If you pay and take developers account, even then the limit is **100000 request per day.**
-	- At the end these records were omitted for Chicago Crime Rates By Community Area Analysis only.
+	- At the end, these records were omitted for Chicago Crime Rates By Community Area Analysis only.
 - Categorized and combined crime into new categories to perform Chicago Crime Rates By Community Area Analysis.
 
 ##Folder Structure:
