@@ -65,4 +65,4 @@ f.close()
 
 os.chdir(dir_path)
 if __name__ == '__main__':
-	exec(open('Assignment2_Analysis.py').read())
+	exec(open('TwitterSearchAPI_Analysis.py').read())

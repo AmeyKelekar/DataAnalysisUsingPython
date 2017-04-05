@@ -1,8 +1,8 @@
-##Question:
+## Question:
 Use the StackExchange REST API to collect the data for stackoverflow. You are supposed to use at least 3 per-site method. 
 Perform 5 analysis on the data that you collect.
 
-##Files: 
+## Files: 
 I have designed 2 scripts, namely:
 
 **1) StackExchange_StackOver_DataCollection.py:**
@@ -27,17 +27,17 @@ This script performs 5 analysis:
 [/users/{ids}/tags]: https://api.stackexchange.com/docs/tags-on-users
 [/users/{ids}/badges]: https://api.stackexchange.com/docs/badges-on-users
 
-##Run the script:
+## Run the script:
 ```sh
 python Midterm_StackOver_DataCollection.py
 ```
 
-##Dependencies:
+## Dependencies:
 * [**python**] [python]: 3.5 or higher (prefered: Python 3.5.2 **Latest version**)
 
 [python]: https://www.python.org/downloads/release 
 
-##Standard Libraries used:
+## Standard Libraries used:
 * datetime
 * os
 * csv
@@ -49,7 +49,7 @@ Please refer the following documenation [**The Python Standard Library**][The Py
 
 [The Python Standard Library]: https://docs.python.org/3/library/
 
-##External Libraries used:
+## External Libraries used:
 * [**requests**][requests]
 * [**simplejson**][simplejson]
 
@@ -85,7 +85,7 @@ conda install simplejson
 pip install simplejson
 ```
 
-##Some important points:
+## Some important points:
 * Keep both the files: **Midterm_StackOver_DataCollection.py** and **Midterm_Analysis.py** in the same directory.
 * Run the script in the path where you store the files
 * The path containing the scripts will be selected as your current working directory.
