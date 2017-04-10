@@ -86,7 +86,7 @@ python TwitterSearchAPI_SearchAndSave.py -s "#Cricket"
 ```
 	- #Cricket: search term
 	- If you don't provide any value for analysis to be performed, by default, it will perform 'analysis 5' i.e.find out for each search term, who is the most engaged user on twitter that day
-	- **Note:** If you want to use #hashtag, include it in quotes like above. Otherwise it gets treated as two seperate strings and will give you an error "TwitterSearchAPI_SearchAndSave.py: error: argument -s/--search: expected one argument"
+	- Note: If you want to use #hashtag, include it in quotes like above. Otherwise it gets treated as two seperate strings and will give you an error "TwitterSearchAPI_SearchAndSave.py: error: argument -s/--search: expected one argument"
 
 ```sh
 python TwitterSearchAPI_SearchAndSave.py -s Cricket -a 3
@@ -99,7 +99,7 @@ python TwitterSearchAPI_SearchAndSave.py -s Cricket -a 6
 ```
 	- Cricket: search term
 	- 6: Analysis you want to perform. 
-	- **Note:** We don't have any analysis to be performed for 6. So it will display a message on the screen:" Nothing to analyze, please give numbers between 1 to 5!!!"
+	- Note: We don't have any analysis to be performed for 6. So it will display a message on the screen:" Nothing to analyze, please give numbers between 1 to 5!!!"
 
 ## Error Scenario:
 
